@@ -1,0 +1,3374 @@
+# Managed assemblies
+  Accessibility.dll
+  Ashley.MeshSplitter.dll
+  Assembly-CSharp-firstpass.dll
+  Assembly-CSharp.dll
+  com.rlabrecque.steamworks.net.dll
+  DemiLib.dll
+  DOTween.dll
+  DOTweenPro.dll
+  EpicCommon.dll
+  EpicOnlineService.dll
+  HBAO.Runtime.dll
+  HBAO.Universal.Runtime.dll
+  LightVolume.Runtime.dll
+  Managers.dll
+  Mono.Posix.dll
+  Mono.Security.dll
+  Mono.WebBrowser.dll
+  mscorlib.dll
+  netstandard.dll
+  Newtonsoft.Json.dll
+  Photon.dll
+  Photon3Unity3D.dll
+  PhotonChat.dll
+  PhotonRealtime.dll
+  PhotonUnityNetworking.dll
+  PhotonUnityNetworking.Utilities.dll
+  PhotonVoice.API.dll
+  PhotonVoice.dll
+  PhotonVoice.PUN.dll
+  PlatformProviders.dll
+  Platforms.dll
+  PortningsbolagetMemory.dll
+  pworld.dll
+  sc.posteffects.runtime.dll
+  Sirenix.OdinInspector.Attributes.dll
+  Sirenix.OdinInspector.Modules.Unity.Addressables.dll
+  Sirenix.OdinInspector.Modules.UnityLocalization.dll
+  Sirenix.Serialization.Config.dll
+  Sirenix.Serialization.dll
+  Sirenix.Utilities.dll
+  SteamCommon.dll
+  SteamManagerAssembly.dll
+  System.ComponentModel.Composition.dll
+  System.Configuration.dll
+  System.Configuration.Install.dll
+  System.Core.dll
+  System.Data.DataSetExtensions.dll
+  System.Data.dll
+  System.dll
+  System.Drawing.dll
+  System.EnterpriseServices.dll
+  System.IO.Compression.dll
+  System.IO.Compression.FileSystem.dll
+  System.IO.Hashing.dll
+  System.Memory.dll
+  System.Net.Http.dll
+  System.Numerics.dll
+  System.Runtime.CompilerServices.Unsafe.dll
+  System.Runtime.dll
+  System.Runtime.Serialization.dll
+  System.Runtime.Serialization.Formatters.Soap.dll
+  System.Security.dll
+  System.ServiceModel.Internals.dll
+  System.ServiceProcess.dll
+  System.Transactions.dll
+  System.Windows.Forms.dll
+  System.Xml.dll
+  System.Xml.Linq.dll
+  Tayx.Graphy.dll
+  unity-websocket-sharp.dll
+  Unity.Addressables.dll
+  Unity.AI.Navigation.dll
+  Unity.Animation.Rigging.dll
+  Unity.Animation.Rigging.DocCodeExamples.dll
+  Unity.Burst.dll
+  Unity.Burst.Unsafe.dll
+  Unity.Cinemachine.dll
+  Unity.Collections.dll
+  Unity.Collections.LowLevel.ILSupport.dll
+  Unity.InputSystem.dll
+  Unity.InputSystem.ForUI.dll
+  Unity.InputSystem.RebindingUI.dll
+  Unity.InternalAPIEngineBridge.004.dll
+  Unity.InternalAPIEngineBridge.013.dll
+  Unity.Localization.dll
+  Unity.Mathematics.dll
+  Unity.MemoryProfiler.dll
+  Unity.Microsoft.GDK.dll
+  Unity.Microsoft.GDK.Tools.dll
+  Unity.Multiplayer.Center.Common.dll
+  Unity.Networking.Transport.dll
+  Unity.Profiling.Core.dll
+  Unity.RenderPipeline.Universal.ShaderLibrary.dll
+  Unity.RenderPipelines.Core.Runtime.dll
+  Unity.RenderPipelines.Core.Runtime.Shared.dll
+  Unity.RenderPipelines.Core.ShaderLibrary.dll
+  Unity.RenderPipelines.GPUDriven.Runtime.dll
+  Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+  Unity.RenderPipelines.Universal.2D.Runtime.dll
+  Unity.RenderPipelines.Universal.Config.Runtime.dll
+  Unity.RenderPipelines.Universal.Runtime.dll
+  Unity.RenderPipelines.Universal.Shaders.dll
+  Unity.ResourceManager.dll
+  Unity.ScriptableBuildPipeline.dll
+  Unity.Services.Authentication.dll
+  Unity.Services.Authentication.PlayerAccounts.dll
+  Unity.Services.Core.Analytics.dll
+  Unity.Services.Core.Components.dll
+  Unity.Services.Core.Configuration.dll
+  Unity.Services.Core.Device.dll
+  Unity.Services.Core.dll
+  Unity.Services.Core.Environments.dll
+  Unity.Services.Core.Environments.Internal.dll
+  Unity.Services.Core.Internal.dll
+  Unity.Services.Core.Networking.dll
+  Unity.Services.Core.Registration.dll
+  Unity.Services.Core.Scheduler.dll
+  Unity.Services.Core.Telemetry.dll
+  Unity.Services.Core.Threading.dll
+  Unity.Services.Multiplayer.dll
+  Unity.Services.QoS.dll
+  Unity.Services.Wire.Internal.dll
+  Unity.Splines.dll
+  Unity.TextMeshPro.dll
+  Unity.Timeline.dll
+  Unity.UnifiedRayTracing.Runtime.dll
+  Unity.VisualEffectGraph.Runtime.dll
+  UnityEngine.AccessibilityModule.dll
+  UnityEngine.AdaptivePerformanceModule.dll
+  UnityEngine.AIModule.dll
+  UnityEngine.AMDModule.dll
+  UnityEngine.AndroidJNIModule.dll
+  UnityEngine.AnimationModule.dll
+  UnityEngine.ARModule.dll
+  UnityEngine.AssetBundleModule.dll
+  UnityEngine.AudioModule.dll
+  UnityEngine.ClothModule.dll
+  UnityEngine.ClusterInputModule.dll
+  UnityEngine.ClusterRendererModule.dll
+  UnityEngine.ContentLoadModule.dll
+  UnityEngine.CoreModule.dll
+  UnityEngine.CrashReportingModule.dll
+  UnityEngine.DirectorModule.dll
+  UnityEngine.dll
+  UnityEngine.DSPGraphModule.dll
+  UnityEngine.GameCenterModule.dll
+  UnityEngine.GIModule.dll
+  UnityEngine.GraphicsStateCollectionSerializerModule.dll
+  UnityEngine.GridModule.dll
+  UnityEngine.HierarchyCoreModule.dll
+  UnityEngine.HierarchyModule.dll
+  UnityEngine.HotReloadModule.dll
+  UnityEngine.IdentifiersModule.dll
+  UnityEngine.ImageConversionModule.dll
+  UnityEngine.IMGUIModule.dll
+  UnityEngine.InputForUIModule.dll
+  UnityEngine.InputLegacyModule.dll
+  UnityEngine.InputModule.dll
+  UnityEngine.InsightsModule.dll
+  UnityEngine.JSONSerializeModule.dll
+  UnityEngine.LocalizationModule.dll
+  UnityEngine.MarshallingModule.dll
+  UnityEngine.MultiplayerModule.dll
+  UnityEngine.NVIDIAModule.dll
+  UnityEngine.ParticleSystemModule.dll
+  UnityEngine.PerformanceReportingModule.dll
+  UnityEngine.Physics2DModule.dll
+  UnityEngine.PhysicsBackendPhysXModule.dll
+  UnityEngine.PhysicsModule.dll
+  UnityEngine.PropertiesModule.dll
+  UnityEngine.RenderAs2DModule.dll
+  UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
+  UnityEngine.ScreenCaptureModule.dll
+  UnityEngine.ShaderRuntimeModule.dll
+  UnityEngine.ShaderVariantAnalyticsModule.dll
+  UnityEngine.SharedInternalsModule.dll
+  UnityEngine.SpriteMaskModule.dll
+  UnityEngine.SpriteShapeModule.dll
+  UnityEngine.StreamingModule.dll
+  UnityEngine.SubstanceModule.dll
+  UnityEngine.SubsystemsModule.dll
+  UnityEngine.TerrainModule.dll
+  UnityEngine.TerrainPhysicsModule.dll
+  UnityEngine.TextCoreFontEngineModule.dll
+  UnityEngine.TextCoreTextEngineModule.dll
+  UnityEngine.TextRenderingModule.dll
+  UnityEngine.TilemapModule.dll
+  UnityEngine.TLSModule.dll
+  UnityEngine.UI.dll
+  UnityEngine.UIElementsModule.dll
+  UnityEngine.UIModule.dll
+  UnityEngine.UmbraModule.dll
+  UnityEngine.UnityAnalyticsCommonModule.dll
+  UnityEngine.UnityAnalyticsModule.dll
+  UnityEngine.UnityConnectModule.dll
+  UnityEngine.UnityConsentModule.dll
+  UnityEngine.UnityCurlModule.dll
+  UnityEngine.UnityWebRequestAssetBundleModule.dll
+  UnityEngine.UnityWebRequestAudioModule.dll
+  UnityEngine.UnityWebRequestModule.dll
+  UnityEngine.UnityWebRequestTextureModule.dll
+  UnityEngine.UnityWebRequestWWWModule.dll
+  UnityEngine.VectorGraphicsModule.dll
+  UnityEngine.VehiclesModule.dll
+  UnityEngine.VFXModule.dll
+  UnityEngine.VideoModule.dll
+  UnityEngine.VirtualTexturingModule.dll
+  UnityEngine.VRModule.dll
+  UnityEngine.WindModule.dll
+  UnityEngine.XRModule.dll
+  UnityUIExtensions.dll
+  User.dll
+  Utilities.dll
+  websocket-sharp.dll
+  Whinarn.UnityMeshSimplifier.Runtime.dll
+  XblPCSandbox.dll
+  Zorro.AutoLOD.dll
+  Zorro.ControllerSupport.dll
+  Zorro.Core.Runtime.dll
+  Zorro.JiggleBones.dll
+  Zorro.PhotonUtility.dll
+  Zorro.Settings.Runtime.dll
+  Zorro.UI.Runtime.dll
+
+# All types in Assembly-CSharp
+  _2_CODE.Network.Reconnector : Object
+  <PrivateImplementationDetails> : Object
+  <PrivateImplementationDetails>+__StaticArrayInitTypeSize=16 : ValueType
+  <PrivateImplementationDetails>+__StaticArrayInitTypeSize=20 : ValueType
+  <PrivateImplementationDetails>+__StaticArrayInitTypeSize=24 : ValueType
+  <PrivateImplementationDetails>+__StaticArrayInitTypeSize=28991 : ValueType
+  <PrivateImplementationDetails>+__StaticArrayInitTypeSize=32 : ValueType
+  <PrivateImplementationDetails>+__StaticArrayInitTypeSize=41610 : ValueType
+  <PrivateImplementationDetails>+__StaticArrayInitTypeSize=44 : ValueType
+  AchievementCLIParser : CLITypeParser
+  AchievementData : ScriptableObject
+  AchievementManager : Singleton<AchievementManager>
+  AchievementManager+<<InitAchievementRequirementData>g__InitWhenReady|27_0>d : Object
+  AchievementManager+<>c__DisplayClass29_0 : Object
+  AchievementManager+<>c__DisplayClass29_0+<<InitRunBasedValues>g__InitWhenReady|0>d : Object
+  AchievementManager+<GetUserStatsRoutine>d__34 : Object
+  AchievementManager+<StoreUserStatsRoutine>d__37 : Object
+  AchievementManager+RunBasedAchievementData : Object
+  AchievementManager+SteamStatBasedAchievementData : Object
+  AchievementManagerDebug : SerializedMonoBehaviour
+  ACHIEVEMENTTYPE : Enum
+  Action_AddOrRemoveThorns : ItemAction
+  Action_ApplyAffliction : ItemAction
+  Action_ApplyAntigrav : MonoBehaviour
+  Action_ApplyInfiniteStamina : ItemAction
+  Action_ApplyMassAffliction : Action_ApplyAffliction
+  Action_ApplySuperJump : ItemAction
+  Action_AskBingBong : ItemAction
+  Action_AskBingBong+<AskRoutine>d__22 : Object
+  Action_AskBingBong+<SubtitleRoutine>d__21 : Object
+  Action_AskBingBong+AskEvent : MulticastDelegate
+  Action_AskBingBong+BingBongResponse : Object
+  Action_Balloon : ItemAction
+  Action_BecomeSkeleton : ItemAction
+  Action_BookOfBonesAnim : MonoBehaviour
+  Action_CallScoutmaster : ItemAction
+  Action_ClearAllStatus : ItemAction
+  Action_ConstructableScoutCannonScroll : ItemActionBase
+  Action_Consume : ItemAction
+  Action_ConsumeAndSpawn : ItemAction
+  Action_ConsumeAndSpawn+<SpawnItemDelayed>d__2 : Object
+  Action_Die : ItemAction
+  Action_Flare : ItemAction
+  Action_GiveExtraStamina : ItemAction
+  Action_Guidebook : ItemAction
+  Action_GuidebookScroll : ItemActionBase
+  Action_IncrementSteamStat : ItemAction
+  Action_InflictPoison : ItemAction
+  Action_LaunchPlayer : ItemAction
+  Action_LightCandle : ItemAction
+  Action_LightLantern : ItemAction
+  Action_ModifyStatus : ItemAction
+  Action_MoraleBoost : ItemAction
+  Action_Numb : ItemAction
+  Action_OverrideCamera : ItemAction
+  Action_Parasol : ItemAction
+  Action_Passport : ItemAction
+  Action_PlayAnimation : ItemAction
+  Action_PlayItemAnimation : ItemAction
+  Action_RandomMushroomEffect : ItemAction
+  Action_RandomMushroomEffect+<RunRandomEffect>d__9 : Object
+  Action_RaycastDart : ItemAction
+  Action_ReduceUses : ItemAction
+  Action_RestoreHunger : ItemAction
+  Action_ShowBinocularOverlay : ItemAction
+  Action_Spawn : ItemAction
+  Action_SpawnGuidebookPage : ItemAction
+  Action_SpawnGuidebookPage+<SpawnPageDelayed>d__1 : Object
+  Action_StrangeGem : ItemAction
+  Action_ThrowAchievement : ItemAction
+  Action_TootMagicBugle : ItemActionBase
+  Action_Torch : OnItemStateChangedAction
+  Action_TryHotDogAchievement : ItemAction
+  Action_WarpRandomly : ItemAction
+  Action_WarpToBiome : ItemAction
+  Action_WarpToRandomPlayer : ItemAction
+  Action_WarpToRandomPlayer+<>c : Object
+  ActionManager : MonoBehaviour
+  Actions_Binoculars : ItemActionBase
+  Actions_DefaultConstructActions : ItemActionBase
+  AdditionalCookingBehavior : Object
+  AddPointAtEndOfSpline : MonoBehaviour
+  AddScreenshake : MonoBehaviour
+  AddScreenshake+<Start>d__6 : Object
+  AfflictionSyncData : ValueType
+  AirportCheckInKiosk : MonoBehaviourPun
+  AirportInviteFriendsKiosk : MonoBehaviour
+  AirportPhotoboothKiosk : MonoBehaviour
+  AirportPhotoboothKiosk+<PhotoboothRoutine>d__28 : Object
+  AmbienceAudio : MonoBehaviour
+  AmbienceManager : MonoBehaviour
+  AnimatedFunctions : MonoBehaviour
+  AnimatedMouth : MonoBehaviour
+  AnimatedShaderParameters : Object
+  AnimatedVariables : MonoBehaviour
+  AnimationJuice : MonoBehaviour
+  AnimationVFX : MonoBehaviour
+  AnimatorValues : MonoBehaviour
+  Antigrav : MonoBehaviour
+  Antlion : MonoBehaviour
+  Antlion+<>c__DisplayClass19_0 : Object
+  Antlion+<>c__DisplayClass19_0+<<Attack>g__IAttack|0>d : Object
+  AntlionSandRumbleSFX : MonoBehaviour
+  AOE : MonoBehaviour
+  AOSetting : CustomLocalizedOffOnSetting
+  ArrowShooter : MonoBehaviourPunCallbacks
+  ArrowShooter+<<FireArrowVisuals_RPC>g__Reload|33_0>d : Object
+  AscentData : SingletonAsset<AscentData>
+  AscentData+AscentInstanceData : Object
+  AscentDebug : MonoBehaviour
+  Ascents : Object
+  AscentUI : MonoBehaviour
+  AudioLevels : MonoBehaviour
+  AudioLevelSlider : MonoBehaviour
+  AudioLoop : MonoBehaviour
+  AudioModeSetting : EnumSetting<AudioMode>
+  AudioModeSetting+AudioMode : Enum
+  AutoLocalizer : MonoBehaviour
+  AvaragePosition : MonoBehaviour
+  Backpack : Item
+  Backpack+<>c : Object
+  Backpack+<>c__DisplayClass19_0 : Object
+  Backpack+<>c__DisplayClass19_0+<<RPCLightRocket>g__LightRocketRoutine|0>d : Object
+  BackPackAudio : MonoBehaviour
+  BackpackData : DataEntryValue
+  BackpackOnBackVisuals : BackpackVisuals
+  BackpackReference : ValueType
+  BackpackReference+BackpackType : Enum
+  BackpackSlot : ItemSlot
+  BackpackSlot+BackpackType : Enum
+  BackpackStabilizer : MonoBehaviour
+  BackpackVisuals : MonoBehaviour
+  BackpackWheel : UIWheel
+  BackpackWheelSlice : UIWheelSlice
+  BackpackWheelSlice+SliceData : ValueType
+  BadgeData : ScriptableObject
+  BadgeManager : MonoBehaviour
+  BadgeManager+<InitBadges>d__15 : Object
+  BadgeUI : MonoBehaviour
+  BadgeUnlocker : MonoBehaviour
+  Balloon : ItemComponent
+  Balloon+<InitColorYieldRoutine>d__12 : Object
+  BananaPeel : MonoBehaviour
+  BarAffliction : MonoBehaviour
+  BasicGrassSpawner : MonoBehaviour
+  BasicGrassSpawner+<>c : Object
+  Basketball : MonoBehaviour
+  Basketball+<DribbleRoutine>d__14 : Object
+  BasketballHoop : MonoBehaviour
+  BeachSpawner : MonoBehaviour
+  Beehive : ItemComponent
+  BeeSwarm : MonoBehaviourPun
+  BeeSwarm+<DisperseRoutine>d__46 : Object
+  Beetle : Mob
+  BerryBush : Spawner
+  BerryVine : Spawner
+  BezierRenderer : MonoBehaviour
+  Billboard : MonoBehaviour
+  BingBong : MonoBehaviour
+  BingBongAudioSwitch : MonoBehaviour
+  BingBongForceAbilities : MonoBehaviour
+  BingBongMouth : MonoBehaviour
+  BingBongPhysics : MonoBehaviour
+  BingBongPhysics+PhysicsType : Enum
+  BingBongPowers : MonoBehaviour
+  BingBongShieldWhileHolding : ItemComponent
+  BingBongSpawnTool : MonoBehaviour
+  BingBongSpawnTool+SpawnPos : Enum
+  BingBongSpawnTool+SpawnRot : Enum
+  BingBongStatus : MonoBehaviour
+  BingBongsVisuals : MonoBehaviour
+  BingBongTimeControl : MonoBehaviour
+  Biome : MonoBehaviour
+  Biome+BiomeType : Enum
+  BiomeMusicCheck : MonoBehaviour
+  BiomeSelector : MonoBehaviour
+  BiomeSelector+<>c : Object
+  BiomeSelector+BiomeOption : Object
+  BiomeVariant : MonoBehaviour
+  BoardingPass : MenuWindow
+  BoardingPass+<CloseRoutine>d__43 : Object
+  Bodypart : MonoBehaviour
+  Bodypart+FrictionType : Enum
+  BodypartType : Enum
+  Bonkable : MonoBehaviour
+  BoolItemData : DataEntryValue
+  Bot : MonoBehaviour
+  Bot+<>c : Object
+  BotBoar : MonoBehaviour
+  BotMoverRagdoll : MonoBehaviour
+  BotSpawner : MonoBehaviour
+  BotToCharacterTranslator : MonoBehaviour
+  Breakable : MonoBehaviour
+  BreakableBridge : OnNetworkStart
+  BreakableBridge+<<Fall_Rpc>g__DestroyRoutine|45_0>d : Object
+  BreakableBridge+<<ShakeBridge_Rpc>g__RockShake|44_0>d : Object
+  BreakableEgg : Breakable
+  BreakableRopeAnchor : MonoBehaviour
+  BreakableRopeAnchor+<<Update>g__Break|9_0>d : Object
+  BrokenRopeCheck : CustomSpawnCondition
+  Bugfix : MonoBehaviour
+  Bugfixer : MonoBehaviour
+  BugleEventProc : MonoBehaviour
+  BugleSFX : MonoBehaviourPun
+  BugPhobia : MonoBehaviour
+  BugPhobiaSetting : CustomLocalizedOffOnSetting
+  ButtonHoverFeedback : MonoBehaviour
+  CactusBall : StickyItemComponent
+  CameraOverride : MonoBehaviour
+  CameraOverride_Binoculars : CameraOverride
+  CameraQuad : MonoBehaviour
+  Campfire : MonoBehaviour
+  Campfire_Set_Segment : PropSpawnerMod
+  Campfire+FireState : Enum
+  CampfireSectionGroundStealer : MonoBehaviour
+  Candle : ItemComponent
+  CannibalismSetting : CustomLocalizedOffOnSetting
+  Capybara : MonoBehaviour
+  CastToGround : MonoBehaviour
+  CenterOfMass : MonoBehaviour
+  ChangeMaterialOnChildMesh : MonoBehaviour
+  Character : MonoBehaviourPun
+  Character+<<RagdollExorcism>g__ForceRagdollToChill|220_0>d : Object
+  Character+<<TestSpawnChallengeItems>g__SpawnChallengeItem|203_0>d : Object
+  Character+<>c__DisplayClass184_0 : Object
+  Character+<>c__DisplayClass184_0+<<WarpPlayer>g__IMove|0>d : Object
+  Character+CharacterRefs : Object
+  CharacterAfflictions : MonoBehaviourPunCallbacks
+  CharacterAfflictions+<>c : Object
+  CharacterAfflictions+<>c__DisplayClass103_0 : Object
+  CharacterAfflictions+<>c__DisplayClass167_0 : Object
+  CharacterAfflictions+<>c__DisplayClass172_0 : Object
+  CharacterAfflictions+<>c__DisplayClass181_0 : Object
+  CharacterAfflictions+<>c__DisplayClass181_0+<<WarnStopWhirlwindRoutine>g__WarnStopWhirlwindRoutine|0>d : Object
+  CharacterAfflictions+<>c__DisplayClass68_0 : ValueType
+  CharacterAfflictions+STATUSTYPE : Enum
+  CharacterAfflictions+WhirlwindStage : Enum
+  CharacterAnimations : MonoBehaviour
+  CharacterAnimations+<>c : Object
+  CharacterAnimations+<BackflipRoutine>d__75 : Object
+  CharacterBackpackHandler : MonoBehaviour
+  CharacterBackpackHandler+<<RPCA_Fire>g__FireRoutine|25_0>d : Object
+  CharacterBackpackHandler+<>c__DisplayClass24_0 : Object
+  CharacterBackpackHandler+<>c__DisplayClass24_0+<<RPCA_Light>g__LightRoutine|0>d : Object
+  CharacterBackpackHandler+<RefreshVisualsDelayed>d__18 : Object
+  CharacterBalloonData : Object
+  CharacterBalloons : MonoBehaviourPunCallbacks
+  CharacterCarrying : MonoBehaviour
+  CharacterClimbing : MonoBehaviour
+  CharacterCustomization : MonoBehaviour
+  CharacterCustomization+<GetCosmeticsFromSteamRoutine>d__30 : Object
+  CharacterCustomizationData : Object
+  CharacterData : MonoBehaviourPunCallbacks
+  CharacterGrabbing : MonoBehaviour
+  CharacterGrabbing+<>c__DisplayClass24_0 : Object
+  CharacterGrabbing+<>c__DisplayClass24_0+<<KickCast>g__KickRoutine|1>d : Object
+  CharacterGrabbing+<>c__DisplayClass24_0+<<KickCast>g__ParticleRoutineIDK|0>d : Object
+  CharacterHeatEmission : MonoBehaviour
+  CharacterInput : MonoBehaviour
+  CharacterInteractible : MonoBehaviour
+  CharacterItems : MonoBehaviourPunCallbacks
+  CharacterItems+<>c__DisplayClass33_0 : Object
+  CharacterItems+<>c__DisplayClass33_0+<<EquipSlot>g__TheRest|0>d : Object
+  CharacterItems+<>c__DisplayClass36_0 : Object
+  CharacterItems+<>c__DisplayClass36_0+<<Equip>g__IWait|0>d : Object
+  CharacterItems+<SubscribeRoutine>d__13 : Object
+  CharacterMovement : MonoBehaviour
+  CharacterMovement+<<RocketRPC>g__RocketRoutine|67_0>d : Object
+  CharacterMovement+<>c__DisplayClass66_0 : Object
+  CharacterMovement+<>c__DisplayClass66_0+<<DoSuperJump>g__SuperJumpRoutine|0>d : Object
+  CharacterMovement+<>c__DisplayClass70_0 : Object
+  CharacterMovement+<>c__DisplayClass70_0+<<JumpRpc>g__IDoJump|0>d : Object
+  CharacterMovement+PlayerGroundSample : ValueType
+  CharacterMovementZombie : CharacterMovement
+  CharacterRagdoll : MonoBehaviour
+  CharacterRopeHandling : MonoBehaviour
+  CharacterSpawner : MonoBehaviourPunCallbacks
+  CharacterSpawner+<>c__DisplayClass31_0 : Object
+  CharacterSpawner+<>c__DisplayClass31_0+<<SpawnDeadAtBaseCamp>g__LateConnectRoutine|0>d : Object
+  CharacterSpawner+<>c__DisplayClass35_0 : Object
+  CharacterSpawner+<>c__DisplayClass35_0+<<ReconnectingPlayerSpawn>g__ReconnectRoutine|0>d : Object
+  CharacterSpawner+<>c__DisplayClass37_0 : Object
+  CharacterSpawner+<>c__DisplayClass37_0+<<RPC_MiniRunPlayerSpawn>g__MiniRunRoutine|0>d : Object
+  CharacterSpawner+<>c__DisplayClass38_0 : Object
+  CharacterSpawner+<>c__DisplayClass38_0+<<RPC_NewPlayerSpawn>g__NewPlayerRoutine|0>d : Object
+  CharacterSpawner+<ReviveBeforeSpawn>d__24 : Object
+  CharacterSpawner+<WaitUntilCharacterInitialized>d__36 : Object
+  CharacterSpawner+SpawnFlavor : Enum
+  CharacterStats : MonoBehaviour
+  CharacterStats+SyncData : ValueType
+  CharacterSyncData : ValueType
+  CharacterSyncData+Flags : Enum
+  CharacterSyncer : PhotonBinaryStreamSerializer<CharacterSyncData>
+  CharacterVineClimbing : MonoBehaviour
+  CharacterVoiceHandler : MonoBehaviour
+  CharacterVoiceHandler+<AsyncCheckCommunicationWithUser>d__59 : Object
+  CheckpointConstructable : Constructable
+  CheckpointFlag : MonoBehaviour
+  ChessStabilizer : MonoBehaviour
+  ChildMaterialSwapper : MonoBehaviour
+  ChunkingVizBox : MonoBehaviour
+  CinemaCamera : MonoBehaviour
+  CircularTextMeshPro : MonoBehaviour
+  CitadelAmbience : MonoBehaviour
+  ClimbHandle : MonoBehaviour
+  ClimbingSpikeComponent : ItemComponent
+  ClimbModifierSurface : MonoBehaviour
+  ClimbSFX : MonoBehaviour
+  CloudAPI : Object
+  CloudAPI+<>c__DisplayClass6_0 : Object
+  CloudAPI+<>c__DisplayClass7_0 : Object
+  CloudAPI+CrossplayConfig : ValueType
+  CloudFungus : MonoBehaviour
+  CollisionMod : Object
+  CollisionModifier : MonoBehaviour
+  CollisionModifier+<>c__DisplayClass24_0 : Object
+  CollisionModifier+<>c__DisplayClass24_0+<<Collide>g__BounceRoutine|1>d : Object
+  CollisionModifier+<>c__DisplayClass24_0+<<Collide>g__IHoldPlayer|0>d : Object
+  CollisionModifier+<DisableBounceAnimator>d__26 : Object
+  ColorblindSetting : CustomLocalizedOffOnSetting
+  ColorblindVariant : MonoBehaviour
+  ColorItemData : DataEntryValue
+  CommandListener : CustomCommandListener<CustomCommandType>
+  CompassPointer : MonoBehaviour
+  CompassPointer+CompassType : Enum
+  Condor : MonoBehaviour
+  Condor+<>c__DisplayClass53_0 : Object
+  Condor+<>c__DisplayClass53_0+<<Swoop>g__SwoopRoutine|0>d : Object
+  Condor+<PullCharacterRoutine>d__50 : Object
+  Condor+CondorActionType : Enum
+  Condor+CondorState : Enum
+  ConfigurableJointExtensions : Object
+  ConnectionService : GameService
+  ConnectionService+ConnectionServiceStateMachine : StateMachine<ConnectionState>
+  ConnectionState : StateMachineState<ConnectionState>
+  Constructable : ItemComponent
+  ConstructablePreview : MonoBehaviour
+  ConstructablePreview+ConstructablePreviewAvoidanceSphere : Object
+  ControllerIconSetting : CustomLocalizedEnumSetting<IconMode>
+  ControllerIconSetting+IconMode : Enum
+  ControllerManager : Object
+  ControllerSensitivitySetting : FloatSetting
+  CookingBehavior_AddPoisonOnUse : AdditionalCookingBehavior
+  CookingBehavior_AddPoisonOnUse+<>c : Object
+  CookingBehavior_AdjustStatusInstantly : AdditionalCookingBehavior
+  CookingBehavior_ChangeAfflictionTime : AdditionalCookingBehavior
+  CookingBehavior_DisableAnimator : AdditionalCookingBehavior
+  CookingBehavior_DisableScripts : AdditionalCookingBehavior
+  CookingBehavior_EarlyWorm : AdditionalCookingBehavior
+  CookingBehavior_EnableDisableObjects : AdditionalCookingBehavior
+  CookingBehavior_EnableScripts : AdditionalCookingBehavior
+  CookingBehavior_Explode : AdditionalCookingBehavior
+  CookingBehavior_MessUpAudio : AdditionalCookingBehavior
+  CookingBehavior_ModifyAudioSourcePitch : AdditionalCookingBehavior
+  CookingBehavior_ModifyBugleWobble : AdditionalCookingBehavior
+  CookingBehavior_ModifyEtcStats : AdditionalCookingBehavior
+  CookingBehavior_ReplaceItem : AdditionalCookingBehavior
+  CookingBehavior_RunActions : AdditionalCookingBehavior
+  CookingBehavior_SummonScoutmaster : AdditionalCookingBehavior
+  CookingBehavior_Wreck : AdditionalCookingBehavior
+  CosmeticUnlockWindow : MenuWindow
+  CovarageToVolume : MonoBehaviour
+  CoverageToVolume : MonoBehaviour
+  Crab.Network.IMatchmakingAPI : 
+  Crab.Network.IMatchMakingEvents : 
+  Crab.Network.INetworkRoomEvents : 
+  Crab.Network.IRelayAPI : 
+  Crab.Network.IRelayEvents : 
+  Crab.Network.PhotonCallbackTarget : Object
+  Crab.Network.PhotonRoomEvents : Object
+  Crab.Network.PhotonShim : PhotonShim
+  CrossPlatformSetting : CustomLocalizedOffOnSetting
+  CSVReader : Object
+  CursedSkullVFX : ItemVFX
+  CursorAnimation : MonoBehaviour
+  CursorHandler : Singleton<CursorHandler>
+  CustomCommandType : Enum
+  Customization : Singleton<Customization>
+  Customization+Type : Enum
+  CustomizationOption : ScriptableObject
+  CustomizationOption+CUSTOMREQUIREMENT : Enum
+  CustomizationRefs : MonoBehaviour
+  CustomLocalizedEnumSetting`1 : EnumSetting<T>
+  CustomLocalizedEnumSetting`1+<>c : Object
+  CustomLocalizedOffOnSetting : OffOnSetting
+  CustomLocalizedOffOnSetting+<>c : Object
+  CustomOptionBase : MonoBehaviour
+  CustomOptionButtonHelper : MonoBehaviour
+  CustomOptionItemToggle : CustomOptionBase
+  CustomOptionMulti : CustomOptionBase
+  CustomOptionsWindow : MenuWindow
+  CustomOptionToggle : CustomOptionBase
+  CustomOptionTooltip : MonoBehaviour
+  CustomSettingsSaveLoad : Object
+  CustomSpawnCondition : MonoBehaviour
+  CustomTypeRPCSerialization : Object
+  CutsceneShake : MonoBehaviour
+  DataEntryKey : Enum
+  DataEntryValue : Object
+  DayNightManager : MonoBehaviour
+  DayNightManager+<>c__DisplayClass47_0 : Object
+  DayNightManager+<>c__DisplayClass47_0+<<BlendProfiles>g__blendRoutine|0>d : Object
+  DayNightManager+ShaderParameters : Object
+  DayNightManager+ShaderParams : Enum
+  DayNightProfile : ScriptableObject
+  DebugAddForce : ItemComponent
+  DebugDisableBasedOnSetting`1 : MonoBehaviour
+  DebugFogPoints : MonoBehaviour
+  DebugItemSpawner : MonoBehaviour
+  DebugItemSpawner+<Start>d__0 : Object
+  DebugMainMenu : MonoBehaviour
+  DebugRopeSpawner : MonoBehaviour
+  DebugSpawner : MonoBehaviour
+  DebugStep : MonoBehaviour
+  DebugStep+StepType : Enum
+  DebugVoiceTester : MonoBehaviour
+  DebugWindThreshold : MonoBehaviour
+  DebugWindThreshold+WindNode : Object
+  DecorSpawner : LevelGenStep
+  DecorSpawner+<Execute>d__7 : Object
+  DecorSpawner+<Spawn>d__8 : Object
+  DefaultConnectionState : ConnectionState
+  DeferredStepTiming : Enum
+  DemoScript : MonoBehaviour
+  DemoScript+RotationAxes : Enum
+  DesertRockSpawner : LevelGenStep
+  DesertRockSpawner+<Execute>d__7 : Object
+  DestroyAfterTime : MonoBehaviour
+  DestroyBasedOnPlayerCount : MonoBehaviourPun
+  DestroyBasedOnPlayerCount+<Start>d__1 : Object
+  DestroyFlareDuringAscentChallenge : MonoBehaviourPun
+  DestroyFlareDuringAscentChallenge+<Start>d__0 : Object
+  DestroyObject : MonoBehaviour
+  DevMessageUI : MonoBehaviour
+  DialogueEffect : MonoBehaviour
+  DisableBasedOnRunSettings : MonoBehaviour
+  DisableIfEditor : MonoBehaviour
+  DisableIfNonBeta : MonoBehaviour
+  DisableIfPhotosensitive : MonoBehaviour
+  DisableIfWindActive : MonoBehaviour
+  DisableIKBehavior : StateMachineBehaviour
+  DIsableOnEnable : MonoBehaviour
+  DisconnectingState : ConnectionState
+  DispelFogField : MonoBehaviour
+  DistanceCheck : MonoBehaviour
+  DrawPool : Object
+  DynamicBone : MonoBehaviour
+  DynamicBone+FreezeAxis : Enum
+  DynamicBone+Particle : Object
+  DynamicBone+UpdateMode : Enum
+  DynamicBoneCollider : DynamicBoneColliderBase
+  DynamicBoneColliderBase : MonoBehaviour
+  DynamicBoneColliderBase+Bound : Enum
+  DynamicBoneColliderBase+Direction : Enum
+  DynamicBonePlaneCollider : DynamicBoneColliderBase
+  DynamicGridCellSizer : MonoBehaviour
+  DynamicResolution : MonoBehaviour
+  Dynamite : ItemComponent
+  EmoteWheel : UIWheel
+  EmoteWheelData : ScriptableObject
+  EmoteWheelSlice : UIWheelSlice
+  EmptySprite : Object
+  EnabledRandom : MonoBehaviour
+  EnableMusic : MonoBehaviour
+  EnablingSubstep : MonoBehaviour
+  EndCutsceneScoutHelper : MonoBehaviour
+  EndgameCounter : MonoBehaviour
+  EndScreen : MenuWindow
+  EndScreen+<>c : Object
+  EndScreen+<AscentRoutine>d__47 : Object
+  EndScreen+<AscentsUnlockRoutine>d__67 : Object
+  EndScreen+<BadgeRoutine>d__49 : Object
+  EndScreen+<CosmeticUnlockRoutine>d__66 : Object
+  EndScreen+<EndSequenceRoutine>d__43 : Object
+  EndScreen+<PromotionUnlockRoutine>d__68 : Object
+  EndScreen+<TimelineRoutine>d__45 : Object
+  EndScreen+PipData : ValueType
+  EndScreen+TimelineInfo : ValueType
+  EndScreen+TimelineNote : Enum
+  EndScreenScoutWindow : MonoBehaviour
+  EndScreenStatus : GameStatus
+  EruptionSpawner : MonoBehaviour
+  EventOnItemCollision : ItemComponent
+  ExecuteDeferredStepList : ValueType
+  ExplosionEffect : MonoBehaviour
+  ExplosionEffect+<<Start>g__IExplode|12_0>d : Object
+  ExplosionOrb : ValueType
+  Extens : Object
+  ExtraFovSetting : FloatSetting
+  EyeBlinkController : MonoBehaviour
+  FadeIn : MonoBehaviour
+  FadeSFX : MonoBehaviour
+  FakeCursor : MonoBehaviour
+  FakeItem : MonoBehaviour
+  FakeItemManager : MonoBehaviourPunCallbacks
+  FakeItemManager+FakeItemData : ValueType
+  FakeItemSticky : FakeItem
+  FallAudio : MonoBehaviour
+  FallPost : MonoBehaviour
+  FeedData : Object
+  FireWoodItem : MonoBehaviour
+  Flare : ItemComponent
+  FloatItemData : DataEntryValue
+  Fog : MonoBehaviour
+  FogConfig : MonoBehaviour
+  FogCutoutHandler : MonoBehaviour
+  FogCutoutHandler+<>c__DisplayClass7_0 : Object
+  FogCutoutHandler+<>c__DisplayClass7_0+<<setFogCutoutZone>g__changeZoneRoutine|0>d : Object
+  FogCutoutZone : MonoBehaviour
+  FogSphere : MonoBehaviour
+  FogSphereOrigin : MonoBehaviour
+  FollowBodypart : MonoBehaviour
+  FollowSceneCam1 : MonoBehaviour
+  FollowTransform : MonoBehaviour
+  FontFallbackSwapper : MonoBehaviour
+  FootStepPlayer : MonoBehaviour
+  FovSetting : FloatSetting
+  FPSCapSetting : FloatSetting
+  FreeModifier : ProceduralImageModifier
+  FRILerp : MonoBehaviour
+  Frisbee : MonoBehaviour
+  FrogTongue : Mob
+  FrogTongue+<<OnItemThrown>g__CheckThrowRoutine|51_0>d : Object
+  FrogTongue+<>c__DisplayClass64_0 : Object
+  FrogTongue+<>c__DisplayClass64_0+<<Attack>g__LickRoutine|0>d : Object
+  FrogTongue+<>c__DisplayClass64_0+<<Attack>g__ThrowRoutine|1>d : Object
+  FrogTongue+<JumpRoutine>d__63 : Object
+  FrogTongue+FrogActionType : Enum
+  FullscreenEnumSetting : Setting
+  FullscreenEnumSetting+<>c : Object
+  GameBooter : Object
+  GamefeelHandler : MonoBehaviour
+  GameHandler : MonoBehaviour
+  GameHandler+<>c : Object
+  GameHandler+<>c__DisplayClass28_0 : Object
+  GameHandler+<>c__DisplayClass42_0 : Object
+  GameHandler+<Awake>d__28 : ValueType
+  GameHandler+<JoinRoomViaInvite>d__42 : Object
+  GameHandler+<WaitForInitialization>d__34 : ValueType
+  GameOverHandler : Singleton<GameOverHandler>
+  GameService : Object
+  GameStatus : Object
+  GameUtils : MonoBehaviourPunCallbacks
+  GameUtils+<>c__DisplayClass12_0 : Object
+  GameUtils+<Start>d__10 : Object
+  GameUtils+IgnoredCollidersEntry : Object
+  GhostFire : GloomSafeZone
+  GhostFire+<<RPC_SetLit>g__SafeZoneShaderRoutine|10_0>d : Object
+  GiantTreeAchievementZone : MonoBehaviour
+  GizmoInstance : Object
+  Glider : MonoBehaviour
+  GlobalEvents : Object
+  GlobalStatusEffects : MonoBehaviour
+  GlobalStatusEffects+Effect : Object
+  GodCam : Object
+  GoToAirport : MonoBehaviour
+  GoToURL : MonoBehaviour
+  GrassChunk : GrassDataProvider
+  GrassChunking : Object
+  GrassDataProvider : MonoBehaviour
+  GrassPoint : ValueType
+  GrassRenderer : MonoBehaviour
+  GroundPlaceSpawner : Spawner
+  Guidebook : Item
+  GuidebookPage : MonoBehaviour
+  GuidebookSpread : MonoBehaviour
+  GUIManager : MonoBehaviour
+  GUIManager+<<TheFogRises>g__FogRisesRoutine|219_0>d : Object
+  GUIManager+<<TheGhostsRise>g__FogRisesRoutine|222_0>d : Object
+  GUIManager+<<TheGloomRises>g__FogRisesRoutine|221_0>d : Object
+  GUIManager+<<TheLavaRises>g__FogRisesRoutine|220_0>d : Object
+  GUIManager+<>c__DisplayClass152_0 : Object
+  GUIManager+<>c__DisplayClass152_1 : Object
+  GUIManager+<>c__DisplayClass152_2 : Object
+  GUIManager+<>c__DisplayClass154_0 : Object
+  GUIManager+<>c__DisplayClass154_0+<<SetHeroTitle>g__HeroRoutine|0>d : Object
+  GUIManager+<>c__DisplayClass195_0 : Object
+  GUIManager+<ScreenshotRoutine>d__178 : Object
+  GUIManager+MenuWindowEvent : MulticastDelegate
+  HandBoss : MonoBehaviour
+  HandVisual : MonoBehaviour
+  HeadBobSetting : CustomLocalizedOffOnSetting
+  HeightmapMesh : MonoBehaviour
+  HelperExtensions : Object
+  HelperFunctions : MonoBehaviour
+  HelperFunctions+<>c__42`1 : Object
+  HelperFunctions+LayerType : Enum
+  HideRoomCodeSetting : CustomLocalizedOffOnSetting
+  HideTheBody : MonoBehaviour
+  HostState : ConnectionState
+  HotSun : MonoBehaviour
+  Hurtbox : MonoBehaviour
+  IcicleCheck : CustomSpawnCondition
+  IcicleCheck+<>c__DisplayClass3_0 : Object
+  ICollisionModifierEvent : 
+  IConditionalSetting : 
+  IconGenerator : MonoBehaviour
+  IDeferredStep : 
+  IGenConfigStep : 
+  IInteractible : 
+  IInteractibleConstant : 
+  ILevelGenFinalizer : 
+  ILevelGenStep : 
+  IllegalScreenEffect : MonoBehaviour
+  IMayHaveDeferredStep : 
+  InjurySphere : MonoBehaviour
+  InLineInputPrompts : MonoBehaviour
+  InputIcon : MonoBehaviour
+  InputIconData : MonoBehaviour
+  InputSpriteData : SingletonAsset<InputSpriteData>
+  InputSpriteData+InputAction : Enum
+  InRoomState : ConnectionState
+  Interaction : MonoBehaviour
+  Interaction+<>c__DisplayClass30_0 : ValueType
+  IntItemData : DataEntryValue
+  InventoryItemUI : MonoBehaviour
+  InventorySyncData : ValueType
+  InventorySyncData+SlotData : ValueType
+  InvertXSetting : CustomLocalizedOffOnSetting
+  InvertYSetting : CustomLocalizedOffOnSetting
+  InZoneWarning : MonoBehaviour
+  IRichPresence : 
+  IsDisconnectingForOfflineMode : GameStatus
+  IsDisconnectingForRegionSwap : GameStatus
+  IsLookedAt : MonoBehaviour
+  ISpawner : 
+  Item : MonoBehaviourPunCallbacks
+  Item+<<Awake>g__DefaultPosRoutine|86_0>d : Object
+  Item+<>c : Object
+  Item+<ConsumeDelayed>d__174 : Object
+  Item+ItemTags : Enum
+  Item+ItemUIData : Object
+  ItemAction : ItemActionBase
+  ItemActionBase : MonoBehaviourPun
+  ItemAudioManager : MonoBehaviour
+  ItemBackpackVisuals : BackpackVisuals
+  ItemCLIParser : CLITypeParser
+  ItemComponent : MonoBehaviourPunCallbacks
+  ItemCooking : ItemComponent
+  ItemCooking+<>c : Object
+  ItemCooking+NetworkedCooking : Enum
+  ItemDatabase : ObjectDatabaseAsset<ItemDatabase,Item>
+  ItemDatabase+<>c : Object
+  ItemImpactSFX : MonoBehaviour
+  ItemInit : 
+  ItemInstanceData : Object
+  ItemInstanceDataDebugPage : DebugPage
+  ItemInstanceDataHandler : RetrievableSingleton<ItemInstanceDataHandler>
+  ItemInstanceDataUICell : VisualElement
+  ItemMoveZone : MonoBehaviour
+  ItemParticles : MonoBehaviour
+  ItemPhysicsSyncData : ValueType
+  ItemPhysicsSyncer : PhotonBinaryStreamSerializer<ItemPhysicsSyncData>
+  ItemRarityOverride : Object
+  ItemRenderFeatureManager : MonoBehaviour
+  ItemScaleSyncer : ItemComponent
+  ItemSlot : Object
+  ItemState : Enum
+  ItemTorch : MonoBehaviour
+  ItemUseFeedback : MonoBehaviour
+  ItemVFX : MonoBehaviour
+  IValidationConstraint : 
+  JetpackItem : ItemComponent
+  JoinRoomPun : MonoBehaviourPunCallbacks
+  JoinSpecificRoomState : ConnectionState
+  JumpToClimbSetting : CustomLocalizedOffOnSetting
+  JungleVine : CustomSpawnCondition
+  JungleVine+ColliderType : Enum
+  JustEvent : MonoBehaviour
+  KickedState : ConnectionState
+  KickedState+<>c : Object
+  KnockOutPlayerOnImpact : ItemComponent
+  Knot.AlignWithSpline : MonoBehaviour
+  Knot.AlignWithSpline+TiedKnot : Object
+  Knot.AlignWithSpline+TiedKnot+KnotPoint : Object
+  Knot.KnotMaker : MonoBehaviour
+  Knot.KnotMaker+<>c : Object
+  Knot.KnotMaker+<>c__DisplayClass13_0 : ValueType
+  Knot.KnotMaker+<>c__DisplayClass13_1 : Object
+  Knot.KnotTemplate : MonoBehaviour
+  Knot.KnotTieText : MonoBehaviour
+  Knot.KnotUnmaker : MonoBehaviour
+  Knot.TiedKnotVisualizer : MonoBehaviour
+  Knot.TiedKnotVisualizer+<>c : Object
+  Knot.TiedKnotVisualizer+KnotPart : ValueType
+  KnotTemplateBoss : MonoBehaviour
+  LandImpactAudio : MonoBehaviour
+  LanguageSetting : CustomLocalizedEnumSetting<Language>
+  Lantern : ItemComponent
+  LanternLight : MonoBehaviour
+  Lava : MonoBehaviour
+  Lava+<IHoldPlayer>d__14 : Object
+  LavaPost : MonoBehaviour
+  LavaPost+<lavaMove>d__18 : Object
+  LavaRising : MonoBehaviourPunCallbacks
+  LavaRising+<<ActivateRisingSouls>g__BlendFogOnRoutine|50_0>d : Object
+  LavaRising+RisingFieldType : Enum
+  LavaRiver : CustomSpawnCondition
+  LavaRiver+<>c__DisplayClass25_0 : ValueType
+  LavaRiver+LavaRiverFrame : Object
+  LavaRiverSFXPos : MonoBehaviour
+  LavaTides : MonoBehaviour
+  LazyGizmo : MonoBehaviour
+  LevelGeneration : MonoBehaviour
+  LevelGeneration+<Generate>d__7 : ValueType
+  LevelGenStep : MonoBehaviour
+  LightCuller : MonoBehaviour
+  LightCuller+<LightCullRoutine>d__6 : Object
+  LightingCollider : MonoBehaviour
+  LineTest : MonoBehaviour
+  LoadingScreen : MonoBehaviour
+  LoadingScreen+<LoadingRoutine>d__10 : Object
+  LoadingScreen+<RunProcess>d__12 : Object
+  LoadingScreen+LoadingScreenType : Enum
+  LoadingScreenAnimation : MonoBehaviour
+  LoadingScreenAnimationSimple : MonoBehaviour
+  LoadingScreenAnimationSimple+<AnimateRoutine>d__3 : Object
+  LoadingScreenHandler : RetrievableResourceSingleton<LoadingScreenHandler>
+  LoadingScreenHandler+<LoadingRoutine>d__17 : Object
+  LoadingScreenHandler+<LoadSceneProcess>d__18 : Object
+  LoadingScreenHandler+<LoadSceneProcessNetworked>d__19 : Object
+  LoadingScreenHandler+<LoadSceneProcessOffline>d__20 : Object
+  LoadingScreenHandler+<WaitForCharacterSpawn>d__21 : Object
+  LobbyTypeSetting : CustomLocalizedEnumSetting<LobbyType>
+  LobbyTypeSetting+LobbyType : Enum
+  LocalizedText : MonoBehaviour
+  LocalizedText+<>c : Object
+  LocalizedText+FontStyle : Enum
+  LocalizedText+Language : Enum
+  LocalPlayerEvent : MonoBehaviour
+  LocalPlayerRenderer : MonoBehaviour
+  LocalTopColor : MonoBehaviour
+  LodQuality : CustomLocalizedEnumSetting<Quality>
+  LodQuality+Quality : Enum
+  LoginResponse : Object
+  LogoCombineSequence : MonoBehaviour
+  Looker : MonoBehaviour
+  LookerSetting : CustomLocalizedOffOnSetting
+  LootData : MonoBehaviour
+  LootData+<>c : Object
+  LootData+<>c__DisplayClass12_0 : Object
+  Luggage : Spawner
+  Luggage+<<OpenImmediatelyNoNotify>g__WaitForRoomAndOpen|30_0>d : Object
+  Luggage+<<OpenLuggageRPC>g__OpenLaterRoutine|17_1>d : Object
+  Luggage+<<OpenLuggageRPC>g__SpawnItemRoutine|17_0>d : Object
+  Luggage+LuggageState : Enum
+  LuggageCursed : Luggage
+  MagicBean : ItemComponent
+  MagicBeanVine : MonoBehaviour
+  MagicBugle : ItemComponent
+  MainCamera : MonoBehaviour
+  MainCameraMovement : Singleton<MainCameraMovement>
+  MainMenu : MonoBehaviour
+  MainMenu+<DisconnectForOfflineMode>d__23 : Object
+  MainMenu+<StartOfflineModeRoutine>d__24 : Object
+  MainMenuFirstTimeSetupPage : UIPage
+  MainMenuJoinRoomPage : UIPage
+  MainMenuJoinRoomPage+<>c__DisplayClass13_0 : Object
+  MainMenuJoinRoomPage+<>c__DisplayClass18_0 : Object
+  MainMenuJoinRoomPage+<JoinRoomAndWaitForSpawn>d__20 : Object
+  MainMenuJoinRoomPage+<JoinRoomInRegion>d__18 : Object
+  MainMenuJoinRoomPage+<WaitForPhotonState>d__21 : Object
+  MainMenuMainPage : UIPage
+  MainMenuMainPage+<>c : Object
+  MainMenuPageHandler : UIPageHandler
+  MainMenuPageHandler+<<ConnectToNetwork>g__Timeout|12_0>d : Object
+  MainMenuPageHandler+<>c : Object
+  MainMenuPageSelector : UIPageHandlerStartPageSelector
+  MainMenuPlayPage : UIPage
+  MainMenuSettingsPage : UIPage
+  Mandrake : ItemComponent
+  Mandrake+<ScreamRoutine>d__29 : Object
+  Mandrake+<Start>d__22 : Object
+  MandrakeScreamFX : MonoBehaviour
+  MapBaker : SingletonAsset<MapBaker>
+  MapBaker+BiomeResult : Object
+  MapBaker+MapBakeReport : ValueType
+  MapDebugUI : MonoBehaviour
+  MapDebugUI+<StartInitialization>d__30 : Object
+  MapGenerationStage : MonoBehaviour
+  MapGenerationStage+GenerationNode : Object
+  MapGenerationStage+GenerationProximityPassData : Object
+  MapGenerationStage+SpawnMode : Enum
+  MapGenerator : MonoBehaviour
+  MapHandler : Singleton<MapHandler>
+  MapHandler+<>c : Object
+  MapHandler+<>c__DisplayClass60_0 : Object
+  MapHandler+<>c__DisplayClass60_0+<<GoToSegment>g__ShowNextSegmentCoroutine|0>d : Object
+  MapHandler+<>c__DisplayClass60_1 : Object
+  MapHandler+<>c__DisplayClass60_1+<<GoToSegment>g__ShowTitleText|3>d : Object
+  MapHandler+<get_ItemsAroundCampfire>d__52 : Object
+  MapHandler+<GoToVoidRoutine>d__62 : Object
+  MapHandler+MapSegment : Object
+  MasterVolumeSetting : VolumeSetting
+  MatAndID : Object
+  MaterialLayerSwapper : MonoBehaviour
+  MaterialSetter : MonoBehaviour
+  MenuWindow : MonoBehaviour
+  MenuWindowTabbed : MenuWindow
+  MicrophoneSetting : Setting
+  MicrophoneSetting+<>c : Object
+  MicrophoneSetting+<>c__DisplayClass3_0 : Object
+  MicrophoneSetting+MicrophoneInfo : ValueType
+  Microsoft.CodeAnalysis.EmbeddedAttribute : Attribute
+  Mirage : MonoBehaviour
+  Mirage+<<setParticleData>g__particleDataRoutine|11_0>d : Object
+  Mirage+<HideObject>d__10 : Object
+  MirageLuggage : MonoBehaviour
+  MirageManager : MonoBehaviour
+  Mirror : MonoBehaviour
+  MirrorCameraScript : MonoBehaviour
+  MirrorReflection : MonoBehaviour
+  MirrorReflectionScript : MonoBehaviour
+  MirrorScript : MonoBehaviour
+  Mob : MonoBehaviourPunCallbacks
+  Mob+MobState : Enum
+  MobItem : Item
+  MobItemPhysicsSyncer : ItemPhysicsSyncer
+  MobManager : MonoBehaviour
+  MoraleBoost : Object
+  MountainProgressHandler : Singleton<MountainProgressHandler>
+  MountainProgressHandler+<>c__DisplayClass14_0 : Object
+  MountainProgressHandler+<>c__DisplayClass17_0 : Object
+  MountainProgressHandler+<>c__DisplayClass17_0+<<DisplaySegmentTitleAfterDelay>g__ShowTitleLater|0>d : Object
+  MountainProgressHandler+ProgressPoint : Object
+  MouseSensitivitySetting : FloatSetting
+  MovementModificationVolume : MovementModifier
+  MovementModifier : MonoBehaviour
+  MoveTransform : MonoBehaviour
+  MovingLava : MonoBehaviour
+  MultipleGroundPoints : CustomSpawnCondition
+  MultipleGroundPoints+<>c__DisplayClass10_0 : Object
+  MushroomBounceBadgeTracker : MonoBehaviour
+  MushroomBounceBadgeTracker+<TestAchievementRoutine>d__3 : Object
+  MushroomManager : LevelGenStep
+  MushroomManager+<Execute>d__9 : Object
+  MushroomZombie : MonoBehaviourPunCallbacks
+  MushroomZombie+<AwakeRoutine>d__67 : Object
+  MushroomZombie+<RevealZombie>d__82 : Object
+  MushroomZombie+<ZombieGrunts>d__61 : Object
+  MushroomZombie+State : Enum
+  MushroomZombieBiteCollider : MonoBehaviour
+  MushroomZombieSpawner : MonoBehaviour
+  MusicVolumeSetting : VolumeSetting
+  MyresAmbience : MonoBehaviour
+  Navigator : MonoBehaviour
+  NavJumper : MonoBehaviour
+  NavJumper+<>c : Object
+  NavPoint : MonoBehaviour
+  NavPoints : MonoBehaviour
+  NetworkConnector : MonoBehaviourPunCallbacks
+  NetworkConnector+<>c : Object
+  NetworkConnector+<>c__DisplayClass30_0 : Object
+  NetworkConnector+<>c__DisplayClass34_0 : Object
+  NetworkConnector+<KeepSettingLobbyData>d__18 : Object
+  NetworkedObjectSpawner : MonoBehaviour
+  NetworkStats : Singleton<NetworkStats>
+  NetworkStats+<>c : Object
+  NetworkStatsPage : DebugPage
+  NetworkStatsPage+<>c : Object
+  NextLevelService : GameService
+  NextLevelService+NextLevelData : ValueType
+  NextLevelService+NextLevelData+<>c : Object
+  NextLevelUI : MonoBehaviour
+  NicksButtonSFX : MonoBehaviour
+  NoParent : MonoBehaviour
+  NoRichPresence : Object
+  OnItemStateChangedAction : ItemActionBase
+  OnlyOneEdgeModifier : ProceduralImageModifier
+  OnlyOneEdgeModifier+ProceduralImageEdge : Enum
+  OnNetworkStart : MonoBehaviourPunCallbacks
+  OptionableBoolItemData : DataEntryValue
+  OptionableIntItemData : DataEntryValue
+  OrbFogHandler : Singleton<OrbFogHandler>
+  OrbFogHandler+<DisableFog>d__36 : Object
+  OrbFogHandler+<WaitForFogCatchUp>d__34 : Object
+  OrbFogHandler+<WaitForReveal>d__35 : Object
+  OrbThatMakesYouSleepy : MonoBehaviour
+  PackpackHover : MonoBehaviour
+  Parachute : MonoBehaviour
+  Parachute+<<Close>g__CloseRoutine|6_0>d : Object
+  Parasol : MonoBehaviour
+  ParticleCountCuller : MonoBehaviour
+  ParticleCuller : MonoBehaviour
+  ParticleManager : MonoBehaviour
+  ParticleSystemCenter : MonoBehaviour
+  PassOutPost : MonoBehaviour
+  PassportButton : MonoBehaviour
+  PassportManager : MenuWindow
+  PassportManager+<CloseRoutine>d__43 : Object
+  PassportTab : MonoBehaviour
+  PatrolBoss : MonoBehaviour
+  PauseBadgesMenu : MonoBehaviour
+  PauseMainMenu : MenuWindow
+  PauseMenuAccoladesPage : UIPage
+  PauseMenuConfirmPage : UIPage
+  PauseMenuControlsPage : UIPage
+  PauseMenuHandler : UIPageHandler
+  PauseMenuMainPage : UIPage
+  PauseMenuRebindButton : MonoBehaviour
+  PauseMenuRebindKeyPage : UIPage
+  PauseMenuRebindKeyPage+<ReturnRoutine>d__13 : Object
+  PauseMenuSettingsMenuPage : UIPage
+  Peak.Action_Antizooka : ItemAction
+  Peak.Action_Antizooka+<<RPCA_Shoot>g__JuiceRoutine|13_0>d : Object
+  Peak.Action_CloneSelectedItem : ItemAction
+  Peak.Action_HealingGem : ItemAction
+  Peak.Action_LightRocketPack : ItemAction
+  Peak.Action_RaycastSpawnSomething : ItemAction
+  Peak.Action_SacrificeFriend : ItemAction
+  Peak.Action_SuperJumpAmulet : Action_ApplyAffliction
+  Peak.Action_WarpToShadowRealm : Action_WarpToBiome
+  Peak.AddCinematicScreenShake : MonoBehaviour
+  Peak.Afflictions.Affliction : Object
+  Peak.Afflictions.Affliction_AddBonusStamina : Affliction
+  Peak.Afflictions.Affliction_AdjustColdOverTime : Affliction
+  Peak.Afflictions.Affliction_AdjustDrowsyOverTime : Affliction
+  Peak.Afflictions.Affliction_AdjustStatus : Affliction
+  Peak.Afflictions.Affliction_AdjustStatusOverTime : Affliction
+  Peak.Afflictions.Affliction_BingBongShield : Affliction
+  Peak.Afflictions.Affliction_Blind : Affliction
+  Peak.Afflictions.Affliction_Chaos : Affliction
+  Peak.Afflictions.Affliction_ClearAllStatus : Affliction
+  Peak.Afflictions.Affliction_ClimbingChalk : Affliction
+  Peak.Afflictions.Affliction_DoubleJumpAmulet : Affliction
+  Peak.Afflictions.Affliction_Exhaustion : Affliction
+  Peak.Afflictions.Affliction_FasterBoi : Affliction
+  Peak.Afflictions.Affliction_Glowing : Affliction
+  Peak.Afflictions.Affliction_HealAll : Affliction
+  Peak.Afflictions.Affliction_InfiniteStamina : Affliction
+  Peak.Afflictions.Affliction_Invincibility : Affliction
+  Peak.Afflictions.Affliction_LowGravity : Affliction
+  Peak.Afflictions.Affliction_MassSuperJump : Affliction
+  Peak.Afflictions.Affliction_NoHunger : Affliction
+  Peak.Afflictions.Affliction_Numb : Affliction
+  Peak.Afflictions.Affliction_PoisonOverTime : Affliction
+  Peak.Afflictions.Affliction_PreventPoisonHealing : Affliction
+  Peak.Afflictions.Affliction_RadiateInfiniteStam : Affliction
+  Peak.Afflictions.Affliction_Sunscreen : Affliction
+  Peak.Afflictions.Affliction_ZombieBite : Affliction
+  Peak.Afflictions.Affliction+AfflictionType : Enum
+  Peak.AmuletBase : ItemComponent
+  Peak.AntiSphere : MonoBehaviour
+  Peak.AntiSphere+<AddEnterExitForce>d__27 : Object
+  Peak.AntiSphere+<ReduceAntigravRoutine>d__26 : Object
+  Peak.ArrowOnMe : ThornOnMe
+  Peak.BreakableHelper : MonoBehaviour
+  Peak.Build.GitHelper : Object
+  Peak.CharacterVoiceTransformProvider : MonoBehaviour
+  Peak.CinematicScreenShake : MonoBehaviour
+  Peak.CLI : Object
+  Peak.CLI+Args : Object
+  Peak.CutsceneAnimatedMouth : MonoBehaviour
+  Peak.Dev.DebugVoiceTakeover : MonoBehaviour
+  Peak.Dev.DebugVoiceTakeover+<StreamToRecorder>d__8 : Object
+  Peak.Dev.IDebugUpdatable : 
+  Peak.Dev.IPrettyPrintable : 
+  Peak.Dev.PlayerLoopHelper : Object
+  Peak.Dev.Pretty : Object
+  Peak.Development.AmuletChecker : MonoBehaviour
+  Peak.Development.FieldOfViewTester : MonoBehaviour
+  Peak.Development.StuffFinder : MonoBehaviour
+  Peak.Development.StuffFinder+<>c : Object
+  Peak.Development.StuffFinder+<get_AllTrackableObjects>d__15 : Object
+  Peak.Development.StuffFinder+ActiveStuffSearch : ValueType
+  Peak.Development.StuffFinder+StuffType : Enum
+  Peak.Development.StuffTrackingHUD : MonoBehaviour
+  Peak.DictionaryContainer`2 : Object
+  Peak.DisableWhenUsingSteam : MonoBehaviour
+  Peak.DoubleJumpAmulet : AmuletBase
+  Peak.DoubleJumpAmulet+DoubleJumpAmuletBehaviorInstance : ItemPocketBehaviorInstanceBase
+  Peak.EarlyWorm : MonoBehaviour
+  Peak.EndgameFlareSpawner : SingleItemSpawner
+  Peak.EnviroHelpingHand : MonoBehaviour
+  Peak.EnvironmentLoopHelper : MonoBehaviour
+  Peak.ExplosionEffectOptimizer : MonoBehaviour
+  Peak.ExplosionEffectOptimizer+ExplosionSettings : ValueType
+  Peak.FinalCutsceneTrigger : MonoBehaviour
+  Peak.FogSafeZoneManager : LevelGenStep
+  Peak.FogSafeZoneManager+<Execute>d__15 : Object
+  Peak.FogShaderParams : MonoBehaviour
+  Peak.ForceCustomizationTexture : MonoBehaviour
+  Peak.ForceFogShaderHeight : MonoBehaviour
+  Peak.ForceFogShaderHeight+FogTypes : Enum
+  Peak.ForceHeroTextTrigger : MonoBehaviourPun
+  Peak.ForgottenAwaitable : ValueType
+  Peak.GameObjectList : ScriptableObject
+  Peak.GenerateCharacterArrows : MonoBehaviour
+  Peak.GenericOptimizer : MonoBehaviour
+  Peak.GhostBall : MonoBehaviourPunCallbacks
+  Peak.GhostBall+<DestroyInASec>d__75 : Object
+  Peak.GhostBallExplosionField : MonoBehaviour
+  Peak.GhostBallSpawner : MonoBehaviourPunCallbacks
+  Peak.GloomSafeZone : MonoBehaviourPunCallbacks
+  Peak.GrowOverTime : MonoBehaviour
+  Peak.GuidebookData : Object
+  Peak.GuidebookData+GUIDEBOOKPAGEFLAGS : Enum
+  Peak.GuidebookPageCollection : SingletonAsset<GuidebookPageCollection>
+  Peak.GuidebookPageCollection+<>c : Object
+  Peak.HashGridSpawner : MonoBehaviour
+  Peak.HealingAmulet : AmuletBase
+  Peak.HealingAmulet+HealingAmuletBehaviorInstance : ItemPocketBehaviorInstanceBase
+  Peak.IExtraFeedBehavior : 
+  Peak.IItemPocketBehavior : 
+  Peak.InfiniteStamAmulet : AmuletBase
+  Peak.InfiniteStamAmulet+DoubleJumpAmuletBehaviorInstance : ItemPocketBehaviorInstanceBase
+  Peak.InfiniteStamSphere : MonoBehaviour
+  Peak.IntegratedGraphicsHelper : Object
+  Peak.Island.GloomVoiceConfuser : MonoBehaviour
+  Peak.Island.GloomVoiceConfuser+<>c : Object
+  Peak.Island.RavenPerch : MonoBehaviour
+  Peak.Island.VoiceThief : MonoBehaviour
+  Peak.Island.VoiceThief+<<RPCA_FlyAway>g__FlyAwayAndExplode|53_0>d : Object
+  Peak.ItemOptimizationManager : MonoBehaviour
+  Peak.ItemOptimizationManager+ItemOptimizationData : Object
+  Peak.ItemOptimizer : MonoBehaviour
+  Peak.ItemPocketBehaviorInstanceBase : Object
+  Peak.JesterBells : MonoBehaviour
+  Peak.JesterBells+<<Jingle>g__Routine|12_0>d : Object
+  Peak.Jetpack : MonoBehaviour
+  Peak.KillPlane : MonoBehaviourPun
+  Peak.LanguageLineSpacing : MonoBehaviour
+  Peak.LavaSphere : Lava
+  Peak.LevelGeneration.PhysicsSimStep : LevelGenStep
+  Peak.LevelGeneration.PhysicsSimStep+<Execute>d__10 : Object
+  Peak.LevelGeneration.PointAtObject : MonoBehaviour
+  Peak.LevelGeneration.PointAtObject+<>c__DisplayClass1_0 : Object
+  Peak.LightMapTestProbeThingy : MonoBehaviour
+  Peak.LimitFrameRate : MonoBehaviour
+  Peak.LoadRunSettingsOnStart : MonoBehaviour
+  Peak.LoadRunSettingsOnStart+<Start>d__0 : Object
+  Peak.LookWithCamera : MonoBehaviour
+  Peak.Math.Clamp01Processor : InputProcessor<Vector2>
+  Peak.Math.FramerateIndependentProcessor : InputProcessor<Vector2>
+  Peak.Math.InputProcessorHelpers : Object
+  Peak.Math.VectorExtensions : Object
+  Peak.MovingSawBlade : MonoBehaviour
+  Peak.Network.CachedPlayerList : ValueType
+  Peak.Network.Crab.Network.Network : Object
+  Peak.Network.IMatchmakingAPI : 
+  Peak.Network.IMatchmakingEvents : 
+  Peak.Network.INetworkEventData : 
+  Peak.Network.INetworkRoomEvents : 
+  Peak.Network.ISessionAPI : 
+  Peak.Network.ISessionEvents : 
+  Peak.Network.NetCode : Object
+  Peak.Network.NetworkingUtilities : Object
+  Peak.Network.NetworkingUtilities+<>c__DisplayClass29_0 : ValueType
+  Peak.Network.NoMatchmaking : Object
+  Peak.Network.PhotonCallbackTarget : Object
+  Peak.Network.PhotonRoomEvents : PhotonCallbackTarget
+  Peak.Network.PhotonShim : PhotonCallbackTarget
+  Peak.Network.PhotonShim+NetworkEventData : Object
+  Peak.Network.PlayerSessionData : Object
+  Peak.Network.SteamLobbyAPI : Object
+  Peak.Network.SteamMatchmaking : SteamLobbyAPI
+  Peak.ParachuteItem : ItemComponent
+  Peak.PeakGatePortal : MonoBehaviour
+  Peak.PetrifiedScout : MonoBehaviourPunCallbacks
+  Peak.PetrifiedScoutCollision : MonoBehaviour
+  Peak.PhotonCleanupHelper : MonoBehaviourPun
+  Peak.ProcGen.BiomeSelection : Object
+  Peak.ProcGen.BiomeSelection+<>c : Object
+  Peak.ProcGen.BiomeSelection+<>c__DisplayClass1_0 : Object
+  Peak.ProcGen.BiomeSelection+<>c__DisplayClass1_1 : Object
+  Peak.ProcGen.BiomeSelectionOption : Object
+  Peak.ProcGen.BiomeSelectionSettings : ScriptableObject
+  Peak.ProcGen.IValidatable : 
+  Peak.ProcGen.PropSpawnValidation : Object
+  Peak.ProcGen.ValidationState : Enum
+  Peak.PropSpawner_AmuletStatues : PropSpawner
+  Peak.Quicksave : Object
+  Peak.Quicksave+<<LoadSavedGameScene>g__OfflineLoadRoutine|33_0>d : Object
+  Peak.Quicksave+<>c__DisplayClass28_0 : Object
+  Peak.Quicksave+LobbyMode : Enum
+  Peak.Quicksave+PlayerRunData : ValueType
+  Peak.Quicksave+RunProgress : ValueType
+  Peak.Quicksave+RunProgress+<>c__DisplayClass18_0 : Object
+  Peak.Quicksave+RunProgress+SpawnHistory : ValueType
+  Peak.Quicksave+SaveData : ValueType
+  Peak.RandomizeAnimatorParameter : MonoBehaviour
+  Peak.ReverbModificationZone : MonoBehaviour
+  Peak.RitualDaggerFeedBehavior : ItemComponent
+  Peak.RocketFX : MonoBehaviour
+  Peak.ScoutmasterGhostOrbiter : MonoBehaviour
+  Peak.ScoutMasterLandReact : MonoBehaviour
+  Peak.ScoutmasterSoulPillar : MonoBehaviourPun
+  Peak.ScoutmasterSoulPillar+<>c__DisplayClass33_0 : Object
+  Peak.ScoutmasterSoulPillar+<BreakTriggeredRoutine>d__33 : Object
+  Peak.ScoutsHonor : AmuletBase
+  Peak.ScoutStatue : MonoBehaviour
+  Peak.ScoutStatue+<ActivateScoutsHonorFXRoutine>d__22 : Object
+  Peak.Settings.AudioMixerUnifier : MonoBehaviour
+  Peak.Settings.AudioMixerUnifier+<>c : Object
+  Peak.SFX.PlayOneShotRandomInterval : MonoBehaviour
+  Peak.SpawnedItemTracker : MonoBehaviour
+  Peak.SpawnedItemTracker+<>c : Object
+  Peak.SpawnedItemTracker+SpawnRecord : ValueType
+  Peak.SpawnZone : MonoBehaviour
+  Peak.SpikeRoller : MonoBehaviour
+  Peak.SpikeTrap : MonoBehaviour
+  Peak.SpikeTrap+<<SpikeTrapRPC>g__SpikeTrapRoutine|18_0>d : Object
+  Peak.StatueSpawnRandomizationStep : LevelGenStep
+  Peak.StatueSpawnRandomizationStep+<Execute>d__3 : Object
+  Peak.StatusFieldBase : MonoBehaviour
+  Peak.StatusFieldBase+StatusFieldStatus : Object
+  Peak.StatusFieldBounds : StatusField
+  Peak.StatusFieldBox : StatusFieldBase
+  Peak.StatusFieldGloom : StatusFieldBounds
+  Peak.StatusFieldGloom+<CharactersWhomstCannotSee>d__12 : Object
+  Peak.TowerStacker : LevelGenStep
+  Peak.TowerStacker+<>c : Object
+  Peak.TowerStacker+<Execute>d__7 : Object
+  Peak.TrickLuggage : MonoBehaviour
+  Peak.TriggerOnFakeItemPickedUp : MonoBehaviour
+  Peak.TurtleShell : MonoBehaviour
+  Peak.UI.ConfirmPage : RetrievableResourceSingleton<ConfirmPage>
+  Peak.UI.KickButton : MonoBehaviour
+  Peak.UI.SelectableEvents : MonoBehaviour
+  Peak.UI.SelectablePassThrough : Object
+  Peak.UI.SelectableSlider : MonoBehaviour
+  Peak.VoidBiome : MonoBehaviour
+  Peak.VoidInvisWall : MonoBehaviour
+  Peak.VoidInvisWall+<FadeWallRoutine>d__9 : Object
+  Peak.WarpOnThrow : ItemComponent
+  Peak.WarpOnThrow+<<OnItemThrown>g__CheckVelocityForTrailRoutiine|9_0>d : Object
+  Peak.WaterSFX : MonoBehaviour
+  PeakHandler : Singleton<PeakHandler>
+  PeakHandler+<<EndScreenComplete>g__CreditsLogic|33_0>d : Object
+  PeakHandler+<>c : Object
+  PeakHandler+<OpenEndscreen>d__27 : Object
+  PeakSequence : MonoBehaviour
+  PerlinSampler : Object
+  PerlinShake : MonoBehaviour
+  PerlinShakeInstance : Object
+  PersistentPlayerData : Object
+  PersistentPlayerDataService : GameService
+  Photon.Voice.Unity.UtilityScripts.MicAmplifier : VoiceComponent
+  Photon.Voice.Unity.UtilityScripts.MicrophoneValue : Object
+  PhotonBinaryStreamSerializer`1 : MonoBehaviourPunCallbacks
+  PhotosensitiveSetting : CustomLocalizedOffOnSetting
+  PhysicsSyncer : PhotonBinaryStreamSerializer<ItemPhysicsSyncData>
+  PlatformBootstrap : MonoBehaviour
+  PlatformBootstrap+<Start>d__1 : Object
+  Player : MonoBehaviourPunCallbacks
+  Player+<>c__DisplayClass16_0 : ValueType
+  PlayerConnectionLog : MonoBehaviourPunCallbacks
+  PlayerConnectionLog+<>c__DisplayClass12_0 : Object
+  PlayerConnectionLog+<>c__DisplayClass13_0 : Object
+  PlayerConnectionLog+<AddMessageDelayed>d__15 : Object
+  PlayerConnectionLog+<TimeoutMessageRoutine>d__20 : Object
+  PlayerCustomizationDummy : MonoBehaviour
+  PlayerEyeLook : MonoBehaviour
+  PlayerGhost : MonoBehaviour
+  PlayerGhost+<>c : Object
+  PlayerGizmos : MonoBehaviour
+  PlayerGizmos+GizmoType : Enum
+  PlayerHandler : GameService
+  PlayerHandler+<GetAllPlayers>d__40 : Object
+  PlayerHandler+<KickRoutine>d__29 : Object
+  PlayerMoveZone : MonoBehaviour
+  PlayerName : MonoBehaviour
+  PlayerShaderParams : MonoBehaviour
+  PlayerTrackParticles : MonoBehaviour
+  PlayModeToggler : MonoBehaviour
+  PlaySFXOnChange : MonoBehaviour
+  PointPing : MonoBehaviour
+  PointPinger : MonoBehaviour
+  Portningsbolaget.BlockedPlayer : ValueType
+  Portningsbolaget.BlockedPlayerUI : MonoBehaviour
+  Portningsbolaget.BlocklistPopup : MonoBehaviour
+  Portningsbolaget.BlocklistPopup+<ShowDelayed>d__17 : Object
+  Portningsbolaget.BlocklistTable : MonoBehaviour
+  Portningsbolaget.BlocklistTable+<>c__DisplayClass35_0 : Object
+  Portningsbolaget.BlocklistTable+<>c__DisplayClass42_0 : Object
+  Portningsbolaget.BlocklistTable+<>c__DisplayClass44_0 : Object
+  Portningsbolaget.BlocklistTable+<RebuildLayoutRoutine>d__50 : Object
+  Portningsbolaget.BlocklistTable+<UpdateList>d__34 : Object
+  Portningsbolaget.CameraPlatformSettings : MonoBehaviour
+  Portningsbolaget.CameraPlatformSettings+CameraSettings : ValueType
+  Portningsbolaget.DebugHelper : MonoBehaviour
+  Portningsbolaget.HashGrid : MonoBehaviour
+  Portningsbolaget.HashGrid+GridCell : Object
+  Portningsbolaget.HashGridHandler : MonoBehaviour
+  Portningsbolaget.HashGridObject : MonoBehaviour
+  Portningsbolaget.LocalizeText : MonoBehaviour
+  Portningsbolaget.ParticlePlatformSettings : MonoBehaviour
+  Portningsbolaget.ParticlePlatformSettings+ParticleSettings : Object
+  Portningsbolaget.PlayerUI : Selectable
+  Portningsbolaget.PlayerUI+<>c__DisplayClass43_0 : ValueType
+  Portningsbolaget.PlayerUI+<>c__DisplayClass44_0 : ValueType
+  Portningsbolaget.PlayerUI+<>c__DisplayClass45_0 : ValueType
+  Portningsbolaget.PlayerUI+<>c__DisplayClass46_0 : ValueType
+  Portningsbolaget.PlayerUI+<SetupPlatformFeatures>d__34 : Object
+  Portningsbolaget.PlayerUiBackground : MonoBehaviour
+  Portningsbolaget.PlayerUiButton : MonoBehaviour
+  Portningsbolaget.PlayerUIHandler : MonoBehaviour
+  Portningsbolaget.PlayerUIHandler+<OnAssignPlayer>d__11 : Object
+  Portningsbolaget.PlayerUIHandler+<OnUpdate>d__12 : Object
+  Portningsbolaget.PlayerUiSlider : MonoBehaviour
+  Portningsbolaget.PlaystationPremiumHandler : MonoBehaviourPunCallbacks
+  Portningsbolaget.ReportPlayerCategory : MonoBehaviour
+  Portningsbolaget.ReportPlayerOffence : MonoBehaviour
+  Portningsbolaget.ReportPlayerPopup : MonoBehaviour
+  Portningsbolaget.ReportPlayerPopup+<ShowDelayedRoutine>d__37 : Object
+  Portningsbolaget.ReportPlayerReasonField : MonoBehaviour
+  Portningsbolaget.Tools.InputUtility : Object
+  Portningsbolaget.VoiceIndicatorUI : MonoBehaviour
+  Portningsbolaget.VoiceIndicatorUiHandler : MonoBehaviour
+  PositionSyncer : PhotonBinaryStreamSerializer<Pos>
+  PositionSyncer+<>c__DisplayClass6_0 : ValueType
+  PositionSyncer+Pos : ValueType
+  PostHandler : MonoBehaviour
+  PostSpawnBehavior : Object
+  PostSpawnBehavior+PostSpawnBehaviorDeferredRunner : ValueType
+  PrefabTester : MonoBehaviour
+  Pretitle : MonoBehaviour
+  Pretitle+<LoadTitle>d__5 : Object
+  Pretitle+<PreloadScene>d__4 : Object
+  PreventUnpause : MonoBehaviour
+  PropDeleter : LevelGenStep
+  PropDeleter+<Execute>d__6 : Object
+  PropGrouper : MonoBehaviour
+  PropGrouper+<>c : Object
+  PropGrouper+<>c__DisplayClass13_0 : Object
+  PropGrouper+<>c__DisplayClass13_0+<<RunAll>g__Done|0>d : ValueType
+  PropGrouper+<>c__DisplayClass13_0+<<RunAll>g__ExecuteAndClearDeferredStepsFor|1>d : Object
+  PropGrouper+<RunAll>d__13 : ValueType
+  PropGrouper+PropGrouperTiming : Enum
+  PropPostSpawnModifiers : MonoBehaviour
+  PropPostSpawnModifiers+PropModTiming : Enum
+  PropSpawnData : DictionaryContainer<GameObject,SpawnData>
+  PropSpawner : LevelGenStep
+  PropSpawner_Line : PropSpawner
+  PropSpawner_Sphere : PropSpawner
+  PropSpawner+<>c : Object
+  PropSpawner+<Execute>d__43 : Object
+  PropSpawner+<SpawnDecor>d__48 : Object
+  PropSpawner+<SpawnNew>d__47 : Object
+  PropSpawner+SpawnData : Object
+  PropSpawnerConstraint : Object
+  PropSpawnerConstraintPost : Object
+  PropSpawnerMod : Object
+  PS4RegionSettings : ScriptableObject
+  PSB_ChildSpawners : PostSpawnBehavior
+  PSB_FailGenerationIfSpawnFailed : PostSpawnBehavior
+  PSC_BannedMaterial : PropSpawnerConstraint
+  PSC_CircleMask : PropSpawnerConstraint
+  PSC_Embedded : PropSpawnerConstraint
+  PSC_Height : PropSpawnerConstraint
+  PSC_LineCheck : PropSpawnerConstraint
+  PSC_NearObject : PropSpawnerConstraint
+  PSC_Normal : PropSpawnerConstraint
+  PSC_Perlin : PropSpawnerConstraint
+  PSC_Perlin3D : PropSpawnerConstraint
+  PSC_RequiredMaterial : PropSpawnerConstraint
+  PSC_SameTypeDistance : PropSpawnerConstraint
+  PSC_SameTypeDistance+<>c__DisplayClass3_0 : Object
+  PSC_SpawnZone : PropSpawnerConstraint
+  PSC_SurfaceRestrictions : PropSpawnerConstraint
+  PSC_VolumeLight : PropSpawnerConstraint
+  PSCP_ConnectTreePlatforms : PropSpawnerConstraintPost
+  PSCP_Custom : PropSpawnerConstraintPost
+  PSCP_LateConstraintCheck : PropSpawnerConstraintPost
+  PSCP_LineCheck : PropSpawnerConstraintPost
+  PSM_AddPlayerCountBasedDespawner : PropSpawnerMod
+  PSM_BakedVolumeLightModiferIntensity : PropSpawnerMod
+  PSM_BlastVine : PropSpawnerMod
+  PSM_ChildSpawners : PropSpawnerMod
+  PSM_LocalOffset : PropSpawnerMod
+  PSM_MatchMaterial : PropSpawnerMod
+  PSM_NormalOffset : PropSpawnerMod
+  PSM_PerlinOffset : PropSpawnerMod
+  PSM_PitonNormal : PropSpawnerMod
+  PSM_PlacementOffset : PropSpawnerMod
+  PSM_RandomOffset : PropSpawnerMod
+  PSM_RandomRotation : PropSpawnerMod
+  PSM_RandomScale : PropSpawnerMod
+  PSM_RayDirectionOffset : PropSpawnerMod
+  PSM_ReplaceMaterial : PropSpawnerMod
+  PSM_ReplaceMaterialWithRayTargetMaterial : PropSpawnerMod
+  PSM_SetForwardRotationToNormal : PropSpawnerMod
+  PSM_SetMaterial : PropSpawnerMod
+  PSM_SetMaterialOnChild : PropSpawnerMod
+  PSM_SetMaterialOnChild+<>c__DisplayClass2_0 : Object
+  PSM_SetMaterialsOnChild : PropSpawnerMod
+  PSM_SetMaterialsOnChild+<>c__DisplayClass2_0 : Object
+  PSM_SetRandomMaterial : PropSpawnerMod
+  PSM_SetSpawnerPlayerCountRequirement : PropSpawnerMod
+  PSM_SetUpRotationToNormal : PropSpawnerMod
+  PSM_SingleItemSpawner : PropSpawnerMod
+  PSM_SnapPosition : PropSpawnerMod
+  PSM_SpecificRotation : PropSpawnerMod
+  PSM_UpLerp : PropSpawnerMod
+  pTest : MonoBehaviour
+  pTest+<>c__DisplayClass4_0 : Object
+  PushToTalkSetting : CustomLocalizedEnumSetting<PushToTalkType>
+  PushToTalkSetting+PushToTalkType : Enum
+  PutMeInWall : MonoBehaviour
+  PutMeInWall+<>c : Object
+  PutMeInWall+<>c__DisplayClass5_0 : Object
+  PutMeInWall+<>c__DisplayClass6_0 : Object
+  QueryingGameTimeStatus : GameStatus
+  RadiusCheck : CustomSpawnCondition
+  RandomAct : MonoBehaviour
+  RandomAnimatorSpeed : MonoBehaviour
+  Rarity : Enum
+  ReadyUpToTrigger : MonoBehaviourPunCallbacks
+  Rebinding : Object
+  ReconnectData : ValueType
+  ReconnectDataDebugPage : DebugPage
+  ReconnectHandler : Singleton<ReconnectHandler>
+  ReconnectHandler+<>c : Object
+  ReconnectHandler+<>c__DisplayClass16_0 : Object
+  ReconnectHandler+<>c__DisplayClass22_0 : Object
+  ReconnectHandler+<>c__DisplayClass22_0+<<UpdateReconnectDataLater>g__UpdateLater|0>d : Object
+  ReconnectHandler+<>c__DisplayClass30_0 : Object
+  ReconnectHandler+ReconnectDataRecord : ValueType
+  RemoveAfterSeconds : MonoBehaviour
+  RemoveMusic : MonoBehaviour
+  RemoveObject : MonoBehaviour
+  RenderScaleSetting : CustomLocalizedEnumSetting<RenderScaleQuality>
+  RenderScaleSetting+RenderScaleQuality : Enum
+  RescueHook : ItemComponent
+  RescueHook+<<RPCA_RescueCharacter>g__RescueRoutine|51_0>d : Object
+  RescueHookSFX : MonoBehaviour
+  RespawnChest : Luggage
+  RespawnRandomScout : MonoBehaviour
+  RespawnRandomScout+<>c : Object
+  Restart : MonoBehaviour
+  ReverbCapZone : MonoBehaviour
+  ReverbMix : MonoBehaviour
+  RichPresenceService : GameService
+  RichPresenceState : Enum
+  RigColliderMaterial : Enum
+  RigColliderType : Enum
+  RigCreator : MonoBehaviour
+  RigCreatorCollider : MonoBehaviour
+  RigCreatorColliderData : Object
+  RigCreatorJoint : MonoBehaviour
+  RigCreatorRigidbody : MonoBehaviour
+  RigidbodySyncData : ValueType
+  RigPart : Object
+  RocketFuse : MonoBehaviour
+  Rocketpack : ItemComponent
+  Rocketpack+<<RPCA_Light>g__LightRoutine|12_0>d : Object
+  RockMaterialSwapper : MonoBehaviour
+  RockSpawner : MonoBehaviour
+  RockSpawner+OriginalRotation : Enum
+  RockSpawner+ReturnData : ValueType
+  RockSpawnerGD : MonoBehaviour
+  RoomProperties : MonoBehaviour
+  RootsWind : MonoBehaviour
+  Rope : MonoBehaviourPunCallbacks
+  Rope+ATTACHMENT : Enum
+  RopeAnchor : MonoBehaviour
+  RopeAnchorProjectile : MonoBehaviourPunCallbacks
+  RopeAnchorProjectile+<>c__DisplayClass10_0 : Object
+  RopeAnchorProjectile+<>c__DisplayClass10_0+<<GetShot>g__SpawnRopeRoutine|0>d : Object
+  RopeAnchorWithRope : MonoBehaviourPunCallbacks
+  RopeAnchorWithRope+<<SpawnRope>g__SpoolOut|7_0>d : Object
+  RopeAudio : MonoBehaviour
+  RopeBoneVisualizer : MonoBehaviour
+  RopeClimbingAPI : MonoBehaviour
+  RopeRender : Object
+  RopeRendering : MonoBehaviour
+  RopeRendering+<>c : Object
+  RopeSegment : MonoBehaviour
+  RopeSegment+<>c__DisplayClass12_0 : Object
+  RopeSegment+<>c__DisplayClass12_0+<<Tie>g__ITighten|0>d : Object
+  RopeShooter : ItemComponent
+  RopeSpool : ItemComponent
+  RopeSyncData : ValueType
+  RopeSyncData+SegmentData : ValueType
+  RopeSyncer : PhotonBinaryStreamSerializer<RopeSyncData>
+  RopeTier : ItemComponent
+  Rotate : MonoBehaviour
+  RotateTransformOnPickup : MonoBehaviour
+  RotationSpring : MonoBehaviour
+  RotationSprings : MonoBehaviour
+  RotationSprings+RotationSpringInstance : Object
+  RotationTest : MonoBehaviour
+  RoundModifier : ProceduralImageModifier
+  RUNBASEDVALUETYPE : Enum
+  RunManager : MonoBehaviourPunCallbacks
+  RunManager+<JumpToMiniRunBiomeWhenReady>d__21 : Object
+  RunManager+<Start>d__20 : Object
+  RunSettingCLIParser : CLITypeParser
+  RunSettings : Object
+  RunSettings+<>c : Object
+  RunSettings+RunSetting : Object
+  RunSettings+SETTINGTYPE : Enum
+  RunSettingSyncData : ValueType
+  RunStarter : MonoBehaviour
+  RunStarter+<Start>d__0 : Object
+  SandStoneClimb : MonoBehaviour
+  ScaleIn : MonoBehaviour
+  ScaleOnEnable : MonoBehaviour
+  SceneSwitchingStatus : GameStatus
+  Scorpion : Mob
+  ScoutCannon : MonoBehaviour
+  ScoutCannon+<<RPCA_Light>g__LightRoutine|30_0>d : Object
+  ScoutCannon+<>c__DisplayClass35_0 : Object
+  ScoutCannon+<>c__DisplayClass35_0+<<RPCA_LaunchTarget>g__ILaunch|0>d : Object
+  ScoutCannonAchievementZone : MonoBehaviour
+  ScoutCannonFuse : MonoBehaviour
+  ScoutEffigy : Constructable
+  ScoutEffigy+<>c : Object
+  Scoutmaster : MonoBehaviour
+  Scoutmaster+<IThrow>d__61 : Object
+  ScoutmasterAnimVars : MonoBehaviour
+  ScoutmasterSpawner : MonoBehaviourPunCallbacks
+  ScreenVFX : MonoBehaviour
+  Segment : Enum
+  SegTest : MonoBehaviour
+  SerializableRunBasedValues : ValueType
+  SetAnimatorBool : MonoBehaviour
+  SetCharacterPosition : MonoBehaviour
+  SetGlobalVariables : MonoBehaviour
+  SetMaterialProperty : MonoBehaviour
+  setright : MonoBehaviour
+  SetRockColors : MonoBehaviour
+  SettingsCategory : Enum
+  SettingsHandler : Object
+  SettingsTABS : TABS<SettingsTABSButton>
+  SettingsTABSButton : TAB_Button
+  SettingsUICell : MonoBehaviour
+  SFX_Instance : ScriptableObject
+  SFX_Player : MonoBehaviour
+  SFX_Player+<FadeOut>d__17 : Object
+  SFX_Player+<IPlaySFX>d__9 : Object
+  SFX_Player+SFX_Source : Object
+  SFX_Player+SoundEffectHandle : Object
+  SFX_PlayOneShot : MonoBehaviour
+  SFX_PlayOneShot+<<OnEnable>g__PlayAfterAnim|7_0>d : Object
+  SFX_Settings : Object
+  SFXOnChildCount : MonoBehaviour
+  SFXOnImage : MonoBehaviour
+  SFXVolumeSetting : VolumeSetting
+  ShaderEffect : MonoBehaviour
+  ShaderParameters : Object
+  ShaderParametersColors : Object
+  ShaderVal : Object
+  ShadowDistanceSettings : CustomLocalizedEnumSetting<ShadowDistanceQuality>
+  ShadowDistanceSettings+ShadowDistanceQuality : Enum
+  ShakyIcicleIce : MonoBehaviour
+  ShakyIcicleIce+<<ShakeRock>g__RockShake|36_0>d : Object
+  ShakyIcicleIce2 : MonoBehaviour
+  ShakyRock : MonoBehaviour
+  ShakyRock+<<ShakeRock>g__RockShake|28_0>d : Object
+  SharedSettingsMenu : MonoBehaviour
+  SharedSettingsMenu+<>c : Object
+  SharedSettingsMenu+<>c__DisplayClass8_0 : Object
+  SharedSettingsMenu+<FadeInCells>d__9 : Object
+  ShelfShroom : MonoBehaviour
+  ShittyPiton : MonoBehaviourPunCallbacks
+  SillyGrabber : MonoBehaviour
+  SimpleDrawMesh : MonoBehaviour
+  SingleBufferFeature : ScriptableRendererFeature
+  SingleBufferFeature+CustomRenderPass : ScriptableRenderPass
+  SingleBufferFeature+Settings : Object
+  SingleItemSpawner : MonoBehaviour
+  SkeletonExplosion : MonoBehaviour
+  Skelleton : MonoBehaviour
+  SlideTrail : MonoBehaviour
+  SlipperyJellyfish : MonoBehaviour
+  Snowball : ItemComponent
+  Snowball+ContactType : Enum
+  SpawnConnectingBridge : CustomSpawnCondition
+  SpawnedObject : MonoBehaviour
+  SpawnedVine : MonoBehaviour
+  SpawnedVine+<<SpawnVine>g__waveFX|7_0>d : Object
+  SpawnEntry : Object
+  Spawner : MonoBehaviourPunCallbacks
+  Spawner+<>c : Object
+  Spawner+HeightBasedSpawnListEntry : Object
+  Spawner+SpawnMode : Enum
+  Spawner+SpawnPointMode : Enum
+  Spawner+WeightedSpawnPointEntry : Object
+  SpawnerExtensions : Object
+  SpawnGameObject : MonoBehaviour
+  SpawnItemInHand : MonoBehaviour
+  SpawnItemInHand+<Start>d__2 : Object
+  SpawnList : MonoBehaviour
+  SpawnList+<>c : Object
+  SpawnObject : Object
+  SpawnPoint : MonoBehaviour
+  SpawnPoint+<>c__DisplayClass5_0 : Object
+  SpawnPool : Enum
+  SpawnPoolOddsData : Object
+  SpecialDayManager : MonoBehaviour
+  SpecialDayZone : MonoBehaviour
+  Spider : MonoBehaviour
+  Spider+<>c : Object
+  Spider+<>c__DisplayClass63_0 : Object
+  Spider+<>c__DisplayClass63_0+<<RPCA_DropSpider>g__DropRoutine|0>d : Object
+  Spider+SpiderState : Enum
+  SpiderManager : MonoBehaviour
+  SpiderTrigger : MonoBehaviour
+  SpineCheck : CustomSpawnCondition
+  SplineKnotPosition : MonoBehaviour
+  StaminaBar : MonoBehaviour
+  StaminaBar+<<RemoveRainbow>g__RemoveRainbowRoutine|41_0>d : Object
+  StaminaBar+<MoraleBoostRoutine>d__44 : Object
+  StaticReferences : SingletonAsset<StaticReferences>
+  StatusEmitter : MonoBehaviour
+  StatusField : StatusFieldBase
+  StatusSyncData : ValueType
+  StatusTrigger : MonoBehaviour
+  SteamAuthTicketService : GameService
+  SteamAuthTicketService+<>c__DisplayClass9_0 : Object
+  SteamAuthTicketService+<>c__DisplayClass9_0+<<CancelSteamTicket>g__CancelOverTime|0>d : Object
+  SteamAuthTicketService+GeneratedTicket : ValueType
+  SteamLobbyHandler : GameService
+  SteamLobbyHandler+MessageType : Enum
+  SteamRichPresence : Object
+  STEAMSTATTYPE : Enum
+  StepSoundCollection : MonoBehaviour
+  StickPart : Object
+  StickyCactus : MonoBehaviour
+  StickyItemComponent : ItemComponent
+  Stone : Item
+  StormAudio : MonoBehaviour
+  StormVisual : MonoBehaviour
+  StormVisual+StormType : Enum
+  StringAndFloat : Object
+  StupidRockPlacer : MonoBehaviour
+  StupidRockPlacer+<>c : Object
+  StupidRockPlacerHandler : MonoBehaviour
+  SwampMeshGen : LevelGenStep
+  SwampMeshGen+<Execute>d__22 : Object
+  SwingingAxe : MonoBehaviour
+  SwingingAxe+<>c__DisplayClass36_0 : ValueType
+  SyncedAnimation : MonoBehaviour
+  SyncLavaRisingPackage : CustomCommandPackage<CustomCommandType>
+  SyncMapHandlerDebugCommandPackage : CustomCommandPackage<CustomCommandType>
+  SyncPersistentPlayerDataPackage : CustomCommandPackage<CustomCommandType>
+  System.Runtime.CompilerServices.IsUnmanagedAttribute : Attribute
+  TempleConfig : MonoBehaviourPunCallbacks
+  TempleConfig+<>c : Object
+  TempleEntranceRope : RopeAnchorWithRope
+  TemporaryItemSlot : ItemSlot
+  TerrainBrush : MonoBehaviour
+  TerrainBrush+BrushType : Enum
+  TerrainSplat : MonoBehaviour
+  TerrainSplat+SplatColor : Enum
+  TerrainSplatMesh : MonoBehaviour
+  TestEndScreen : MonoBehaviour
+  TestEndScreen+<EndSequenceRoutine>d__24 : Object
+  TestEndScreen+<TimelineRoutine>d__27 : Object
+  TextFogEffect : MonoBehaviour
+  TextFogEffect+<TextEffectRoutine>d__21 : Object
+  TextSineEffect : DialogueEffect
+  TextUmamiEffect : DialogueEffect
+  TextureQualitySetting : CustomLocalizedEnumSetting<TextureQuality>
+  TextureQualitySetting+TextureQuality : Enum
+  ThemeWithRarity : Object
+  ThornOnMe : MonoBehaviour
+  ThornSyncData : ValueType
+  TickTrigger : MonoBehaviour
+  TiedBalloon : MonoBehaviourPunCallbacks
+  TiedBalloon+<InitRoutine>d__16 : Object
+  TiedBalloonCollision : MonoBehaviour
+  TimeEvent : MonoBehaviour
+  TodaysBiomes : MonoBehaviour
+  TodaysBiomes+<<Start>g__TrySetBiomes|5_0>d : Object
+  TombCheck : MonoBehaviour
+  TombTrigger : MonoBehaviour
+  Tornado : MonoBehaviour
+  Tornado+<>c__DisplayClass32_0 : Object
+  Tornado+<>c__DisplayClass32_0+<<RPCA_ThrowPlayer>g__IIgnoreChar|0>d : Object
+  TornadoSpawner : MonoBehaviour
+  TrackableNetworkObject : ItemComponent
+  TrackableNetworkObject+<Start>d__18 : Object
+  TrackNetworkedObject : MonoBehaviour
+  TrackPos : MonoBehaviour
+  Transition : MonoBehaviour
+  Transition_CanvasGroup : Transition
+  Transition_CanvasGroup+<TransitionIn>d__6 : Object
+  Transition_CanvasGroup+<TransitionOut>d__7 : Object
+  Transition_Shader : Transition
+  Transition_Shader+<TransitionIn>d__7 : Object
+  Transition_Shader+<TransitionOut>d__8 : Object
+  Transitions : MonoBehaviour
+  Transitions+<>c__DisplayClass3_0 : Object
+  Transitions+<>c__DisplayClass3_0+<<PlayTransition>g__IPlayTransition|0>d : Object
+  TransitionType : Enum
+  TreePlatform : MonoBehaviour
+  TriggerEvent : MonoBehaviour
+  TriggerEvent+<>c__DisplayClass9_0 : Object
+  TriggerEvent+<>c__DisplayClass9_0+<<OnTriggerEnter>g__IHoldHit|0>d : Object
+  TriggerEvent+<TriggerRoutine>d__12 : Object
+  TriggerOnInteract : MonoBehaviour
+  TriggerRelay : MonoBehaviour
+  TumbleWeed : MonoBehaviour
+  TumbleWeed+<IgnoreTarget>d__13 : Object
+  UI_Interaction : MonoBehaviour
+  UI_Notifications : MonoBehaviour
+  UI_Rope : MonoBehaviour
+  UI_Stamina : MonoBehaviour
+  UI_UseItemProgress : MonoBehaviour
+  UI_UseItemProgressFriend : MonoBehaviour
+  UIInputHandler : Singleton<UIInputHandler>
+  UIPlayerNames : MonoBehaviour
+  UIPlayerNames+<>c__DisplayClass6_0 : Object
+  UIPlayerNames+<>c__DisplayClass6_0+<<Init>g__GetNameAsync|0>d : Object
+  UIWheel : MonoBehaviour
+  UIWheelSlice : MonoBehaviour
+  UniformModifier : ProceduralImageModifier
+  UnityEngine.UI.ProceduralImage.ModifierID : Attribute
+  UnityEngine.UI.ProceduralImage.ProceduralImage : Image
+  UnityEngine.UI.ProceduralImage.ProceduralImageInfo : ValueType
+  UnityEngine.UI.ProceduralImage.ProceduralImageModifier : MonoBehaviour
+  UnitySourceGeneratedAssemblyMonoScriptTypes_v1 : Object
+  UnitySourceGeneratedAssemblyMonoScriptTypes_v1+MonoScriptData : ValueType
+  UpdateEvent : MonoBehaviour
+  UseItemOnFriend : MonoBehaviour
+  Util : Object
+  VariantObject : MonoBehaviour
+  VariantObject+Group : Enum
+  VariantObjectSelector : MonoBehaviour
+  VariationSwapper : MonoBehaviour
+  VariationSwapper+<>c : Object
+  VariationSwapper+Variation : Object
+  Vector3Extensions : Object
+  VenusFlyTrap : MonoBehaviour
+  VersionString : MonoBehaviour
+  VerticalModalButtonsOption : ModalContentOption
+  VinePlane : MonoBehaviour
+  VinePlane+VineType : Enum
+  VineShooter : ItemComponent
+  VoiceClientHandler : MonoBehaviourPunCallbacks
+  VoiceObscuranceFilter : MonoBehaviour
+  VoiceVolumeSetting : VolumeSetting
+  VSyncSetting : CustomLocalizedEnumSetting<VSyncMode>
+  VSyncSetting+VSyncMode : Enum
+  WaitingForPlayersUI : MonoBehaviour
+  Wall : MonoBehaviour
+  WallNavigatorTest : MonoBehaviour
+  WallPiece : MonoBehaviour
+  WallPieceSpawner : MonoBehaviour
+  WarpCompassVFX : ItemVFX
+  WarpSFX : MonoBehaviour
+  WaterFallConfig : CustomSpawnCondition
+  WaterfallPusher : MonoBehaviour
+  WaterfallTrigger : MonoBehaviour
+  WaterZone : SerializedMonoBehaviour
+  WaterZone+<UpdateTrackedCharactersRoutine>d__19 : Object
+  WaterZone+InWaterState : Enum
+  WindAffectedStatusEmitter : StatusEmitter
+  WindChillZone : MonoBehaviour
+  WindHeightEffect : MonoBehaviour
+  WobbleSpinBounce : MonoBehaviour
+  ZombieManager : MonoBehaviourPunCallbacks
+  ZombieManager+<EnableZombie>d__8 : Object
+  ZombiePhobiaSetting : CustomLocalizedOffOnSetting
+  Zorro.Core.CLI.ConsoleCommands : Object
+
+# Focus types (signatures)
+
+## class Action_LaunchPlayer : ItemAction
+  field public Single force
+  method public virtual Void RunAction()
+
+## class Action_ModifyStatus : ItemAction
+  field public STATUSTYPE statusType
+  field public Single changeAmount
+  field public Boolean ifSkeleton
+  method public virtual Void RunAction()
+
+## class Action_OverrideCamera : ItemAction
+  field public CameraOverride cameraOverride
+  method public virtual Void RunAction()
+
+## class Action_Passport : ItemAction
+  method public virtual Void RunAction()
+
+## class Action_WarpToRandomPlayer : ItemAction
+  field public Single minimumDistance
+  field public Boolean restoreUsesOnFailure
+  field public SFX_Instance[] warpSFX
+  method public virtual Void RunAction()
+  method public Void IncreaseUsesRPC()
+
+## class AnimatedShaderParameters : Object
+  field public ShaderParams parameter
+  field public AnimationCurve paramValue
+
+## class AudioModeSetting : EnumSetting<AudioMode>
+  method public virtual Void ApplyValue()
+  method protected virtual AudioMode GetDefaultValue()
+  method public virtual List<LocalizedString> GetLocalizedChoices()
+  method public virtual String GetDisplayName()
+  method public virtual String GetCategory()
+
+## enum AudioModeSetting+AudioMode : Enum
+  Stereo
+  Mono
+
+## class BezierRenderer : MonoBehaviour
+  field private LineRenderer lineRenderer
+  field public Int32 positionCount
+  field public Transform point1
+  field public Transform point2
+  field public Transform point3
+  field public Transform point4
+  method private Void Start()
+  method private Void LateUpdate()
+  method private Void DrawCubicBezierCurve(Vector3 point1, Vector3 point2, Vector3 point3, Vector3 point4)
+
+## class CameraOverride : MonoBehaviour
+  field public Single fov
+  method public Void DoOverride()
+
+## class CameraOverride_Binoculars : CameraOverride
+  field public Single minFov
+  field public Single maxFov
+  field public Single fovChangeRate
+  field public Single lerpedFOV
+  method private Void Start()
+  method private Void Update()
+  method public Void AdjustFOV(Single value)
+
+## class CameraQuad : MonoBehaviour
+  field public Single distance
+  field private Camera cam
+  method private Void LateUpdate()
+
+## class ChangeMaterialOnChildMesh : MonoBehaviour
+  field public Material material
+  method public Void Go()
+
+## class Character : MonoBehaviourPun
+  field public Boolean isBot
+  field public Boolean isZombie
+  field public Boolean isScoutmaster
+  field public static Character localCharacter
+  field public CharacterInput input
+  field public CharacterData data
+  field public CharacterRefs refs
+  field private PlayerGhost <Ghost>k__BackingField
+  field private String <characterName>k__BackingField
+  field private PhotonView view
+  field public static List<Character> AllCharacters
+  field public static List<Character> AllBotCharacters
+  field private Vector3 smoothedCamPos
+  field private Boolean _refsInitialized
+  field private Vector3 <LastLivingPosition>k__BackingField
+  field private Boolean started
+  field private Single passOutFailsafeTick
+  field private Single lastZombified
+  field private Vector3 debugLastDied
+  field public static String SKELETON_PREFAB
+  field public static String PETRIFIED_PREFAB
+  field public Boolean gameOver
+  field public SFX_Instance[] poofSFX
+  field private static Boolean forceWin
+  field private Boolean UnPassOutCalled
+  field public Action UnPassOutAction
+  field private Boolean unPassOutCalled
+  field public Boolean reachBlockedUntilPress
+  field public Action<Single> landAction
+  field public Action startJumpAction
+  field public Action jumpAction
+  field private Action startClimbAction
+  field public Action<Vector3,Single> dragTowardsAction
+  field public Action reviveAction
+  field private Single <timeLastWarped>k__BackingField
+  field private Vector3 _lastWarpTarget
+  field private Boolean <warping>k__BackingField
+  field private Action<Character> WarpCompleted
+  field private static WaitForSeconds warpWait
+  field private static WaitForFixedUpdate waitForFixedUpdate
+  field private Coroutine _warpRoutine
+  field public Action<String,Single> illegalStatusAction
+  field private Boolean <infiniteStam>k__BackingField
+  field private Boolean <statusesLocked>k__BackingField
+  field private List<StickPart> stickParts
+  prop Boolean IsPlayerControlled
+  prop Boolean localCharacterExists
+  prop Player player
+  prop Character observedCharacter
+  prop Boolean inAirport
+  prop PlayerGhost Ghost
+  prop Boolean IsGhost
+  prop Boolean IsRegisteredToPlayer
+  prop Boolean IsLocal
+  prop Boolean IsObserved
+  prop Boolean IsInitialized
+  prop Vector3 VirtualCenter
+  prop Vector3 Center
+  prop Vector3 Head
+  prop String characterName
+  prop Vector3 LastLivingPosition
+  prop Single timeLastWarped
+  prop Boolean warping
+  prop Boolean infiniteStam
+  prop Boolean statusesLocked
+  method public static Boolean GetCharacterWithPhotonID(Int32 photonID, out Character& characterResult)
+  method private Void OnDestroy()
+  method private Void Awake()
+  method public Void InitializeRefs()
+  method public Void BreakCharacterCarrying(Boolean sendRPC)
+  method private Void DropCarriedCharacter(Boolean sendRPC)
+  method internal Void SetDeadAfterReconnect(Vector3 lastLivingPosition)
+  method public Vector3 GetSpectatePosition()
+  method internal Void AddForceAtPosition(Vector3 force, Vector3 point, Single radius)
+  method public Void RPCA_AddForceAtPosition(Vector3 force, Vector3 point, Single radius)
+  method public static Void GainFullStamina()
+  method private Void CreateHelperObjects()
+  method public Void Start()
+  method private Void OnAddedStatus(STATUSTYPE sTATUSTYPE, Single amount)
+  method private Void Update()
+  method private Void UpdateVariables()
+  method public static Vector3 DeathPos()
+  method private Void HandleDeath()
+  method private Void HandlePassedOut()
+  method private Void ZombieFailsafe()
+  method public Boolean WillDoCheckpoint(out CheckpointFlag& flag)
+  method public Boolean TryCheckpoint()
+  method private Void RegainItems(PhotonView regainingCharacterView)
+  method public static Void Die()
+  method internal Void DieInstantly()
+  method internal Void DieInstantlyLocal()
+  method public Void RPCA_SetDead()
+  method public Void RPCA_Die()
+  method public Void SpawnSkeletonOnDeath()
+  method public Void SpawnStatue(Boolean killedByDagger)
+  method public static Void Zombify()
+  method public static Void TestWarp()
+  method public Void RPCA_Zombify()
+  method public Void FinishZombifying()
+  method public Void CheckEndGame()
+  method public static Void TestWin()
+  method internal Void EndGame()
+  method public Void RPCA_SyncScoutReport(SyncData reconnectData, Boolean wasRevived, PhotonMessageInfo msgInfo)
+  method public Void RPCA_InitializeScoutReport()
+  method private Void RPCEndGame_ForceWin()
+  method private Void RPCEndGame()
+  method public static Boolean CheckWinCondition(Character c)
+  method private Void RPCA_UnPassOut()
+  method private Void UnPassOutDone()
+  method public static Void PassOut()
+  method public Void RPCA_PassOut()
+  method private Void HandlePetrifyVisualsRemote()
+  method private Void HandleLife()
+  method public Void PassOutInstantly()
+  method private Void FixedUpdate()
+  method private Void UpdateVariablesFixed()
+  method private Boolean NobodyIsAlive()
+  method private Boolean HasMeaningfulTempStatuses()
+  method private Boolean CanRegenStamina()
+  method public Single GetTotalStamina()
+  method internal Bodypart GetBodypart(BodypartType head)
+  method internal Rigidbody GetBodypartRig(BodypartType head)
+  method internal Void CalculateWorldMovementDir()
+  method internal Void RecalculateLookDirections()
+  method internal Vector3 GetCameraPos(Single forwardOffset)
+  method internal Vector3 GetAnimationRelativePosition(Vector3 position)
+  method internal Void OnLand(Single sinceGrounded)
+  method internal Void OnStartJump()
+  method internal Void OnJump()
+  method internal Void OnStartClimb()
+  method internal Vector3 HipPos()
+  method internal Vector3 TorsoPos()
+  method internal Void AddForce(Vector3 move, Single minRandomMultiplier, Single maxRandomMultiplier)
+  method internal Boolean CheckStand()
+  method internal Boolean CheckGravity()
+  method internal Boolean CheckMovement()
+  method internal Boolean CheckJump()
+  method internal Boolean CheckSprint()
+  method internal Void SetRotation()
+  method internal Boolean UseStamina(Single usage, Boolean useBonusStamina, Boolean ignoreAscents)
+  method public Void MoraleBoost(Single staminaAdd, Int32 scoutCount)
+  method public Void AddStamina(Single add)
+  method public Void ClampStamina()
+  method public Single GetMaxStamina()
+  method public Void SetExtraStamina(Single amt)
+  method public Void AddExtraStamina(Single add)
+  method public Void FeedItem(Item item)
+  method public Void GetFedItemRPC(Int32 itemPhotonID)
+  method internal Void DragTowards(Vector3 target, Single force)
+  method internal Boolean OutOfStamina()
+  method internal Boolean OutOfRegularStamina()
+  method internal Boolean IsSliding()
+  method internal Boolean CanDoInput()
+  method internal Int32 GetPlayerListID(List<Character> playerList)
+  method internal Void Fall(Single seconds, Single screenShake)
+  method public Void RPCA_UnFall()
+  method public Void RPCA_Fall(Single seconds, Single shake)
+  method public static Void Revive()
+  method internal Void ReviveCharacter(Boolean applyStatus)
+  method public static Void ApplyPostReviveStatus(CharacterAfflictions afflictions)
+  method internal Void RPCA_ReviveAtPosition(Vector3 position, Boolean applyStatus, Int32 statueSegment)
+  method public Void WarpPlayerRPC(Vector3 position, Boolean poof)
+  method public Void PlayPoofVFX(Vector3 pos)
+  method private Void TryWarpAgain()
+  method internal Void WarpPlayer(Vector3 position, Boolean poof)
+  method internal Void MoveBodypartTowardsPoint(BodypartType bodypart, Vector3 pos, Single force, Single clampDistance)
+  method public static Boolean PlayerIsDeadOrDown()
+  method internal BodypartType GetPartType(Rigidbody rigidbody)
+  method internal Void LimitFalling()
+  method internal Void AddIllegalStatus(String illegalStatus, Single amount)
+  method public static Void InfiniteStamina()
+  method public static Void LockStatuses()
+  method private Void OnGetMic(Single db)
+  method internal Void StartPassedOutOnTheBeach()
+  method private Void TestSpawnChallengeItems()
+  method public Void AddForceToBodyPart(Rigidbody rig, Vector3 partForce, Vector3 wholeBodyForce)
+  method public Void RPCA_AddForceToBodyPart(BodypartType bodypartType, Vector3 force, Vector3 wholeBodyForce)
+  method internal Void ClampSinceGrounded(Single maxSinceGrounded)
+  method internal Void ClampRagdollControl(Single maxRagdollControlClamp)
+  method private Void HandleStickUpdate()
+  method public Void RPCA_ClearStickData()
+  method public Void RPCA_ClearJoint(BodypartType bodypartType)
+  method private Void JumpStickEffect()
+  method public Boolean IsStuck()
+  method internal Boolean TryStickBodypart(Bodypart bodypart, Vector3 stickAnchor, STATUSTYPE statusType, Single statusAmount)
+  method private Void RPCA_Stick(BodypartType bodypartType, Vector3 pos, Vector3 stickAnchor, STATUSTYPE statusType, Single statusAmount)
+  method internal Void UnStick()
+  method public Void RPCA_Unstick()
+  method private Boolean StickPartExists(Bodypart bodypart)
+  method internal Void AddForce(Object value)
+  method public static Void RagdollExorcism()
+  method public static Void WarpToSpawn()
+  method public Boolean TryGetGlobalPlayerData(out CharacterData& d)
+  method public Void RPC_SetBlockedState(Boolean blocked)
+  method private Void <Awake>b__48_0(String result)
+  method private Void <RPCA_PassOut>g__PassOutDone|108_0()
+  method private IEnumerator <TestSpawnChallengeItems>g__SpawnChallengeItem|203_0(String itemName)
+  method internal static IEnumerator <RagdollExorcism>g__ForceRagdollToChill|220_0(Character cursedCharacter)
+
+## class Character+CharacterRefs : Object
+  field public Transform carryPosRef
+  field public CharacterRopeHandling ropeHandling
+  field public CharacterClimbing climbing
+  field public CharacterMovement movement
+  field public CharacterRagdoll ragdoll
+  field public CharacterBalloons balloons
+  field public CharacterInteractible interactible
+  field public CharacterVoiceHandler voice
+  field public RigCreator rigCreator
+  field public Bodypart head
+  field public Bodypart hip
+  field public CharacterAnimations animations
+  field public Animator animator
+  field public RigBuilder ikRigBuilder
+  field public Rig ikRig
+  field public TwoBoneIKConstraint ikLeft
+  field public TwoBoneIKConstraint ikRight
+  field public CharacterItems items
+  field public AnimatedVariables animatedVariables
+  field public CharacterAfflictions afflictions
+  field public BadgeUnlocker badgeUnlocker
+  field public PhotonView view
+  field public CharacterVoiceTransformProvider voicePositionProvider
+  field public CharacterHeatEmission heatEmission
+  field public CharacterVineClimbing vineClimbing
+  field public SkinnedMeshRenderer mainRenderer
+  field public CharacterCarrying carriying
+  field public CharacterCustomization customization
+  field public CharacterStats stats
+  field public CharacterGrabbing grabbing
+  field public HideTheBody hideTheBody
+  field public ParticleSystem poof
+  field public CharacterBackpackHandler backpackHandler
+  field public Transform IKHandTargetLeft
+  field public Transform IKHandTargetRight
+  field public Transform helperObjects
+  field public Transform animationHeadTransform
+  field public Transform animationHipTransform
+  field public Transform animationItemTransform
+  field public Transform animationLookTransform
+  field public Transform animationPositionTransform
+  field public Transform backpackTransform
+  field public Parachute parachute
+  field public TurtleShell turtleShell
+  field public InfiniteStamSphere infiniteStamSphere
+
+## class CharacterCustomization : MonoBehaviour
+  field private Character _character
+  field public CustomizationRefs refs
+  field public static Int32 MainTex
+  field private static Int32 SkinColor
+  field private static Int32 Spin
+  field private static Int32 VertexGhost
+  field private static Int32 StatusColor
+  field private static Int32 StatusGlow
+  field private static Int32 Opacity
+  field public Boolean useDebugColor
+  field public Int32 debugColorIndex
+  field public Int32 maxIdles
+  field public Animator PlayerAnimator
+  field private PhotonView view
+  field public ParticleSystem chickenParticle
+  field public Texture passedOutEyes
+  field public Boolean ignorePlayerCosmetics
+  field private Texture CurrentEyeTexture
+  field public Texture deadEyes
+  field public Boolean forcePresetEyes
+  field public Boolean isPassedOut
+  field public Boolean isDead
+  field public Int32 currentMedal
+  field public Player overridePhotonPlayer
+  field public Boolean isCannibalizable
+  field private Tweener chickenTweener
+  field private Boolean _allRenderersHidden
+  field private Single visualPetrify
+  field private Boolean petrifyStarted
+  field public AnimationCurve petrifyCurve
+  field private Boolean petrifyRenderersActive
+  prop Color PlayerColor
+  prop Vector3 PlayerColorAsVector
+  method private Void Awake()
+  method public Void Start()
+  method private IEnumerator GetCosmeticsFromSteamRoutine()
+  method private Void TryGetCosmeticsFromSteam()
+  method public static Void Randomize()
+  method public Void RandomizeCosmetics()
+  method private Void OnDestroy()
+  method public Void SetCustomizationForRef(CustomizationRefs refs)
+  method internal Void OnPlayerDataChange(PersistentPlayerData playerData)
+  method public static Int32 GetEyesIndex(PersistentPlayerData playerData)
+  method public static Int32 GetSkinIndex(PersistentPlayerData playerData)
+  method public static Int32 GetFitIndex(PersistentPlayerData playerData)
+  method public static Int32 GetMouthIndex(PersistentPlayerData playerData)
+  method public static Int32 GetAccessoryIndex(PersistentPlayerData playerData)
+  method public static Int32 GetSashIndex(PersistentPlayerData playerData)
+  method public static Int32 GetMedalIndex(PersistentPlayerData playerData)
+  method public static Void SetCharacterSkinColor(Int32 index)
+  method public static Void SetCharacterEyes(Int32 index)
+  method public static Void SetCharacterMouth(Int32 index)
+  method public static Void SetCharacterAccessory(Int32 index)
+  method public static Void SetCharacterOutfit(Int32 index)
+  method public static Void SetCharacterHat(Int32 index)
+  method public static Void SetCharacterSash(Int32 index)
+  method public static Void SetCharacterMedal(Int32 index)
+  method public Void SetRandomSkinColor()
+  method public Void SetRandomEyes()
+  method public Void SetRandomMouth()
+  method public Void SetRandomAccessory()
+  method public Void SetRandomOutfit()
+  method public Void SetRandomHat()
+  method public Void SetRandomIdle()
+  method public Void CharacterDied()
+  method public Void CharacterPassedOut()
+  method public Void BecomeChicken()
+  method public Void BecomeHuman()
+  method private Void ShowChicken()
+  method private Void HideChicken()
+  method private Void ShowHuman()
+  method private Void HideHuman()
+  method public Void HideAllRenderers()
+  method public Void ShowAllRenderers()
+  method public Void PulseStatus(Color c, Single intensity)
+  method public Void SetCharacterIdle_RPC(Int32 index)
+  method private static CharacterCustomizationData GetCustomizationData(Player player)
+  method private static Void SetCustomizationData(CharacterCustomizationData customizationData, Player player)
+  method public Void Update()
+  method private Void UpdatePetrify()
+  method private Void SetPetrifyAmount(Single visualPetrify)
+  method private Void ClearPetrify()
+  method public Void OnRevive()
+  method public Void OnRevive_RPC()
+
+## class CharacterCustomization+<GetCosmeticsFromSteamRoutine>d__30 : Object
+  field private Int32 <>1__state
+  field private Object <>2__current
+  field public CharacterCustomization <>4__this
+  prop Object System.Collections.Generic.IEnumerator<System.Object>.Current
+  prop Object System.Collections.IEnumerator.Current
+  method private virtual Void System.IDisposable.Dispose()
+  method private virtual Boolean MoveNext()
+  method private virtual Void System.Collections.IEnumerator.Reset()
+
+## class CharacterCustomizationData : Object
+  field public Int32 currentSkin
+  field public Int32 currentAccessory
+  field public Int32 currentEyes
+  field public Int32 currentMouth
+  field public Int32 currentOutfit
+  field public Int32 currentHat
+  field public Int32 currentSash
+  field public Int32 currentMedal
+  method public virtual Void Serialize(BinarySerializer serializer)
+  method public virtual Void Deserialize(BinaryDeserializer deserializer)
+  method public Void CorrectValues()
+  method public virtual String ToString()
+
+## class CharacterData : MonoBehaviourPunCallbacks
+  field private Single <currentRagdollControll>k__BackingField
+  field public static Single deathSpectateLingerTime
+  field public Single passOutValue
+  field public Boolean passedOut
+  field public Boolean fullyPassedOut
+  field public Single lastPassedOut
+  field public Single deathTimer
+  field public Segment lastRevivedSegment
+  field public Single timeInAntigrav
+  field private Boolean _isSkeleton
+  field public Boolean hasParachute
+  field public ItemSlot currentParachuteSlot
+  field public Item currentParachuteItem
+  field private Int32 AN_INWATER
+  field private Boolean _dead
+  field private Boolean _zombified
+  field private Single <lastZombified>k__BackingField
+  field private Boolean _cannibalismPermitted
+  field private Boolean isInvincible
+  field private Int32 lowGravAmount
+  field private Boolean isInvincibleMilk
+  field private Int32 <petrifyAmount>k__BackingField
+  field public Boolean isGrounded
+  field public Single sinceGrounded
+  field public Vector3 groundPos
+  field public Vector3 groundNormal
+  field public Single targetHeadHeight
+  field public Single targetHipHeight
+  field public Vector3 worldMovementInput
+  field public Vector3 worldMovementInput_Grounded
+  field public Vector3 worldMovementInput_Lerp
+  field public Vector2 lookValues
+  field public Vector3 lookDirection
+  field public Vector3 lookDirection_Flat
+  field public Vector3 lookDirection_Right
+  field public Vector3 lookDirection_Up
+  field public Boolean isSprinting
+  field public Single lastBouncedTime
+  field public Single lastFroggedTime
+  field public List<CheckpointFlag> checkpointFlags
+  field private Item _currentitem
+  field public StickyItemComponent currentStickyItem
+  field public Vector3 avarageVelocity
+  field public Vector3 avarageLastFrameVelocity
+  field public Single sinceJump
+  field public Single sinceClimb
+  field public Single currentHeadHeight
+  field public Boolean isJumping
+  field public Single groundedFor
+  field public Single lastGroundedHeight
+  field public Boolean chargingJump
+  field public Boolean isClimbing
+  field public Boolean isRopeClimbing
+  field public Boolean isVineClimbing
+  field public Vector3 climbPos
+  field public Vector3 climbNormal
+  field public Single spectateZoom
+  field public Boolean isBlind
+  field public Boolean wearingSunscreen
+  field private Action CharacterStateUpdated
+  field private Single _stam
+  field public Single lastFrameTotalStamina
+  field public Single staminaDelta
+  field public Rope heldRope
+  field public JungleVine heldVine
+  field private Single _vinePercent
+  field public Single ropePercent
+  field public Vector3 ropeClimbNormal
+  field public Vector3 ropeClimbWorldNormal
+  field public Vector3 ropeClimbWorldUp
+  field public Single sinceUseStamina
+  field public Boolean isCrouching
+  field public Boolean isReaching
+  field public Boolean isKicking
+  field public FixedJoint grabJoint
+  field public Single sincePressClimb
+  field public Single sincePressReach
+  field public Single lastConsumedItem
+  field public Boolean debugToggleReach
+  field public Boolean reachToggleOn
+  field public Single sinceHeldItem
+  field public Single lastAddedStatusAmount
+  field public Boolean isInFog
+  field public Boolean[] badgeStatus
+  field public String userID
+  field public String productUserID
+  field private PhotonView m_photonView
+  field public PlatformFamily platformFamily
+  field private static Dictionary<Player,CharacterData> m_instances
+  field public Boolean isMuted
+  field public Boolean isBlocked
+  field public Boolean canCommunicateWith
+  field public static String PARACHUTE_TAG
+  field public Single overrideIKForSeconds
+  field public Single extraStamina
+  field public Single outOfStaminaFor
+  field public Single outOfStaminaClimbingFor
+  field public Single staminaMod
+  field public Single sinceClimbJump
+  field public Int32 climbingSpikeCount
+  field public Single grabFriendDistance
+  field public Single sinceFallSlide
+  field public ClimbHandle currentClimbHandle
+  field public Single sinceClimbHandle
+  field public Single sinceGrabFriend
+  field public Boolean usingEmoteWheel
+  field public Boolean usingBackpackWheel
+  field public Single fallSeconds
+  field public Boolean launchedByCannon
+  field public Single sinceAddedCold
+  field public Single sinceStartClimb
+  field public Character carriedPlayer
+  field public Character carrier
+  field public Condor carrierCondor
+  field public Int32 jumpsRemaining
+  field public Int32 extraJumps
+  field public ClimbModifierSurface climbMod
+  field public Single slippy
+  field public RaycastHit climbHit
+  field private Character grabbedPlayer
+  field private Character grabbingPlayer
+  field public Transform spawnPoint
+  field private Character character
+  field public Boolean isKinecmatic
+  field public Boolean isCarried
+  field public Single sinceLetGoOfFriend
+  field public Single sinceStandOnPlayer
+  field public Single sincePalJump
+  field public Character lastStoodOnPlayer
+  field public Single myersDistance
+  field public Single sinceItemAttach
+  field public Single sinceCanClimb
+  field public Boolean hasClimbedSinceGrounded
+  field public Single passedOutOnTheBeach
+  field public Single sinceDied
+  field public Single sinceDead
+  field public Vector3 groundedForward
+  field public Vector3 groundedRight
+  field public Single ragdollControlClamp
+  field public Boolean staticClimbCost
+  field public Single sinceUnstuck
+  field public Boolean isScoutmaster
+  field public Single inWater
+  prop Single currentRagdollControll
+  prop Boolean isInWater
+  prop Boolean isSkeleton
+  prop Boolean canBeSpectated
+  prop Boolean dead
+  prop Single lastZombified
+  prop Boolean zombified
+  prop Int32 petrifyAmount
+  prop Boolean shouldPetrify
+  prop Boolean cannibalismPermitted
+  prop Boolean fullyConscious
+  prop Boolean isClimbingAnything
+  prop Item currentItem
+  prop Single currentStamina
+  prop Single vinePercent
+  prop Single TotalStamina
+  prop Boolean usingWheel
+  prop Boolean IsCarryingCharacter
+  method public Single GetTargetRagdollControll()
+  method public Void SetPetrify(Int32 amount)
+  method public Void RecalculateInvincibility()
+  method public Void RecalculateLowGrav()
+  method private Void Awake()
+  method private Void OnDestroy()
+  method private Void Start()
+  method public virtual Void OnPlayerEnteredRoom(Player newPlayer)
+  method public Void PushAll()
+  method public Void RPC_SyncOnJoin(Boolean passedOut, Boolean fullyPassedOut, Boolean dead, Boolean isSprinting, PhotonView currentItem, Boolean isJumping, Boolean isClimbing, Boolean isRopeClimbing, Boolean isVineClimbing, Single vinePercent, Single ropePercent, Boolean isCrouching, Boolean isReaching, PhotonView heldVine, PhotonView heldRope, Boolean[] badgeStatus, Boolean cannibalismPermitted, Boolean isSkeleton, Int32 petrifyAmount)
+  method internal Void SetBadgeStatus()
+  method public Void RPC_SyncPetrify(Int32 amount)
+  method public Void RPCA_SyncCanBeCannibalized(Boolean canBeCannibalized)
+  method private Void SyncBadgeStatus(Boolean[] statusArray)
+  method public Void SetSkeleton(Boolean active)
+  method public Void RPC_SyncSkeleton(Boolean active)
+  method internal Boolean GetBadgeStatus(Int32 index)
+  method public Void DestroyCheckpointFlags()
+  method public Void UpdateHasParachute()
+  method public static Boolean TryGetPlayerData(Player player, out CharacterData& characterData)
+
+## class ChildMaterialSwapper : MonoBehaviour
+  field public List<ThemeWithRarity> themes
+  field private Dictionary<Material,Int32> _materialToSlot
+  field public Boolean forceDisable
+  field public ThemeWithRarity chosenTheme
+  method public virtual Void RunStep()
+  method private Void Start()
+  method public Void ApplyRandomTheme()
+  method private Void ReplaceMaterialsForRenderer(MeshRenderer rend, ThemeWithRarity chosenTheme)
+  method private Void BuildMaterialSlotLookup()
+  method private ThemeWithRarity GetRandomTheme()
+
+## class CinemaCamera : MonoBehaviour
+  field public Boolean on
+  field public Transform cam
+  field private GameObject rootObj
+  field private Fog fog
+  field private GUIManager gM
+  field private Camera oldCam
+  field private Vector3 vel
+  field private Vector3 rot
+  field private Boolean t
+  field public Transform ambience
+  method private Void Start()
+  method private Void Update()
+
+## class ClimbModifierSurface : MonoBehaviour
+  field public Boolean onlySlideDown
+  field public Single speedMultiplier
+  field public Single slipModifier
+  field public Single staminaUsageMultiplier
+  field public Boolean applyStatus
+  field public STATUSTYPE statusType
+  field public Boolean applyPetrify
+  field public Single statusAmount
+  field public Single statusCooldown
+  field private Single lastTriggerTime
+  field public Boolean staticClimbCost
+  field public Action<Character> onClimbAction
+  field private Boolean hasAlwaysClimbableRange
+  field private Single alwaysClimbableRange
+  method public Void OnClimb(Character character)
+  method public Void OnClimbEnter()
+  method public Void OnClimbExit()
+  method internal Single OverrideClimbAngle(Character character, Single climbAngle)
+
+## class CollisionMod : Object
+  field public STATUSTYPE statusType
+  field public Single amount
+  field public Single knockback
+
+## class CollisionModifier : MonoBehaviour
+  field private List<Character> characterList
+  field private ICollisionModifierEvent[] collisionEvents
+  field public Boolean applyEffects
+  field public Boolean applyPetrify
+  field public STATUSTYPE statusType
+  field public Single damage
+  field public Single cooldown
+  field public Single knockback
+  field public Boolean knockbackOnlyWhenStanding
+  field public Single ragdolledKnockback
+  field public Single knockbackTowardsFwdVector
+  field public List<CollisionMod> additionalMods
+  field public Action<Character,CollisionModifier,Collision,Bodypart> onCollide
+  field public Boolean useBounceCoroutine
+  field public Boolean standable
+  field public Animator bounceAnimator
+  field public Single superBouncePow
+  field public Single sinceGroundedOffset
+  field public Single bounceDotMinimum
+  field public Single staminaBackOnBounce
+  field public SFX_Instance bounceSFX
+  field public Boolean preventFallDamageIfKnockback
+  field private Single maxBounce
+  field private Coroutine bounceAnimatorRoutine
+  field private Boolean hasStandableRange
+  field private Single standableRange
+  method private Void Awake()
+  method public Void Collide(Character character, ContactPoint contactPoint, Collision collision, Bodypart bodypart)
+  method private IEnumerator DisableBounceAnimator()
+  method private Void TriggerCharacterBouncedEvents(Character bouncedCharacter)
+  method internal Boolean CanStand(Character character)
+
+## enum ControllerIconSetting+IconMode : Enum
+  Auto
+  Style1
+  Style2
+  KBM
+
+## class CookingBehavior_ModifyAudioSourcePitch : AdditionalCookingBehavior
+  field public Single changePerCooking
+  field public AudioSource source
+  method protected virtual Void TriggerBehaviour(Int32 cookedAmount)
+
+## class CookingBehavior_ModifyBugleWobble : AdditionalCookingBehavior
+  field public Single changePerCooking
+  field public Int32 maxCooking
+  field public BugleSFX source
+  method protected virtual Void TriggerBehaviour(Int32 cookedAmount)
+
+## class CookingBehavior_ModifyEtcStats : AdditionalCookingBehavior
+  field public Boolean canPocket
+  field public Boolean canBackpack
+  method protected virtual Void TriggerBehaviour(Int32 cookedAmount)
+
+## class CosmeticUnlockWindow : MenuWindow
+  field public Button continueButton
+  prop Selectable objectToSelectOnOpen
+
+## class Customization : Singleton<Customization>
+  field public CustomizationOption[] skins
+  field public CustomizationOption[] accessories
+  field public CustomizationOption[] eyes
+  field public CustomizationOption[] mouths
+  field public CustomizationOption[] fits
+  field public CustomizationOption[] hats
+  field public CustomizationOption[] sashes
+  field public CustomizationOption[] medals
+  field public CustomizationOption goatHat
+  field public CustomizationOption crownHat
+  field public CustomizationOption ascendantMedal
+  method public List<CustomizationOption> TryGetUnlockedCosmetics(BadgeData badge)
+  method public CustomizationOption[] GetList(Type type)
+  method public Int32 GetRandomUnlockedIndex(Type type)
+
+## class CustomizationOption : ScriptableObject
+  field public Type type
+  field public Texture texture
+  field public ACHIEVEMENTTYPE requiredAchievement
+  field public STEAMSTATTYPE requiredSteamStat
+  field public Int32 requiredSteamStatValue
+  field public Boolean requiresAscent
+  field public Int32 requiredAscent
+  field public CUSTOMREQUIREMENT customRequirement
+  field public Boolean isBlank
+  field public Boolean testLocked
+  field public Boolean drawUnderEye
+  field public Boolean isThirdEye
+  field public Color color
+  field public Mesh fitMesh
+  field public Material fitMaterial
+  field public Material fitMaterialShoes
+  field public Material fitMaterialOverridePants
+  field public Material fitMaterialOverrideHat
+  field public Boolean isSkirt
+  field public Boolean noPants
+  field public Boolean overrideHat
+  field public Int32 overrideHatIndex
+  prop Boolean requiresSteamStat
+  prop Boolean IsAccessory
+  prop Boolean IsSkin
+  prop Boolean IsFit
+  prop Material fitPantsMaterial
+  prop Material fitHatMaterial
+  prop Boolean IsLocked
+
+## class CustomizationRefs : MonoBehaviour
+  field public CharacterCustomization customization
+  field public SkinnedMeshRenderer mainRenderer
+  field public SkinnedMeshRenderer mainRendererShadow
+  field public Renderer[] PlayerRenderers
+  field public Renderer[] EyeRenderers
+  field public Renderer mouthRenderer
+  field private Boolean _accessoryEnabled
+  field public Renderer accessoryRenderer
+  field public Renderer shorts
+  field public Renderer skirt
+  field public Renderer skirtShadow
+  field public Renderer shortsShadow
+  field public Renderer[] playerHats
+  field public MeshFilter hatShadowMeshFilter
+  field public Renderer sashRenderer
+  field public Renderer medalRenderer
+  field public Renderer blindRenderer
+  field public Renderer chickenRenderer
+  field public Renderer[] stoneRenderers
+  field public Renderer headShadow
+  field public Renderer skeletonRenderer
+  field public Mesh skeletonFirstPerson
+  field public Mesh skeletonThirdPerson
+  field public Mesh mushroomManMesh
+  field public Material mushroomManMaterial
+  field public Material skeletonFirstPersonMat
+  field public Material skeletonThirdPersonMat
+  field public Material[] sashAscentMaterials
+  field public Transform hatTransform
+  field public Renderer[] AllRenderers
+  field public GameObject thirdEye
+  prop Boolean accessoryEnabled
+  method public Void SetSkeleton(Boolean active, Boolean isLocal)
+  method public Void SetMushroomMan(Boolean active)
+
+## class DayNightManager+ShaderParameters : Object
+  field public String paramName
+  field public String paramValue
+
+## enum DayNightManager+ShaderParams : Enum
+  AirDistortion
+  RimFresnel
+  LavaAlpha
+  BandFog
+  SunSize
+  HeightFogAmount
+  HeightFogHeight
+  HeightFogColor
+  HeightFogSoften
+  InSpace
+
+## enum DynamicBone+UpdateMode : Enum
+  Normal
+  AnimatePhysics
+  UnscaledTime
+  Default
+
+## class EndScreen+<CosmeticUnlockRoutine>d__66 : Object
+  field private Int32 <>1__state
+  field private Object <>2__current
+  field public EndScreen <>4__this
+  field public CustomizationOption cosmetic
+  prop Object System.Collections.Generic.IEnumerator<System.Object>.Current
+  prop Object System.Collections.IEnumerator.Current
+  method private virtual Void System.IDisposable.Dispose()
+  method private virtual Boolean MoveNext()
+  method private virtual Void System.Collections.IEnumerator.Reset()
+
+## class FootStepPlayer : MonoBehaviour
+  field private Character character
+  field public LayerMask floorLayer
+  field public StepSoundCollection surfaceLookup
+  field private Int32 doStep
+  field private Boolean t
+  field public Material beachSand
+  field public Material beachRock
+  field public Material desertSand
+  field public Material[] jungleGrass
+  field public Material jungleRock
+  field public Material iceSnow
+  field public Material iceRock
+  field public Material volcanoRock
+  field public Material[] metal
+  field public Material[] wood
+  field private RaycastHit hit
+  field public GameObject onGround
+  field public GameObject offGround
+  field public AmbienceAudio ambience
+  field public AudioSource audioSourceOverride
+  field private Boolean bingBongRoom
+  field private Single timer
+  method private Void Start()
+  method private Void Update()
+  method private Void PlayStep()
+
+## class FreeModifier : ProceduralImageModifier
+  field private Vector4 radius
+  prop Vector4 Radius
+  method public virtual Vector4 CalculateRadius(Rect imageRect)
+  method protected Void OnValidate()
+
+## class GhostFire+<<RPC_SetLit>g__SafeZoneShaderRoutine|10_0>d : Object
+  field private Int32 <>1__state
+  field private Object <>2__current
+  field private Single <t>5__2
+  prop Object System.Collections.Generic.IEnumerator<System.Object>.Current
+  prop Object System.Collections.IEnumerator.Current
+  method private virtual Void System.IDisposable.Dispose()
+  method private virtual Boolean MoveNext()
+  method private virtual Void System.Collections.IEnumerator.Reset()
+
+## class GrassRenderer : MonoBehaviour
+  field public int3 CurrentChunk
+  field public ComputeShader grassComputeShader
+  field private ComputeKernel grassGeometryKernel
+  field private ComputeBuffer GeometryBuffer
+  field private ComputeBuffer ArgumentsBuffer
+  field private ComputeBuffer GrassPointsBuffer
+  field private static Int32 MAX_GRASS
+  field private static Int32 DRAW_STRIDE
+  field private static Int32 INDIRECT_DRAW_ARGS_STIDE
+  field private Int32[] argsBufferReset
+  field public Material m_grassRenderMaterial
+  field private GrassDataProvider DataProvider
+  method private Void OnEnable()
+  method private Void OnDisable()
+  method private Void Render()
+
+## class HeadBobSetting : CustomLocalizedOffOnSetting
+  method public virtual Void ApplyValue()
+  method protected virtual OffOnMode GetDefaultValue()
+  method public virtual List<LocalizedString> GetLocalizedChoices()
+  method public virtual String GetDisplayName()
+  method public virtual String GetCategory()
+  method public virtual Boolean ShouldShow()
+
+## interface ICollisionModifierEvent : 
+  method public virtual Void OnBouncedCharacter(Character character)
+
+## class IsDisconnectingForOfflineMode : GameStatus
+
+## class LocalPlayerRenderer : MonoBehaviour
+  field public ShadowCastingMode renderMode
+  method private Void Start()
+
+## class MainCamera : MonoBehaviour
+  field public static MainCamera instance
+  field private Camera cam
+  field private CameraOverride camOverride
+  field private Int32 sinceOverride
+  prop Single HorizontalFieldOfView
+  method private Void Awake()
+  method public Void SetCameraOverride(CameraOverride setOverride)
+  method public static Boolean PointWouldBeInFieldOfView(Transform cameraTf, Vector3 point, Single fovInset)
+  method public static Boolean PointWouldBeInFieldOfView(Vector3 cameraPos, Quaternion cameraRot, Vector3 point, Single fovInset)
+  method public static Boolean PointInFieldOfView(Vector3 point)
+  method private Void Update()
+
+## class MainCameraMovement : Singleton<MainCameraMovement>
+  field private Single currentFov
+  field private Single currentForwardOffset
+  field private MainCamera cam
+  field private FovSetting fovSetting
+  field private ExtraFovSetting extraFovSetting
+  field private static Character <specCharacter>k__BackingField
+  field public Single characterPovLerpRate
+  field public Single characterPovMaxDistance
+  field private Boolean isSpectating
+  field private Boolean isGodCam
+  field public GodCam godcam
+  field private Single defaultSpectateZoom
+  field private Single spectateZoom
+  field public Single spectateZoomMin
+  field public Single spectateZoomMax
+  field public Single spectateZoomButtonSpeed
+  field private Boolean isRocketing
+  field private Single sinceSwitch
+  field private Single ragdollCam
+  field private Quaternion physicsRot
+  field private Vector3 targetPlayerPovPosition
+  prop Character specCharacter
+  prop Boolean IsSpectating
+  method private Void Start()
+  method private Void LateUpdate()
+  method public Void StartRocketing()
+  method public Void StopRocketing()
+  method private Void StartSpectate()
+  method private Void StopSpectating()
+  method private Void UpdateVariables()
+  method private Void Spectate(Boolean useGhost)
+  method private Boolean HandleSpecSelection()
+  method public Void SwapSpecPlayerLeft()
+  method public Void SwapSpecPlayerRight()
+  method private Void SwapSpecPlayer(Int32 add)
+  method private Void GetSpecPlayer()
+  method private Void CharacterCam()
+  method private Void OverrideCam()
+  method private Single GetHeadOffset()
+  method private Single GetFov()
+
+## class MainMenu+<DisconnectForOfflineMode>d__23 : Object
+  field private Int32 <>1__state
+  field private Object <>2__current
+  prop Object System.Collections.Generic.IEnumerator<System.Object>.Current
+  prop Object System.Collections.IEnumerator.Current
+  method private virtual Void System.IDisposable.Dispose()
+  method private virtual Boolean MoveNext()
+  method private virtual Void System.Collections.IEnumerator.Reset()
+
+## class MainMenu+<StartOfflineModeRoutine>d__24 : Object
+  field private Int32 <>1__state
+  field private Object <>2__current
+  prop Object System.Collections.Generic.IEnumerator<System.Object>.Current
+  prop Object System.Collections.IEnumerator.Current
+  method private virtual Void System.IDisposable.Dispose()
+  method private virtual Boolean MoveNext()
+  method private virtual Void System.Collections.IEnumerator.Reset()
+
+## enum MapGenerationStage+SpawnMode : Enum
+  SingleObject
+  SpawnList
+
+## class MaterialLayerSwapper : MonoBehaviour
+  field public Int32 targetMaterial
+  field public Vector2Int layer
+  field public Color color
+  field public Single smooth
+  field public Single height
+  field public Texture texture
+  field public Single triplanar
+  field public Single uv
+  field public Single flip
+  field public Vector2 remap
+  field public Color color2
+  field public Single smooth2
+  field public Single height2
+  field public Texture texture2
+  field public Single triplanar2
+  field public Single uv2
+  field public Single flip2
+  field public Vector2 remap2
+  method private Void Swap()
+
+## class MaterialSetter : MonoBehaviour
+  field public Material material
+  method public Void setMaterial()
+
+## class MirrorCameraScript : MonoBehaviour
+  field public GameObject MirrorObject
+  field public Boolean VRMode
+  field private Renderer mirrorRenderer
+  field private Material mirrorMaterial
+  field private MirrorScript mirrorScript
+  field private Camera cameraObject
+  field private RenderTexture reflectionTexture
+  field private Matrix4x4 reflectionMatrix
+  field private Int32 oldReflectionTextureSize
+  field private static Boolean renderingMirror
+  method private Void Start()
+  method private Void CreateRenderTexture()
+  method private Void Update()
+  method private Void UpdateCameraProperties(Camera src, Camera dest)
+  method internal Void RenderMirror()
+  method private Void OnDisable()
+  method private Vector4 CameraSpacePlane(ref Matrix4x4& worldToCameraMatrix, ref Vector3& pos, ref Vector3& normal, Single sideSign)
+  method private Void CalculateReflectionMatrix(ref Vector4& plane)
+  method private static Void CalculateObliqueMatrix(ref Matrix4x4& projection, ref Vector4& clipPlane)
+  method private static Single Sign(Single a)
+
+## class MovementModificationVolume : MovementModifier
+
+## class MovementModifier : MonoBehaviour
+  method private Void Start()
+  method private Void Update()
+
+## class OnlyOneEdgeModifier : ProceduralImageModifier
+  field private Single radius
+  field private ProceduralImageEdge side
+  prop Single Radius
+  prop ProceduralImageEdge Side
+  method public virtual Vector4 CalculateRadius(Rect imageRect)
+
+## class OrbThatMakesYouSleepy : MonoBehaviour
+  field public Transform orb
+  field public Single maxDistance
+  field public Single minDrowsyPerSecond
+  field public Single maxDrowsyPerSecond
+  field public Single minDrowsyPerTick
+  field public Single maxDrowsyPerTick
+  field public ParticleSystem particle
+  field public Animator anim
+  field public Single animSpeed
+  field public ParticleSystem ambientParticles
+  field public FakeItem fakeBerry
+  field private Plane[] planes
+  method private Void Start()
+  method public Void Tick()
+  method private Void LateUpdate()
+  method private Void DebugHypnosis()
+  method private Void UpdateHypnosis(Boolean debug)
+
+## class PassportButton : MonoBehaviour
+  field public Button button
+  field public PassportManager manager
+  field public RawImage icon
+  field public RawImage lockedIcon
+  field public Image border
+  field private CustomizationOption currentOption
+  field private Int32 currentIndex
+  field public Material eyeMaterial
+  method public Void SetButton(CustomizationOption option, Int32 index)
+  method public Void Click()
+
+## class PassportManager : MenuWindow
+  field public static PassportManager instance
+  field public Animator anim
+  field public GameObject uiObject
+  field public PassportTab[] tabs
+  field public Type activeType
+  field public PassportButton[] buttons
+  field public PlayerCustomizationDummy dummy
+  field public Camera dummyCamera
+  field public TextMeshProUGUI nameText
+  field public TextMeshProUGUI passportNumberText
+  field private static String passportNumberString
+  field public Color inactiveBorderColor
+  field public Color activeBorderColor
+  field public Boolean testUnlockAll
+  field public SFX_Instance camIn
+  field public SFX_Instance camOut
+  field public GameObject buttonNext
+  field public GameObject buttonPrev
+  field public TextMeshProUGUI pageNumNext
+  field public TextMeshProUGUI pageNumPrev
+  field public PassportButton medalButton
+  field public CustomizationOption medalOption
+  field private Boolean closing
+  field private Int32 activeTabOptionCount
+  field private Int32 page
+  field private Int32 buttonsPerPage
+  prop Boolean openOnStart
+  prop Boolean selectOnOpen
+  prop Selectable objectToSelectOnOpen
+  prop Boolean closeOnPause
+  prop Boolean closeOnUICancel
+  prop Boolean autoHideOnClose
+  method public Void Awake()
+  method public static Void TestAllCosmetics()
+  method public static String GeneratePassportNumber(String name)
+  method private static String GenerateCountryCode(String name)
+  method private static Int32 GenerateNumericCode(String input, Int32 length)
+  method public Void ToggleOpen()
+  method protected virtual Void Initialize()
+  method protected virtual Void OnClose()
+  method private IEnumerator CloseRoutine()
+  method public Void OpenTab(Type type)
+  method private Void CameraIn()
+  method private Void CameraOut()
+  method public Void SetButtons(Boolean fromTabChange)
+  method private Int32 SetActiveButton(Boolean fromTabChange)
+  method public Void SetOption(CustomizationOption option, Int32 index)
+  method public Void PageNext()
+  method public Void PagePrev()
+
+## class PassportTab : MonoBehaviour
+  field public PassportManager manager
+  field public Type type
+  field public Animator anim
+  field private Boolean opened
+  method public Void SetTab()
+  method public Void Open()
+  method public Void Close()
+
+## class Peak.FogShaderParams : MonoBehaviour
+  field private MeshRenderer mr
+  field public Texture fogTexture
+  method private Void Start()
+  method public Void setFogTexture()
+  method private Void Update()
+
+## class Peak.ForceCustomizationTexture : MonoBehaviour
+  field public Renderer renderer
+  field public Texture texture
+  field private Texture oldTexture
+  method private Void Awake()
+  method private Void Update()
+  method private Void SetTexture()
+
+## class Peak.ForceFogShaderHeight : MonoBehaviour
+  field public FogTypes fogType
+  method private Void Update()
+
+## class Peak.LookWithCamera : MonoBehaviour
+  method private Void LateUpdate()
+
+## enum Peak.Quicksave+LobbyMode : Enum
+  Unknown
+  Offline
+  Online
+
+## class Peak.ReverbModificationZone : MonoBehaviour
+  method private Void Start()
+  method private Void Update()
+
+## class PersistentPlayerData : Object
+  field public CharacterCustomizationData customizationData
+  method public virtual Void Serialize(BinarySerializer serializer)
+  method public virtual Void Deserialize(BinaryDeserializer deserializer)
+
+## class PersistentPlayerDataService : GameService
+  field private Dictionary<Int32,PersistentPlayerData> PersistentPlayerDatas
+  field private Dictionary<Int32,Action<PersistentPlayerData>> OnChangeActions
+  field private ListenerHandle syncPersistentPlayerDataHandle
+  method public virtual Void Dispose()
+  method public virtual Void ClearSessionData()
+  method private Void OnSyncReceived(SyncPersistentPlayerDataPackage package)
+  method public PersistentPlayerData GetPlayerData(Player player)
+  method public PersistentPlayerData GetPlayerData(Int32 actorNumber)
+  method public Void SetPlayerData(Player player, PersistentPlayerData playerData)
+  method private Void OnCharacterRegistered(Character newCharacter)
+  method public Void SubscribeToPlayerDataChange(Player player, Action<PersistentPlayerData> onChange)
+  method public Void UnsubscribeToPlayerDataChange(Player player, Action<PersistentPlayerData> onChange)
+  method public Void SyncToPlayer(Player newPlayer)
+
+## class Player : MonoBehaviourPunCallbacks
+  field public static Int32 BACKPACKSLOTINDEX
+  field public ItemSlot[] itemSlots
+  field public ItemSlot tempFullSlot
+  field public BackpackSlot backpackSlot
+  field public Action<Int32> hotbarSelectionChanged
+  field public Action<ItemSlot[]> itemsChangedAction
+  field public static Player localPlayer
+  field public Boolean hasClosedEndScreen
+  field public Boolean doneWithCutscene
+  field private Boolean _shouldSendCheevUpdate
+  field private PhotonView view
+  prop Character character
+  method private Void Awake()
+  method private Void OnDestroy()
+  method private Void Update()
+  method public Boolean AddItem(UInt16 itemID, ItemInstanceData instanceData, out ItemSlot& slot)
+  method public static Void LeaveCurrentGame()
+  method private Void OnAchievementProgressChanged(ACHIEVEMENTTYPE _)
+  method public Void OnAchievementProgressChanged()
+  method private Void UpdateAchievementProgress(SerializableRunBasedValues progress)
+  method public Void SyncInventoryRPC(Byte[] data, Boolean forceSync)
+  method public Void RPC_GetKicked(PhotonMessageInfo info)
+  method public Void RPCRemoveItemFromSlot(Byte slotID)
+  method public Void EmptySlot(Optionable<Byte> slot, Boolean andBroadcast)
+  method public virtual Void OnPlayerEnteredRoom(Player newPlayer)
+  method public Void RPC_SetInventory(Byte[] newInventory)
+  method public ItemSlot GetItemSlot(Byte slotID)
+  method public BackpackSlot GetBackpackSlot()
+  method public Boolean HasEmptySlot(UInt16 itemID)
+  method private Void DebugPrintPlayerID()
+  method public Boolean HasInAnySlot(UInt16 itemID)
+  method public static Void PrintInventory(Player player)
+  method private Void AssignUserID(UInt64 userID)
+  method private Void AssignPlatformFamily(PlatformFamily platformFamily)
+  method private Void AssignProductUserID(String productUserID)
+  method private ItemSlot <AddItem>g__AddToSlot|16_0(ref <>c__DisplayClass16_0& )
+
+## class PlayerCustomizationDummy : MonoBehaviour
+  field private static Int32 MainTex
+  field private static Int32 SkinColor
+  field public CustomizationRefs refs
+  field public Animator anim
+  method private Void OnEnable()
+  method public Void UpdateDummy(Player player)
+  method public Void SetPlayerCostume(Int32 index)
+  method public Void SetPlayerHat(Int32 index)
+  method public Void SetPlayerColor(Int32 index)
+  method public Void DesaturateFace()
+
+## class PlayerHandler : GameService
+  field private Dictionary<String,Int32> m_userIdToActorNumber
+  field private CachedPlayerList _playerList
+  field private Dictionary<Int32,Player> m_playerLookup
+  field private Dictionary<String,PlayerSessionData> m_playerSessionData
+  field private Dictionary<Int32,Character> m_playerCharacterLookup
+  field private Dictionary<Byte,Character> m_assignedVoiceGroups
+  field public static Action<Character> CharacterRegistered
+  field private static List<Character> s_CharacterCache
+  field private static List<Character> s_Empty
+  field private static Int32 s_FrameCharactersLastCached
+  prop Action<Character> OnCharacterRegistered
+  prop Boolean NeedRefresh
+  prop Boolean Exists
+  prop PlayerHandler Instance
+  method public static List<Character> GetAllPlayerCharacters()
+  method private Void RefreshCachedCharacters()
+  method public virtual Void ClearSessionData()
+  method public static Boolean IsAnyPlayerNear(Vector3 point, Single threshold)
+  method public virtual Void ClearSceneData()
+  method public static Void RegisterPlayer(Player player)
+  method private Void RegisterPlayerImpl(Player player)
+  method private Void OnNetworkEvent(INetworkEventData eventData)
+  method public static Void RegisterCharacter(Character character)
+  method public static Void Kick(Int32 actorNumber)
+  method private static IEnumerator KickRoutine(Int32 actorNumber)
+  method public static Player GetPlayer(Player photonPlayer)
+  method public static Player GetPlayer(Int32 actorNumber)
+  method public static String GetUserId(Int32 actorNumber)
+  method public static Player GetPlayer(String userID)
+  method public static Boolean IsBanned(String id)
+  method public static Boolean TryGetPlayer(Int32 actorNumber, out Player& player)
+  method public static Character GetPlayerCharacter(Player photonPlayer)
+  method public static Boolean HasHadPlayerCharacter(Player photonPlayer)
+  method public static Byte AssignMixerGroup(Character character)
+  method public virtual Void Dispose()
+  method public static IEnumerable<Player> GetAllPlayers()
+  method public static Boolean TryGetCharacter(Int32 actorID, out Character& character)
+
+## class PlayerShaderParams : MonoBehaviour
+  field public Vector3 playerCenterOffset
+  method private Void Update()
+
+## class PlayModeToggler : MonoBehaviour
+
+## class Portningsbolaget.BlockedPlayer : ValueType
+  field public String Nickname
+  field public Int32 AccountHash
+  field public Boolean OnPlatform
+  method public String Serialize()
+  method public Void Deserialize(String data)
+  method public Boolean Has(String nickname, Int32 accountHash, Boolean onPlatform)
+  method public virtual String ToString()
+
+## class Portningsbolaget.CameraPlatformSettings : MonoBehaviour
+  field public CameraSettings standalone
+  method private Void Awake()
+  method private CameraSettings GetSettings()
+
+## class Portningsbolaget.CameraPlatformSettings+CameraSettings : ValueType
+  field public AntialiasingMode antialiasing
+  field public Boolean postProcessing
+  field public Boolean shadows
+
+## class PropPostSpawnModifiers : MonoBehaviour
+  field public List<PropSpawnerMod> modifiers
+  method public Void ApplyModifiers()
+
+## enum PropPostSpawnModifiers+PropModTiming : Enum
+  Early
+  Late
+
+## class PropSpawnerMod : Object
+  field public Boolean mute
+  method public virtual Void ModifyObject(GameObject spawned, SpawnData spawnData)
+
+## class PSC_BannedMaterial : PropSpawnerConstraint
+  field public Material[] bannedMaterial
+  field private Boolean returnVal
+  field public Boolean checkOnlyHitMaterial
+  method public virtual Boolean CheckConstraint(SpawnData spawnData)
+
+## class PSC_RequiredMaterial : PropSpawnerConstraint
+  field public Material[] RequiredMaterial
+  method public virtual Boolean CheckConstraint(SpawnData spawnData)
+
+## class PSC_SurfaceRestrictions : PropSpawnerConstraint
+  field public LayerMask effectedLayers
+  field public List<String> whitelistedTagWords
+  field public List<String> blacklistedTagWords
+  method public virtual Boolean CheckConstraint(SpawnData spawnData)
+
+## class PSM_BakedVolumeLightModiferIntensity : PropSpawnerMod
+  field public Boolean customColor
+  field public Color color
+  field public Boolean customIntensity
+  field public Single intensity
+  method public virtual Void ModifyObject(GameObject spawned, SpawnData spawnData)
+
+## class PSM_MatchMaterial : PropSpawnerMod
+  field public Material replaceThis
+  method public virtual Void ModifyObject(GameObject spawned, SpawnData spawnData)
+
+## class PSM_ReplaceMaterial : PropSpawnerMod
+  field public Material replaceThis
+  field public Material withThis
+  method public virtual Void ModifyObject(GameObject spawned, SpawnData spawnData)
+
+## class PSM_ReplaceMaterialWithRayTargetMaterial : PropSpawnerMod
+  field public Material replaceThis
+  method public virtual Void ModifyObject(GameObject spawned, SpawnData spawnData)
+
+## class PSM_SetMaterial : PropSpawnerMod
+  field public Material mat
+  method public virtual Void ModifyObject(GameObject spawned, SpawnData spawnData)
+
+## class PSM_SetMaterialOnChild : PropSpawnerMod
+  field public String childName
+  field public Material mat
+  method public virtual Void ModifyObject(GameObject spawned, SpawnData spawnData)
+
+## class PSM_SetMaterialsOnChild : PropSpawnerMod
+  field public String childName
+  field public MatAndID[] edits
+  method public virtual Void ModifyObject(GameObject spawned, SpawnData spawnData)
+
+## class PSM_SetRandomMaterial : PropSpawnerMod
+  field public Material[] mats
+  method public virtual Void ModifyObject(GameObject spawned, SpawnData spawnData)
+
+## enum RigColliderMaterial : Enum
+  Default
+  Slippery
+
+## class RockMaterialSwapper : MonoBehaviour
+  field public Transform[] parents
+  field public Material mat
+  method private Void Start()
+  method public Void AddParent(Transform newParent)
+
+## class RoundModifier : ProceduralImageModifier
+  method public virtual Vector4 CalculateRadius(Rect imageRect)
+
+## class SetMaterialProperty : MonoBehaviour
+  field public String propertyName
+  field public Single propertyValue
+  method public Void Go()
+  method public Void SetVal(Single val)
+
+## class SFX_Player : MonoBehaviour
+  field public AudioMixerGroup defaultMixerGroup
+  field private GameObject defaultSource
+  field public List<SFX_Source> sources
+  field private List<SoundEffectHandle> currentlyPlayed
+  field public static SFX_Player instance
+  field private Int32 nrOfSoundsPlayed
+  method private Void Start()
+  method public SoundEffectHandle PlaySFX(SFX_Instance SFX, Vector3 position, Transform followTransform, SFX_Settings overrideSettings, Single volumeMultiplier, Boolean loop)
+  method private Void StopOldest()
+  method private IEnumerator IPlaySFX(SFX_Instance SFX, Vector3 position, Transform followTransform, SFX_Settings overrideSettings, Single volumeMultiplier, Boolean loop, SoundEffectHandle handle)
+  method private SFX_Source GetAvailibleSource()
+  method private SFX_Source CreateNewSource()
+  method private Void OnPlayed(SoundEffectHandle handle)
+  method private Void OnStopped(SoundEffectHandle handle)
+  method public static Void StopPlaying(SoundEffectHandle handle, Single fadeTime)
+  method private static IEnumerator FadeOut(SFX_Source source, Single fadeTime)
+  method private static SFX_Source GetSFXSourceFromHandle(SoundEffectHandle handle)
+
+## class ShaderEffect : MonoBehaviour
+  field public Renderer[] renderers
+  field private List<Material> currentEffects
+  field private MaterialPropertyBlock prop
+  method private Void Start()
+  method private Void Update()
+  method private Void PerRendere(Renderer item)
+  method internal Void SetEffect(Material mat, String key, Single value)
+  method private Void AddEffect(Material mat)
+  method internal Void ClearEffect(Material mat)
+  method private Void RemoveEffect(Material mat)
+
+## class ShaderParameters : Object
+  field public ShaderParams parameter
+  field public Single paramValue
+
+## class ShaderParametersColors : Object
+  field public ShaderParams parameter
+  field public Color paramValue
+
+## class ShaderVal : Object
+  field public ShaderParams parameter
+  field public Single value
+
+## enum Spawner+SpawnMode : Enum
+  SingleItem
+  SpawnPool
+  HeightBasedSpawnPools
+  Guidebook
+
+## enum Spawner+SpawnPointMode : Enum
+  SingleList
+  WeightedLists
+
+## class SyncPersistentPlayerDataPackage : CustomCommandPackage<CustomCommandType>
+  field public Int32 ActorNumber
+  field private PersistentPlayerData <Data>k__BackingField
+  prop PersistentPlayerData Data
+  method protected virtual Void SerializeData(BinarySerializer binarySerializer)
+  method public virtual Void DeserializeData(BinaryDeserializer binaryDeserializer)
+  method public virtual CustomCommandType GetCommandType()
+  method public virtual SendOptions GetSendOptions()
+
+## class Transition_Shader : Transition
+  field private MeshRenderer rend
+  field private Material mat
+  field public Single inSpeed
+  field public AnimationCurve inCurve
+  field public Single outSpeed
+  field public AnimationCurve outCurve
+  method private Void Awake()
+  method public virtual IEnumerator TransitionIn(Single speed)
+  method public virtual IEnumerator TransitionOut(Single speed)
+
+## class UniformModifier : ProceduralImageModifier
+  field private Single radius
+  prop Single Radius
+  method public virtual Vector4 CalculateRadius(Rect imageRect)
+
+## class UnityEngine.UI.ProceduralImage.ModifierID : Attribute
+  field private String name
+  prop String Name
+
+## class UnityEngine.UI.ProceduralImage.ProceduralImageModifier : MonoBehaviour
+  field private Graphic graphic
+  prop Graphic _Graphic
+  method public virtual Vector4 CalculateRadius(Rect imageRect)
+
+## class VerticalModalButtonsOption : ModalContentOption
+  field public ModalButtonsField field
+  field private Option[] _options
+  method public virtual Void Setup(Transform parent)
+
+## enum VSyncSetting+VSyncMode : Enum
+  None
+  Enabled
