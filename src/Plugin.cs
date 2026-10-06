@@ -14,7 +14,7 @@ using UnityEngine.Rendering;
 
 namespace OlMacMask
 {
-    [BepInPlugin(Guid, "Ol' Mac Mask", "0.2.0")]
+    [BepInPlugin(Guid, "Ol' Mac Mask", "0.3.0")]
     public class Plugin : BaseUnityPlugin
     {
         public const string Guid = "com.freddiecoles.olmacmask";
@@ -28,6 +28,7 @@ namespace OlMacMask
         internal static Material MaskMat, BoardMat, StrapMat;
         internal static float Aspect = 0.75f;
         internal static int HatIndex = -1;
+        static readonly HashSet<CustomizationOption> ShiftedFits = new HashSet<CustomizationOption>();
 
         internal static ConfigEntry<float> MaskWidth, Forward, Up, Right, RotX, RotY, RotZ;
         internal static ConfigEntry<float> StrapRadiusX, StrapRadiusZ, StrapHeight, StrapUp;
@@ -286,7 +287,13 @@ namespace OlMacMask
                 opt.testLocked = false;
                 c.hats = c.hats.Append(opt).ToArray();
                 HatIndex = c.hats.Length - 1;
-                Log.LogInfo($"Added Ol' Mac to the passport as hat #{HatIndex} (template {tpl.name})");
+                // Outfits that come with their own hat point at hat objects after the passport hats.
+                // We insert the mask at HatIndex on every head, so those numbers move up by one.
+                int shifted = 0;
+                if (c.fits != null)
+                    foreach (var f in c.fits)
+                        if (f != null && f.overrideHat && f.overrideHatIndex >= HatIndex && ShiftedFits.Add(f)) { f.overrideHatIndex++; shifted++; }
+                Log.LogInfo($"Added Ol' Mac to the passport as hat #{HatIndex} (template {tpl.name}), moved {shifted} outfit hats up one");
             }
             catch (System.Exception e) { Log.LogError("EnsureOption failed: " + e); }
         }
@@ -331,15 +338,18 @@ namespace OlMacMask
                 if (usesSetActive) { root.SetActive(false); }
                 else { mr.enabled = false; br.enabled = false; sr.enabled = false; }
 
-                int myIndex = refs.playerHats.Length;
-                refs.playerHats = refs.playerHats.Append(mr).ToArray();
+                var list = refs.playerHats.ToList();
+                int before = list.Count;
+                int myIndex = HatIndex >= 0 && HatIndex <= list.Count ? HatIndex : list.Count;
+                list.Insert(myIndex, mr);
+                refs.playerHats = list.ToArray();
                 if (refs.AllRenderers != null) refs.AllRenderers = refs.AllRenderers.Concat(new Renderer[] { mr, br, sr }).ToArray();
 
                 if (!_loggedSetup || myIndex != HatIndex)
                 {
                     _loggedSetup = true;
                     var t = refs.hatTransform;
-                    Log.LogInfo($"Mask added to {(isDummy ? "passport dummy" : "character")}: hat object #{myIndex}, passport hat #{HatIndex}, " +
+                    Log.LogInfo($"Mask added to {(isDummy ? "passport dummy" : "character")}: hat object #{myIndex} of {before + 1}, passport hat #{HatIndex}, " +
                                 $"toggle mode {(usesSetActive ? "SetActive" : "enabled")}, anchor '{t.name}' scale {t.lossyScale}, layer {root.layer}, template '{template?.name}'");
                     if (HatIndex >= 0 && myIndex != HatIndex) Log.LogWarning("Hat object number doesn't match passport number, tell Claude");
                 }
