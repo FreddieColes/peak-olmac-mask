@@ -14,7 +14,7 @@ using UnityEngine.Rendering;
 
 namespace OlMacMask
 {
-    [BepInPlugin(Guid, "Ol' Mac Mask", "0.8.0")]
+    [BepInPlugin(Guid, "Ol' Mac Mask", "0.9.0")]
     public class Plugin : BaseUnityPlugin
     {
         public const string Guid = "com.freddiecoles.olmacmask";
@@ -485,6 +485,7 @@ namespace OlMacMask
                 _nextFind = Time.time + 1f;
                 _character = GetComponentInParent<Character>();
             }
+            if (IsLocal && SelfLayer >= 0 && gameObject.layer != SelfLayer) SetLayerAll(SelfLayer);
             if (!_autoChecked && IsLocal && _mask.enabled && gameObject.activeInHierarchy && MainCamera.instance != null)
             {
                 _autoChecked = true;
@@ -506,25 +507,44 @@ namespace OlMacMask
             }
         }
 
-        // Before each camera draws: hide your own mask only from a camera that's inside your head.
-        // Mirrors, the passport and spectators are further away, so they still see it.
+        // Your own mask lives on a spare layer. Before each camera draws, cameras inside your head skip that layer
+        // and every other camera (mirror, passport, spectating) includes it. Camera layer masks work per camera,
+        // unlike renderer settings which PEAK's GPU drawing only reads once per frame.
+        static int _selfLayer = -2;
+        static int SelfLayer
+        {
+            get
+            {
+                if (_selfLayer == -2)
+                {
+                    _selfLayer = -1;
+                    for (int l = 31; l >= 8; l--)
+                        if (string.IsNullOrEmpty(LayerMask.LayerToName(l))) { _selfLayer = l; break; }
+                    Plugin.Log.LogInfo(_selfLayer >= 0 ? $"Using spare layer {_selfLayer} for your own mask" : "No spare layer, your own mask can't be hidden from your eyes");
+                }
+                return _selfLayer;
+            }
+        }
+
         static readonly HashSet<int> _seenCams = new HashSet<int>();
         static void OnBeginCamera(ScriptableRenderContext ctx, Camera cam)
         {
-            if (cam == null) return;
-            foreach (var m in All)
-            {
-                if (m == null || m._anchor == null) continue;
-                float dist = Vector3.Distance(cam.transform.position, m._anchor.position);
-                bool hide = Plugin.HideForSelf.Value && m.IsLocal && dist < 0.6f;
-                if (m.IsLocal && _seenCams.Add(cam.GetInstanceID()) && _seenCams.Count <= 12)
-                    Plugin.Log.LogInfo($"Camera '{cam.name}' {(hide ? "hides" : "shows")} your mask (distance {dist:0.00}m)");
-                var mode = hide ? ShadowCastingMode.ShadowsOnly : ShadowCastingMode.On;
-                if (m._mask.shadowCastingMode != mode)
-                {
-                    m._mask.shadowCastingMode = mode; m._board.shadowCastingMode = mode; m._strap.shadowCastingMode = mode;
-                }
-            }
+            int layer = SelfLayer;
+            if (cam == null || layer < 0) return;
+            MaskController local = null;
+            foreach (var m in All) if (m != null && m.IsLocal && m._anchor != null) { local = m; break; }
+            bool inHead = local != null && Vector3.Distance(cam.transform.position, local._anchor.position) < 0.6f;
+            bool hide = inHead && Plugin.HideForSelf.Value;
+            int bit = 1 << layer;
+            int mask = hide ? cam.cullingMask & ~bit : cam.cullingMask | bit;
+            if (mask != cam.cullingMask) cam.cullingMask = mask;
+            if (local != null && _seenCams.Add(cam.GetInstanceID()) && _seenCams.Count <= 12)
+                Plugin.Log.LogInfo($"Camera '{cam.name}' {(hide ? "hides" : "shows")} your mask");
+        }
+
+        void SetLayerAll(int layer)
+        {
+            gameObject.layer = layer; _board.gameObject.layer = layer; _strap.gameObject.layer = layer;
         }
 
         string Describe()
