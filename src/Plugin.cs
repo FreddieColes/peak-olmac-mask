@@ -14,7 +14,7 @@ using UnityEngine.Rendering;
 
 namespace OlMacMask
 {
-    [BepInPlugin(Guid, "Ol' Mac Mask", "0.5.0")]
+    [BepInPlugin(Guid, "Ol' Mac Mask", "0.6.0")]
     public class Plugin : BaseUnityPlugin
     {
         public const string Guid = "com.freddiecoles.olmacmask";
@@ -34,8 +34,8 @@ namespace OlMacMask
         internal static ConfigEntry<float> StrapRadiusX, StrapRadiusZ, StrapHeight, StrapUp;
         internal static ConfigEntry<string> StrapColour, BoardColour, ShaderName;
         internal static ConfigEntry<float> BoardBorder;
-        internal static ConfigEntry<bool> HideForSelf;
-        internal static ConfigEntry<Key> ReloadKey, DebugKey;
+        internal static ConfigEntry<bool> HideForSelf, Flip, AutoFlip;
+        internal static ConfigEntry<Key> ReloadKey, DebugKey, AdjustKey;
 
         Customization _lastCustomization;
         float _nextCheck;
@@ -48,12 +48,14 @@ namespace OlMacMask
 
             const string P = "1. Placement (metres)";
             MaskWidth = Config.Bind(P, "MaskWidth", 0.5f, "Width of the mask");
-            Forward = Config.Bind(P, "Forward", 0.18f, "How far in front of the hat anchor the mask sits");
-            Up = Config.Bind(P, "Up", -0.12f, "Up/down from the hat anchor (negative moves it down onto the face)");
+            Forward = Config.Bind(P, "Forward", 0.22f, "How far in front of the head bone the mask sits");
+            Up = Config.Bind(P, "Up", 0.28f, "Height above the head bone (which sits low, near the neck)");
             Right = Config.Bind(P, "Right", 0f, "Left/right nudge");
             RotX = Config.Bind(P, "RotX", 0f, "Extra tilt (degrees)");
             RotY = Config.Bind(P, "RotY", 0f, "Extra turn (degrees)");
             RotZ = Config.Bind(P, "RotZ", 0f, "Extra roll (degrees)");
+            Flip = Config.Bind(P, "Flip", false, "Turn the mask round to the other side of the head");
+            AutoFlip = Config.Bind(P, "AutoFlip", true, "On first sight, flip the mask if it's on the back of your head");
 
             const string S = "2. Strap (metres)";
             StrapRadiusX = Config.Bind(S, "RadiusSideToSide", 0.17f, "Half the head width");
@@ -71,6 +73,7 @@ namespace OlMacMask
             ShaderName = Config.Bind(M, "Shader", "", "Leave blank to copy the game's own hat material (recommended)");
             ReloadKey = Config.Bind(M, "ReloadKey", Key.F9, "Press in game to reload this config and re-place the mask");
             DebugKey = Config.Bind(M, "DebugKey", Key.F10, "Press in game to write where every mask is into the log");
+            AdjustKey = Config.Bind(M, "AdjustKey", Key.F7, "Hold and use arrows (up/down = height, left/right = back/forward), Page Up/Down = size, F6 = flip");
 
             LoadFace();
             new Harmony(Guid).PatchAll();
@@ -88,6 +91,24 @@ namespace OlMacMask
             var kb = Keyboard.current;
             if (kb != null && kb[ReloadKey.Value].wasPressedThisFrame) ReloadPlacement();
             if (kb != null && kb[DebugKey.Value].wasPressedThisFrame) MaskController.DumpAll();
+            if (kb != null && kb[AdjustKey.Value].isPressed) Adjust(kb);
+        }
+
+        // Live nudging while holding the adjust key. Values save to the config straight away.
+        void Adjust(Keyboard kb)
+        {
+            bool changed = false;
+            void Nudge(ConfigEntry<float> e, float d) { e.Value = Mathf.Round((e.Value + d) * 1000f) / 1000f; changed = true; }
+            if (kb.upArrowKey.wasPressedThisFrame) Nudge(Up, 0.01f);
+            if (kb.downArrowKey.wasPressedThisFrame) Nudge(Up, -0.01f);
+            if (kb.rightArrowKey.wasPressedThisFrame) Nudge(Forward, 0.01f);
+            if (kb.leftArrowKey.wasPressedThisFrame) Nudge(Forward, -0.01f);
+            if (kb.pageUpKey.wasPressedThisFrame) Nudge(MaskWidth, 0.02f);
+            if (kb.pageDownKey.wasPressedThisFrame) Nudge(MaskWidth, -0.02f);
+            if (kb.f6Key.wasPressedThisFrame) { Flip.Value = !Flip.Value; changed = true; }
+            if (!changed) return;
+            foreach (var m in MaskController.All.ToArray()) if (m != null) m.Apply();
+            Log.LogInfo($"Adjusted: width {MaskWidth.Value}, forward {Forward.Value}, up {Up.Value}, flip {Flip.Value}");
         }
 
         void ReloadPlacement()
@@ -421,6 +442,7 @@ namespace OlMacMask
         Component _owner;
         float _nextFind;
         bool _loggedVisible;
+        static bool _autoChecked;
         Vector3 _fwdL = Vector3.forward, _upL = Vector3.up;
 
         public void Init(CustomizationRefs refs, Transform anchor, Component owner, Renderer mask, Renderer board, Renderer strap, bool dummy)
@@ -443,9 +465,10 @@ namespace OlMacMask
             if (_anchor == null) return;
             float s = Mathf.Max(0.0001f, _anchor.lossyScale.x);
             float w = Mathf.Max(0.01f, Plugin.MaskWidth.Value);
-            var rightL = Vector3.Cross(_upL, _fwdL).normalized;
-            transform.localRotation = Quaternion.LookRotation(_fwdL, _upL) * Quaternion.Euler(Plugin.RotX.Value, Plugin.RotY.Value, Plugin.RotZ.Value);
-            transform.localPosition = (_fwdL * Plugin.Forward.Value + _upL * Plugin.Up.Value + rightL * Plugin.Right.Value) / s;
+            var fwdL = Plugin.Flip.Value ? -_fwdL : _fwdL;
+            var rightL = Vector3.Cross(_upL, fwdL).normalized;
+            transform.localRotation = Quaternion.LookRotation(fwdL, _upL) * Quaternion.Euler(Plugin.RotX.Value, Plugin.RotY.Value, Plugin.RotZ.Value);
+            transform.localPosition = (fwdL * Plugin.Forward.Value + _upL * Plugin.Up.Value + rightL * Plugin.Right.Value) / s;
             transform.localScale = Vector3.one * (w / s);
             _strapT.localScale = Vector3.one / w;
             _strapT.GetComponent<MeshFilter>().sharedMesh = Plugin.StrapMesh;
@@ -462,6 +485,20 @@ namespace OlMacMask
             {
                 _nextFind = Time.time + 1f;
                 _character = GetComponentInParent<Character>();
+            }
+            if (!_autoChecked && IsLocal && _mask.enabled && gameObject.activeInHierarchy && MainCamera.instance != null)
+            {
+                _autoChecked = true;
+                var worldFwd = _anchor.TransformDirection(Plugin.Flip.Value ? -_fwdL : _fwdL);
+                var toCam = MainCamera.instance.transform.position - _anchor.position;
+                toCam -= Vector3.Project(toCam, _anchor.TransformDirection(_upL));
+                if (Plugin.AutoFlip.Value && Vector3.Dot(toCam, worldFwd) < 0f)
+                {
+                    Plugin.Flip.Value = !Plugin.Flip.Value;
+                    foreach (var m in All.ToArray()) if (m != null) m.Apply();
+                    Plugin.Log.LogInfo("Mask was on the back of your head, flipped it round");
+                }
+                Plugin.AutoFlip.Value = false;
             }
             if (!_loggedVisible && _mask.enabled && gameObject.activeInHierarchy)
             {
@@ -490,7 +527,7 @@ namespace OlMacMask
         string Describe()
         {
             var head = _anchor;
-            return $"{(_dummy ? "passport dummy" : IsLocal ? "you" : "other player")}, active {gameObject.activeInHierarchy}, enabled {_mask.enabled}, " +
+            return $"{(_dummy ? "passport dummy" : IsLocal ? "you" : "other player")}, flip {Plugin.Flip.Value}, active {gameObject.activeInHierarchy}, enabled {_mask.enabled}, " +
                    $"pos {transform.position}, head '{head.name}' {head.position}, size {_mask.bounds.size}, anchor scale {head.lossyScale}, " +
                    $"layer {gameObject.layer}, shader {_mask.sharedMaterial.shader.name}";
         }
