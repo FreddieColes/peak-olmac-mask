@@ -14,7 +14,7 @@ using UnityEngine.Rendering;
 
 namespace OlMacMask
 {
-    [BepInPlugin(Guid, "Ol' Mac Mask", "0.9.0")]
+    [BepInPlugin(Guid, "Ol' Mac Mask", "0.9.1")]
     public class Plugin : BaseUnityPlugin
     {
         public const string Guid = "com.freddiecoles.olmacmask";
@@ -511,7 +511,7 @@ namespace OlMacMask
         // and every other camera (mirror, passport, spectating) includes it. Camera layer masks work per camera,
         // unlike renderer settings which PEAK's GPU drawing only reads once per frame.
         static int _selfLayer = -2;
-        static int SelfLayer
+        internal static int SelfLayer
         {
             get
             {
@@ -560,6 +560,11 @@ namespace OlMacMask
             var cam = MainCamera.instance != null ? MainCamera.instance.GetComponent<Camera>() : null;
             Plugin.Log.LogInfo($"--- {All.Count} masks, hat #{Plugin.HatIndex}, camera {(cam ? cam.transform.position.ToString() : "none")} culling mask {(cam ? cam.cullingMask : 0)} ---");
             foreach (var m in All) if (m != null) Plugin.Log.LogInfo(m.Describe());
+            int l = SelfLayer;
+            foreach (var c in Camera.allCameras)
+                Plugin.Log.LogInfo($"camera '{c.name}' at {c.transform.position}, enabled {c.enabled}, includes layer {l}: {(l >= 0 && (c.cullingMask & (1 << l)) != 0)}");
+            foreach (var mc in Object.FindObjectsByType<MirrorCameraScript>(FindObjectsSortMode.None))
+                Plugin.Log.LogInfo($"mirror script on '{mc.name}', enabled {mc.enabled}");
         }
     }
 
@@ -573,6 +578,19 @@ namespace OlMacMask
     static class Patch_DummyEnable
     {
         static void Prefix(PlayerCustomizationDummy __instance) => Plugin.InjectRefs(__instance.refs, __instance, true);
+    }
+
+    [HarmonyPatch(typeof(MirrorCameraScript), "UpdateCameraProperties")]
+    static class Patch_MirrorProps
+    {
+        static bool _logged;
+        static void Postfix(Camera src, Camera dest)
+        {
+            int l = MaskController.SelfLayer;
+            if (dest == null || l < 0) return;
+            dest.cullingMask |= 1 << l;
+            if (!_logged) { _logged = true; Plugin.Log.LogInfo($"Mirror camera '{dest.name}' copied settings from '{src?.name}', layer {l} put back"); }
+        }
     }
 
     [HarmonyPatch(typeof(PassportManager), "Awake")]
