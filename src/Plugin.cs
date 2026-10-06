@@ -46,7 +46,7 @@ namespace OlMacMask
             I = this;
             Log = Logger;
 
-            const string P = "1. Placement (metres)";
+            const string P = "1. Placement v2 (metres)";
             MaskWidth = Config.Bind(P, "MaskWidth", 0.5f, "Width of the mask");
             Forward = Config.Bind(P, "Forward", 0.22f, "How far in front of the head bone the mask sits");
             Up = Config.Bind(P, "Up", 0.28f, "Height above the head bone (which sits low, near the neck)");
