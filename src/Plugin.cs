@@ -14,7 +14,7 @@ using UnityEngine.Rendering;
 
 namespace OlMacMask
 {
-    [BepInPlugin(Guid, "Ol' Mac Mask", "0.7.0")]
+    [BepInPlugin(Guid, "Ol' Mac Mask", "0.8.0")]
     public class Plugin : BaseUnityPlugin
     {
         public const string Guid = "com.freddiecoles.olmacmask";
@@ -431,7 +431,6 @@ namespace OlMacMask
     {
         internal static readonly List<MaskController> All = new List<MaskController>();
         static bool _hooked;
-        static Camera _firstPerson;
 
         CustomizationRefs _refs;
         Transform _anchor;
@@ -507,40 +506,25 @@ namespace OlMacMask
             }
         }
 
-        // Before each camera draws: hide your own mask only from the camera inside your head.
+        // Before each camera draws: hide your own mask only from a camera that's inside your head.
+        // Mirrors, the passport and spectators are further away, so they still see it.
+        static readonly HashSet<int> _seenCams = new HashSet<int>();
         static void OnBeginCamera(ScriptableRenderContext ctx, Camera cam)
         {
-            if (_firstPerson == null && MainCamera.instance != null) _firstPerson = MainCamera.instance.GetComponent<Camera>();
-            bool firstPerson = cam == _firstPerson;
+            if (cam == null) return;
             foreach (var m in All)
             {
-                if (m == null) continue;
-                bool hide = firstPerson && Plugin.HideForSelf.Value && m.IsLocal;
+                if (m == null || m._anchor == null) continue;
+                float dist = Vector3.Distance(cam.transform.position, m._anchor.position);
+                bool hide = Plugin.HideForSelf.Value && m.IsLocal && dist < 0.6f;
+                if (m.IsLocal && _seenCams.Add(cam.GetInstanceID()) && _seenCams.Count <= 12)
+                    Plugin.Log.LogInfo($"Camera '{cam.name}' {(hide ? "hides" : "shows")} your mask (distance {dist:0.00}m)");
                 var mode = hide ? ShadowCastingMode.ShadowsOnly : ShadowCastingMode.On;
                 if (m._mask.shadowCastingMode != mode)
                 {
                     m._mask.shadowCastingMode = mode; m._board.shadowCastingMode = mode; m._strap.shadowCastingMode = mode;
                 }
             }
-        }
-
-        // The mirror is drawn in the middle of your main camera's turn, so show your mask while it draws.
-        static readonly List<MaskController> _hiddenForMirror = new List<MaskController>();
-        internal static void MirrorBegin()
-        {
-            _hiddenForMirror.Clear();
-            foreach (var m in All)
-                if (m != null && m._mask.shadowCastingMode == ShadowCastingMode.ShadowsOnly)
-                {
-                    _hiddenForMirror.Add(m);
-                    m._mask.shadowCastingMode = m._board.shadowCastingMode = m._strap.shadowCastingMode = ShadowCastingMode.On;
-                }
-        }
-        internal static void MirrorEnd()
-        {
-            foreach (var m in _hiddenForMirror)
-                if (m != null) m._mask.shadowCastingMode = m._board.shadowCastingMode = m._strap.shadowCastingMode = ShadowCastingMode.ShadowsOnly;
-            _hiddenForMirror.Clear();
         }
 
         string Describe()
@@ -569,13 +553,6 @@ namespace OlMacMask
     static class Patch_DummyEnable
     {
         static void Prefix(PlayerCustomizationDummy __instance) => Plugin.InjectRefs(__instance.refs, __instance, true);
-    }
-
-    [HarmonyPatch(typeof(MirrorCameraScript), "RenderMirror")]
-    static class Patch_Mirror
-    {
-        static void Prefix() => MaskController.MirrorBegin();
-        static void Postfix() => MaskController.MirrorEnd();
     }
 
     [HarmonyPatch(typeof(PassportManager), "Awake")]
