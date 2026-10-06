@@ -14,7 +14,7 @@ using UnityEngine.Rendering;
 
 namespace OlMacMask
 {
-    [BepInPlugin(Guid, "Ol' Mac Mask", "0.6.0")]
+    [BepInPlugin(Guid, "Ol' Mac Mask", "0.7.0")]
     public class Plugin : BaseUnityPlugin
     {
         public const string Guid = "com.freddiecoles.olmacmask";
@@ -57,7 +57,7 @@ namespace OlMacMask
             Flip = Config.Bind(P, "Flip", false, "Turn the mask round to the other side of the head");
             AutoFlip = Config.Bind(P, "AutoFlip", true, "On first sight, flip the mask if it's on the back of your head");
 
-            const string S = "2. Strap (metres)";
+            const string S = "2. Rubber band (metres)";
             StrapRadiusX = Config.Bind(S, "RadiusSideToSide", 0.17f, "Half the head width");
             StrapRadiusZ = Config.Bind(S, "RadiusFrontToBack", 0.17f, "Half the head depth");
             StrapHeight = Config.Bind(S, "Thickness", 0.02f, "How tall the band is");
@@ -68,7 +68,7 @@ namespace OlMacMask
             BoardColour = Config.Bind(B, "Colour", "B8915F", "Hex colour of the cardboard");
             BoardBorder = Config.Bind(B, "Border", 2f, "How far the cardboard sticks out round the drawing (in grid cells, roughly 1% of the width each)");
 
-            const string M = "4. Misc";
+            const string M = "4. Options";
             HideForSelf = Config.Bind(M, "HideForSelf", true, "Hide your own mask from your first-person camera only (mirror, passport and other players still see it)");
             ShaderName = Config.Bind(M, "Shader", "", "Leave blank to copy the game's own hat material (recommended)");
             ReloadKey = Config.Bind(M, "ReloadKey", Key.F9, "Press in game to reload this config and re-place the mask");
@@ -524,6 +524,25 @@ namespace OlMacMask
             }
         }
 
+        // The mirror is drawn in the middle of your main camera's turn, so show your mask while it draws.
+        static readonly List<MaskController> _hiddenForMirror = new List<MaskController>();
+        internal static void MirrorBegin()
+        {
+            _hiddenForMirror.Clear();
+            foreach (var m in All)
+                if (m != null && m._mask.shadowCastingMode == ShadowCastingMode.ShadowsOnly)
+                {
+                    _hiddenForMirror.Add(m);
+                    m._mask.shadowCastingMode = m._board.shadowCastingMode = m._strap.shadowCastingMode = ShadowCastingMode.On;
+                }
+        }
+        internal static void MirrorEnd()
+        {
+            foreach (var m in _hiddenForMirror)
+                if (m != null) m._mask.shadowCastingMode = m._board.shadowCastingMode = m._strap.shadowCastingMode = ShadowCastingMode.ShadowsOnly;
+            _hiddenForMirror.Clear();
+        }
+
         string Describe()
         {
             var head = _anchor;
@@ -550,6 +569,13 @@ namespace OlMacMask
     static class Patch_DummyEnable
     {
         static void Prefix(PlayerCustomizationDummy __instance) => Plugin.InjectRefs(__instance.refs, __instance, true);
+    }
+
+    [HarmonyPatch(typeof(MirrorCameraScript), "RenderMirror")]
+    static class Patch_Mirror
+    {
+        static void Prefix() => MaskController.MirrorBegin();
+        static void Postfix() => MaskController.MirrorEnd();
     }
 
     [HarmonyPatch(typeof(PassportManager), "Awake")]
