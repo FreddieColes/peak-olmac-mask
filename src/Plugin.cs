@@ -14,7 +14,7 @@ using UnityEngine.Rendering;
 
 namespace OlMacMask
 {
-    [BepInPlugin(Guid, "Ol' Mac Mask", "0.4.0")]
+    [BepInPlugin(Guid, "Ol' Mac Mask", "0.5.0")]
     public class Plugin : BaseUnityPlugin
     {
         public const string Guid = "com.freddiecoles.olmacmask";
@@ -314,6 +314,33 @@ namespace OlMacMask
             catch (System.Exception e) { Log.LogError("EnsureOption failed: " + e); }
         }
 
+        // Hats are skinned to the head bone, the "Hat" object they live under doesn't move with the head.
+        // So find the real head bone from the body's (or a hat's) skinned mesh.
+        static bool _loggedBones;
+        internal static Transform FindHeadBone(CustomizationRefs refs)
+        {
+            var smrs = new List<SkinnedMeshRenderer>();
+            if (refs.mainRenderer != null) smrs.Add(refs.mainRenderer);
+            smrs.AddRange(refs.playerHats.OfType<SkinnedMeshRenderer>());
+            Transform best = null; int bestScore = 0;
+            var seen = new HashSet<string>();
+            foreach (var smr in smrs)
+                foreach (var b in smr.bones)
+                {
+                    if (b == null) continue;
+                    var n = b.name.ToLowerInvariant();
+                    if (n.Contains("head")) seen.Add(b.name);
+                    int score = n == "head" ? 3 : n.EndsWith("head") || n.EndsWith("_head") ? 2 : n.Contains("head") && !n.Contains("end") && !n.Contains("top") ? 1 : 0;
+                    if (score > bestScore) { best = b; bestScore = score; }
+                }
+            if (!_loggedBones)
+            {
+                _loggedBones = true;
+                Log.LogInfo($"Head-ish bones: {string.Join(", ", seen)}; using '{(best != null ? best.name : "none, falling back to Hat")}'");
+            }
+            return best != null ? best : refs.hatTransform;
+        }
+
         // Adds the mask object to a character's (or the passport dummy's) list of hats.
         internal static void InjectRefs(CustomizationRefs refs, Component owner, bool isDummy)
         {
@@ -332,7 +359,8 @@ namespace OlMacMask
 
                 var root = new GameObject(MaskName);
                 root.layer = template != null ? template.gameObject.layer : refs.hatTransform.gameObject.layer;
-                root.transform.SetParent(refs.hatTransform, false);
+                var anchor = FindHeadBone(refs);
+                root.transform.SetParent(anchor, false);
                 root.AddComponent<MeshFilter>().sharedMesh = MaskMesh;
                 var mr = root.AddComponent<MeshRenderer>();
                 mr.sharedMaterial = MaskMat;
@@ -351,7 +379,7 @@ namespace OlMacMask
                 sr.sharedMaterial = StrapMat;
 
                 var ctl = root.AddComponent<MaskController>();
-                ctl.Init(refs, owner, mr, br, sr, isDummy);
+                ctl.Init(refs, anchor, owner, mr, br, sr, isDummy);
 
                 if (usesSetActive) { root.SetActive(false); }
                 else { mr.enabled = false; br.enabled = false; sr.enabled = false; }
@@ -366,7 +394,7 @@ namespace OlMacMask
                 if (!_loggedSetup || myIndex != HatIndex)
                 {
                     _loggedSetup = true;
-                    var t = refs.hatTransform;
+                    var t = anchor;
                     Log.LogInfo($"Mask added to {(isDummy ? "passport dummy" : "character")}: hat object #{myIndex} of {before + 1}, passport hat #{HatIndex}, " +
                                 $"toggle mode {(usesSetActive ? "SetActive" : "enabled")}, anchor '{t.name}' scale {t.lossyScale}, layer {root.layer}, template '{template?.name}'");
                     if (HatIndex >= 0 && myIndex != HatIndex) Log.LogWarning("Hat object number doesn't match passport number, tell Claude");
@@ -385,6 +413,7 @@ namespace OlMacMask
         static Camera _firstPerson;
 
         CustomizationRefs _refs;
+        Transform _anchor;
         Renderer _mask, _board, _strap;
         Transform _strapT;
         bool _dummy;
@@ -394,11 +423,10 @@ namespace OlMacMask
         bool _loggedVisible;
         Vector3 _fwdL = Vector3.forward, _upL = Vector3.up;
 
-        public void Init(CustomizationRefs refs, Component owner, Renderer mask, Renderer board, Renderer strap, bool dummy)
+        public void Init(CustomizationRefs refs, Transform anchor, Component owner, Renderer mask, Renderer board, Renderer strap, bool dummy)
         {
-            _refs = refs; _owner = owner; _mask = mask; _board = board; _strap = strap; _strapT = strap.transform; _dummy = dummy;
+            _refs = refs; _anchor = anchor; _owner = owner; _mask = mask; _board = board; _strap = strap; _strapT = strap.transform; _dummy = dummy;
             // Work out which way the face points, in the head's own axes, from the body's facing at spawn.
-            var anchor = refs.hatTransform;
             _character = owner != null ? owner.GetComponentInParent<Character>() : null;
             Transform body = _character != null ? _character.transform : owner != null ? owner.transform : refs.transform;
             _fwdL = anchor.InverseTransformDirection(body.forward).normalized;
@@ -412,8 +440,8 @@ namespace OlMacMask
 
         public void Apply()
         {
-            if (_refs == null || _refs.hatTransform == null) return;
-            float s = Mathf.Max(0.0001f, _refs.hatTransform.lossyScale.x);
+            if (_anchor == null) return;
+            float s = Mathf.Max(0.0001f, _anchor.lossyScale.x);
             float w = Mathf.Max(0.01f, Plugin.MaskWidth.Value);
             var rightL = Vector3.Cross(_upL, _fwdL).normalized;
             transform.localRotation = Quaternion.LookRotation(_fwdL, _upL) * Quaternion.Euler(Plugin.RotX.Value, Plugin.RotY.Value, Plugin.RotZ.Value);
@@ -461,9 +489,9 @@ namespace OlMacMask
 
         string Describe()
         {
-            var head = _refs.hatTransform;
+            var head = _anchor;
             return $"{(_dummy ? "passport dummy" : IsLocal ? "you" : "other player")}, active {gameObject.activeInHierarchy}, enabled {_mask.enabled}, " +
-                   $"pos {transform.position}, head {head.position}, size {_mask.bounds.size}, anchor scale {head.lossyScale}, " +
+                   $"pos {transform.position}, head '{head.name}' {head.position}, size {_mask.bounds.size}, anchor scale {head.lossyScale}, " +
                    $"layer {gameObject.layer}, shader {_mask.sharedMaterial.shader.name}";
         }
 
