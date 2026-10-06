@@ -14,7 +14,7 @@ using UnityEngine.Rendering;
 
 namespace OlMacMask
 {
-    [BepInPlugin(Guid, "Ol' Mac Mask", "0.3.0")]
+    [BepInPlugin(Guid, "Ol' Mac Mask", "0.4.0")]
     public class Plugin : BaseUnityPlugin
     {
         public const string Guid = "com.freddiecoles.olmacmask";
@@ -68,7 +68,7 @@ namespace OlMacMask
 
             const string M = "4. Misc";
             HideForSelf = Config.Bind(M, "HideForSelf", true, "Hide your own mask from your first-person camera only (mirror, passport and other players still see it)");
-            ShaderName = Config.Bind(M, "Shader", "", "Leave blank to pick automatically");
+            ShaderName = Config.Bind(M, "Shader", "", "Leave blank to copy the game's own hat material (recommended)");
             ReloadKey = Config.Bind(M, "ReloadKey", Key.F9, "Press in game to reload this config and re-place the mask");
             DebugKey = Config.Bind(M, "DebugKey", Key.F10, "Press in game to write where every mask is into the log");
 
@@ -95,8 +95,8 @@ namespace OlMacMask
             Config.Reload();
             BuildStrapMesh();
             BuildBoardMesh();
-            SetColour(StrapMat, ParseColour(StrapColour.Value));
-            SetColour(BoardMat, ParseColour(BoardColour.Value));
+            if (StrapMat != null) SetTexture(StrapMat, SolidTexture(ParseColour(StrapColour.Value)));
+            if (BoardMat != null) SetTexture(BoardMat, SolidTexture(ParseColour(BoardColour.Value)));
             foreach (var m in MaskController.All.ToArray()) if (m != null) m.Apply();
             Log.LogInfo($"Reloaded placement: width {MaskWidth.Value}, fwd {Forward.Value}, up {Up.Value}, right {Right.Value}, rot ({RotX.Value},{RotY.Value},{RotZ.Value})");
         }
@@ -118,10 +118,7 @@ namespace OlMacMask
             BuildMaskMesh();
             BuildBoardMesh();
             BuildStrapMesh();
-            MaskMat = MakeMaterial(Face, Color.white, true);
-            BoardMat = MakeMaterial(Texture2D.whiteTexture, ParseColour(BoardColour.Value), false);
-            StrapMat = MakeMaterial(Texture2D.whiteTexture, ParseColour(StrapColour.Value), false);
-            Log.LogInfo($"Face {Face.width}x{Face.height}, shader {MaskMat.shader.name}");
+            Log.LogInfo($"Face {Face.width}x{Face.height}");
         }
 
         const int Cols = 128;
@@ -236,32 +233,51 @@ namespace OlMacMask
             StrapMesh.RecalculateBounds();
         }
 
-        static Material MakeMaterial(Texture tex, Color col, bool clip)
+        // Materials copy the game's own hat material (Unity's stock shaders are stripped from PEAK's build and draw nothing).
+        // Colours are done with tiny solid textures so they work whatever the game shader's colour property is called.
+        internal static void EnsureMaterials(Renderer template)
         {
-            Shader sh = null;
-            if (!string.IsNullOrEmpty(ShaderName.Value)) sh = Shader.Find(ShaderName.Value);
-            foreach (var n in new[] { "Universal Render Pipeline/Lit", "Universal Render Pipeline/Simple Lit", "Universal Render Pipeline/Unlit", "Sprites/Default" })
-                if (sh == null) sh = Shader.Find(n);
-            var m = new Material(sh) { name = MaskName + (clip ? "Mat" : "StrapMat") };
-            m.mainTexture = tex;
-            if (m.HasProperty("_BaseMap")) m.SetTexture("_BaseMap", tex);
-            if (m.HasProperty("_BaseColor")) m.SetColor("_BaseColor", col);
-            m.color = col;
-            if (m.HasProperty("_Smoothness")) m.SetFloat("_Smoothness", 0.1f);
-            if (clip)
+            if (MaskMat != null) return;
+            Material baseMat = template != null ? template.sharedMaterial : null;
+            if (!string.IsNullOrEmpty(ShaderName.Value))
             {
-                if (m.HasProperty("_AlphaClip")) m.SetFloat("_AlphaClip", 1f);
-                if (m.HasProperty("_Cutoff")) m.SetFloat("_Cutoff", 0.5f);
-                m.EnableKeyword("_ALPHATEST_ON");
-                m.renderQueue = (int)RenderQueue.AlphaTest;
+                var sh = Shader.Find(ShaderName.Value);
+                if (sh != null) baseMat = new Material(sh);
+                else Log.LogWarning("Shader '" + ShaderName.Value + "' not found, using the game's hat material");
             }
+            if (baseMat == null) { Log.LogError("No hat material to copy"); return; }
+            MaskMat = Make(baseMat, Face, "Mat");
+            BoardMat = Make(baseMat, SolidTexture(ParseColour(BoardColour.Value)), "BoardMat");
+            StrapMat = Make(baseMat, SolidTexture(ParseColour(StrapColour.Value)), "StrapMat");
+            var props = string.Join(", ", Enumerable.Range(0, baseMat.shader.GetPropertyCount())
+                .Where(i => baseMat.shader.GetPropertyType(i) == ShaderPropertyType.Texture)
+                .Select(i => baseMat.shader.GetPropertyName(i)));
+            Log.LogInfo($"Materials copied from '{baseMat.name}', shader '{baseMat.shader.name}', texture slots: {props}");
+        }
+
+        static Material Make(Material baseMat, Texture tex, string suffix)
+        {
+            var m = new Material(baseMat) { name = MaskName + suffix };
+            SetTexture(m, tex);
+            if (m.HasProperty("_BaseColor")) m.SetColor("_BaseColor", Color.white);
+            if (m.HasProperty("_Color")) m.SetColor("_Color", Color.white);
             return m;
         }
 
-        static void SetColour(Material m, Color c)
+        static void SetTexture(Material m, Texture tex)
         {
-            if (m.HasProperty("_BaseColor")) m.SetColor("_BaseColor", c);
-            m.color = c;
+            m.mainTexture = tex;
+            foreach (var n in new[] { "_MainTex", "_BaseMap", "_Texture", "_Albedo", "_MainTexture" })
+                if (m.HasProperty(n)) m.SetTexture(n, tex);
+        }
+
+        static Texture2D SolidTexture(Color c)
+        {
+            var t = new Texture2D(4, 4, TextureFormat.RGBA32, false) { name = MaskName + "Solid" };
+            var px = new Color[16];
+            for (int i = 0; i < 16; i++) px[i] = c;
+            t.SetPixels(px); t.Apply();
+            return t;
         }
 
         static Color ParseColour(string hex)
@@ -311,6 +327,8 @@ namespace OlMacMask
 
                 var template = refs.playerHats.FirstOrDefault(r => r != null);
                 bool usesSetActive = refs.playerHats.Any(r => r != null && !r.gameObject.activeSelf);
+                EnsureMaterials(template);
+                if (MaskMat == null) return;
 
                 var root = new GameObject(MaskName);
                 root.layer = template != null ? template.gameObject.layer : refs.hatTransform.gameObject.layer;
