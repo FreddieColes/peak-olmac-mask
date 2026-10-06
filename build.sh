@@ -17,7 +17,7 @@ cat > "$STAGE/manifest.json" <<JSON
   "name": "OlMacMask",
   "version_number": "$VERSION",
   "website_url": "https://github.com/FreddieColes/peak-olmac-mask",
-  "description": "Wear Ol' Mac's face as a cardboard mask, strapped round your head.",
+  "description": "Wear Ol' Mac's face as a cardboard mask, held on with a pink rubber band.",
   "dependencies": ["BepInEx-BepInExPack_PEAK-5.4.2403"]
 }
 JSON

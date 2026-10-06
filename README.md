@@ -1,6 +1,6 @@
 # Ol' Mac Mask for PEAK
 
-Adds a cardboard Ol' Mac chicken face mask, strapped round your head, to the hats in your passport.
+Adds a cardboard Ol' Mac chicken face mask, held on with a pink rubber band, to the hats in your passport.
 
 Mates without the mod see you bald, but you can still play together.
 
