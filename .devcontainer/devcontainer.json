@@ -1,0 +1,5 @@
+{
+  "name": "peak-olmac-mask",
+  "image": "mcr.microsoft.com/devcontainers/dotnet:8.0",
+  "postCreateCommand": "sudo dpkg --add-architecture i386 && sudo apt-get update -q && sudo apt-get install -yq lib32gcc-s1 zip && chmod +x *.sh"
+}
