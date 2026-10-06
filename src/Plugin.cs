@@ -11,10 +11,11 @@ using HarmonyLib;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 
 namespace OlMacMask
 {
-    [BepInPlugin(Guid, "Ol' Mac Mask", "0.9.1")]
+    [BepInPlugin(Guid, "Ol' Mac Mask", "0.9.2")]
     public class Plugin : BaseUnityPlugin
     {
         public const string Guid = "com.freddiecoles.olmacmask";
@@ -521,9 +522,36 @@ namespace OlMacMask
                     for (int l = 31; l >= 8; l--)
                         if (string.IsNullOrEmpty(LayerMask.LayerToName(l))) { _selfLayer = l; break; }
                     Plugin.Log.LogInfo(_selfLayer >= 0 ? $"Using spare layer {_selfLayer} for your own mask" : "No spare layer, your own mask can't be hidden from your eyes");
+                    if (_selfLayer >= 0) AllowLayerInRenderers(_selfLayer);
                 }
                 return _selfLayer;
             }
+        }
+
+        // PEAK's renderers only draw a set list of layers. Add our spare layer to every renderer's list.
+        static void AllowLayerInRenderers(int layer)
+        {
+            try
+            {
+                var assets = new List<RenderPipelineAsset> { GraphicsSettings.defaultRenderPipeline, QualitySettings.renderPipeline };
+                var done = new HashSet<ScriptableRendererData>();
+                foreach (var asset in assets)
+                {
+                    if (asset == null) continue;
+                    var f = HarmonyLib.AccessTools.Field(asset.GetType(), "m_RendererDataList");
+                    var list = f != null ? f.GetValue(asset) as ScriptableRendererData[] : null;
+                    if (list == null) { Plugin.Log.LogWarning($"No renderer list on {asset.name}"); continue; }
+                    foreach (var rd in list)
+                    {
+                        if (!(rd is UnityEngine.Rendering.Universal.UniversalRendererData urd) || !done.Add(rd)) continue;
+                        int before = urd.opaqueLayerMask.value;
+                        urd.opaqueLayerMask = urd.opaqueLayerMask.value | (1 << layer);
+                        urd.transparentLayerMask = urd.transparentLayerMask.value | (1 << layer);
+                        Plugin.Log.LogInfo($"Renderer '{urd.name}' layers {before} -> {urd.opaqueLayerMask.value}");
+                    }
+                }
+            }
+            catch (System.Exception e) { Plugin.Log.LogError("AllowLayerInRenderers failed: " + e); }
         }
 
         static readonly HashSet<int> _seenCams = new HashSet<int>();
